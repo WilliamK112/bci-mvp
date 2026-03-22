@@ -108,7 +108,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:54:04 UTC — Promoted limitations visibility in top-level communication docs
+- 2026-03-22 16:58:06 UTC — Removed legacy MNE pick_types usage to reduce warnings
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

@@ -7,7 +7,7 @@ def inspect_one_edf(edf_path: Path, epoch_sec=2.0, overlap=0.5):
     info = {"file": edf_path.name, "ok": False, "error": "", "n_channels": 0, "sfreq": 0.0, "duration_sec": 0.0, "est_epochs": 0}
     try:
         raw = mne.io.read_raw_edf(str(edf_path), preload=False, verbose=False)
-        raw.pick_types(eeg=True, exclude="bads")
+        raw.pick(picks="eeg", exclude="bads")
 
         sfreq = float(raw.info["sfreq"])
         duration_sec = raw.n_times / sfreq if sfreq > 0 else 0.0

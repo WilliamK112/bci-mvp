@@ -335,3 +335,7 @@ Updated `src/one_pager.py` and README links so limitations are explicitly visibl
 ## 2026-03-22 16:56:17 UTC — Added artifact hash manifest for integrity and auditability
 
 Implemented `src/artifact_hash_manifest.py` to generate `docs/ARTIFACT_HASH_MANIFEST.md` and integrated it into docs/release/RC/full pipeline surfaces.
+
+## 2026-03-22 16:58:06 UTC — Removed legacy MNE pick_types usage to reduce warnings
+
+Updated EEG scripts to use modern `raw.pick(...)` API in fetch/preprocess/data-check paths for cleaner logs and forward compatibility.

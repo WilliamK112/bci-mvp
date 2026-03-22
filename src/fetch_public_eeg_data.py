@@ -39,12 +39,12 @@ def main(subjects=(1, 2), max_files_per_class=6):
         for run in relaxed_runs:
             if relaxed_count >= max_files_per_class:
                 break
-            files = eegbci.load_data(subj, [run])
+            files = eegbci.load_data(subj, [run], update_path=True)
             for f in files:
                 if relaxed_count >= max_files_per_class:
                     break
                 raw = mne.io.read_raw_edf(f, preload=True, verbose=False)
-                raw.pick_types(eeg=True)
+                raw.pick(picks="eeg")
                 out = out_relaxed / f"sub{subj:02d}_run{run:02d}_{relaxed_count:03d}.edf"
                 export_edf(raw, out)
                 relaxed_count += 1
@@ -53,12 +53,12 @@ def main(subjects=(1, 2), max_files_per_class=6):
         for run in focused_runs:
             if focused_count >= max_files_per_class:
                 break
-            files = eegbci.load_data(subj, [run])
+            files = eegbci.load_data(subj, [run], update_path=True)
             for f in files:
                 if focused_count >= max_files_per_class:
                     break
                 raw = mne.io.read_raw_edf(f, preload=True, verbose=False)
-                raw.pick_types(eeg=True)
+                raw.pick(picks="eeg")
                 out = out_focused / f"sub{subj:02d}_run{run:02d}_{focused_count:03d}.edf"
                 export_edf(raw, out)
                 focused_count += 1

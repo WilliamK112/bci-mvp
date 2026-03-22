@@ -37,7 +37,7 @@ def load_edf_extract_features(
     max_channels: int = 8,
 ):
     raw = mne.io.read_raw_edf(edf_path, preload=True, verbose=False)
-    raw.pick_types(eeg=True, exclude="bads")
+    raw.pick(picks="eeg", exclude="bads")
 
     if len(raw.ch_names) > max_channels:
         raw.pick(raw.ch_names[:max_channels])
