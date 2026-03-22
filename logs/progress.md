@@ -559,3 +559,7 @@ Adjusted benchmark to use existing preprocessing/inference interfaces (`build_da
 ## 2026-03-22 21:44:06 UTC — Added streaming latency visualization and report integration
 
 Implemented `src/plot_streaming_latency.py` to generate `assets/streaming_latency.svg`, and integrated streaming-latency visual/report into RC/full pipeline and technical-report/docs index flows.
+
+## 2026-03-22 21:46:07 UTC — Added streaming latency quality gates and validation report
+
+Implemented `src/validate_streaming_latency.py` with explicit latency/throughput thresholds and integrated validation output into pipeline, RC checks, and technical reporting.
