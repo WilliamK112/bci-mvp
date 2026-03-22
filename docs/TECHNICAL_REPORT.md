@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 22:04 UTC
+Generated: 2026-03-22 22:07 UTC
 
 ## 1) Benchmark Summary
 
@@ -27,6 +27,8 @@ Generated: 2026-03-22 22:04 UTC
 |---|---:|---:|---:|
 | RF | 0.741 | 0.732 | 0.801 |
 | SVM | 0.703 | 0.695 | 0.766 |
+
+- `docs/CROSS_DATASET_BIDIRECTIONAL.md`
 
 ## 4) Explainability Summary
 

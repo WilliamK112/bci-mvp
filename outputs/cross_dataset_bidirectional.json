@@ -1,0 +1,41 @@
+{
+  "A_to_B": {
+    "train_dataset": "dataset_a",
+    "test_dataset": "dataset_b",
+    "train_samples": 368,
+    "test_samples": 364,
+    "models": {
+      "RF": {
+        "accuracy": 0.7335164835164835,
+        "f1": 0.8283185840707965,
+        "auc": 0.671311475409836
+      },
+      "SVM": {
+        "accuracy": 0.35714285714285715,
+        "f1": 0.13333333333333333,
+        "auc": 0.5616803278688525
+      }
+    }
+  },
+  "B_to_A": {
+    "train_dataset": "dataset_b",
+    "test_dataset": "dataset_a",
+    "train_samples": 364,
+    "test_samples": 368,
+    "models": {
+      "RF": {
+        "accuracy": 0.5135869565217391,
+        "f1": 0.5041551246537396,
+        "auc": 0.703393817204301
+      },
+      "SVM": {
+        "accuracy": 0.3423913043478261,
+        "f1": 0.09022556390977443,
+        "auc": 0.5993951612903226
+      }
+    }
+  },
+  "symmetry_gap_accuracy": 0.21992952699474433,
+  "symmetry_gap_f1": 0.32416345941705693,
+  "symmetry_gap_auc": 0.03208234179446501
+}

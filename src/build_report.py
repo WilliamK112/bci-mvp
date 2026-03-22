@@ -76,6 +76,7 @@ def main():
         ]
         for m, v in (cross.get("models") or {}).items():
             lines.append(f"| {m} | {v.get('accuracy')} | {v.get('f1')} | {v.get('auc')} |")
+        lines += ["", "- `docs/CROSS_DATASET_BIDIRECTIONAL.md`"]
     else:
         lines += ["", "No `outputs/cross_dataset_results.json` found."]
 

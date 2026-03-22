@@ -603,3 +603,7 @@ Implemented `src/determinism_audit.py` to statically verify explicit seed/random
 ## 2026-03-22 22:04:59 UTC — Added cross-subject model benchmark visual
 
 Implemented `src/plot_cross_subject_benchmark.py` to generate grouped-bar comparison (`assets/cross_subject_benchmark.svg`) and integrated visual into technical report, docs index, and RC/full pipelines.
+
+## 2026-03-22 22:07:56 UTC — Added bidirectional cross-dataset generalization evaluation
+
+Implemented `src/cross_dataset_bidirectional.py` to report A->B and B->A transfer with symmetry-gap metrics; integrated into RC/full pipeline and report/docs indexes.
