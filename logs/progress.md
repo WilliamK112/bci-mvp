@@ -695,3 +695,7 @@ Implemented `src/project_master_scorecard.py` to aggregate Streaming, Generaliza
 ## 2026-03-22 22:51:46 UTC — Added project-master-scorecard regression test and CI coverage
 
 Created `tests/test_project_master_scorecard_unittest.py`, integrated it into CI and quick regression suite, and verified full quick-regression pass.
+
+## 2026-03-22 22:54:12 UTC — Added project master scorecard visualization
+
+Implemented `src/plot_project_master_scorecard.py` to render top-level pillar status as `assets/project_master_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
