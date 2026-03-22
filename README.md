@@ -117,7 +117,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:29:52 UTC — Added release-decision-gate regression test and CI coverage
+- 2026-03-22 23:32:54 UTC — Added repro-run-proof regression test and CI coverage
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

@@ -21,6 +21,7 @@ TESTS = [
     'tests/test_release_readiness_matrix_visual_unittest.py',
     'tests/test_release_matrix_badge_unittest.py',
     'tests/test_release_decision_gate_unittest.py',
+    'tests/test_repro_run_proof_unittest.py',
 ]
 
 

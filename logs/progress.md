@@ -763,3 +763,7 @@ Created `tests/test_release_decision_gate_unittest.py`, integrated it into CI an
 ## 2026-03-22 23:32:20 UTC — Added reproducibility run-proof artifact
 
 Implemented `src/repro_run_proof.py` to execute one-command repro and emit signed proof (`outputs/repro_run_proof.json`, `docs/REPRO_RUN_PROOF.md`), then integrated into pipeline/RC/report/docs flows.
+
+## 2026-03-22 23:32:54 UTC — Added repro-run-proof regression test and CI coverage
+
+Created `tests/test_repro_run_proof_unittest.py`, integrated it into CI and quick regression suite, and verified full critical regression pass.
