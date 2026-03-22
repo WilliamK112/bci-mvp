@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540" y="34" text-anchor="middle" font-size="24" font-family="Arial">Cross-Dataset Bidirectional (RF)</text>
+<line x1="70" y1="430" x2="1010" y2="430" stroke="#111"/>
+<line x1="70" y1="70" x2="70" y2="430" stroke="#111"/>
+<line x1="70" y1="430" x2="1010" y2="430" stroke="#e5e7eb"/>
+<text x="62" y="434" text-anchor="end" font-size="10" font-family="Arial">0.00</text>
+<line x1="70" y1="340.0" x2="1010" y2="340.0" stroke="#e5e7eb"/>
+<text x="62" y="344.0" text-anchor="end" font-size="10" font-family="Arial">0.25</text>
+<line x1="70" y1="250.0" x2="1010" y2="250.0" stroke="#e5e7eb"/>
+<text x="62" y="254.0" text-anchor="end" font-size="10" font-family="Arial">0.50</text>
+<line x1="70" y1="160.0" x2="1010" y2="160.0" stroke="#e5e7eb"/>
+<text x="62" y="164.0" text-anchor="end" font-size="10" font-family="Arial">0.75</text>
+<line x1="70" y1="70" x2="1010" y2="70" stroke="#e5e7eb"/>
+<text x="62" y="74" text-anchor="end" font-size="10" font-family="Arial">1.00</text>
+<rect x="101.33333333333331" y="165.93406593406593" width="93.99999999999999" height="264.0659340659341" fill="#2563eb"/>
+<text x="148.33333333333331" y="157.93406593406593" text-anchor="middle" font-size="11" font-family="Arial">0.734</text>
+<text x="148.33333333333331" y="448" text-anchor="middle" font-size="11" font-family="Arial">A→B acc</text>
+<rect x="258.0" y="245.1086956521739" width="93.99999999999999" height="184.8913043478261" fill="#1d4ed8"/>
+<text x="305.0" y="237.1086956521739" text-anchor="middle" font-size="11" font-family="Arial">0.514</text>
+<text x="305.0" y="448" text-anchor="middle" font-size="11" font-family="Arial">B→A acc</text>
+<rect x="414.6666666666667" y="131.80530973451323" width="93.99999999999999" height="298.19469026548677" fill="#16a34a"/>
+<text x="461.6666666666667" y="123.80530973451323" text-anchor="middle" font-size="11" font-family="Arial">0.828</text>
+<text x="461.6666666666667" y="448" text-anchor="middle" font-size="11" font-family="Arial">A→B f1</text>
+<rect x="571.3333333333334" y="248.50415512465375" width="93.99999999999999" height="181.49584487534625" fill="#15803d"/>
+<text x="618.3333333333334" y="240.50415512465375" text-anchor="middle" font-size="11" font-family="Arial">0.504</text>
+<text x="618.3333333333334" y="448" text-anchor="middle" font-size="11" font-family="Arial">B→A f1</text>
+<rect x="728.0" y="188.32786885245903" width="93.99999999999999" height="241.67213114754097" fill="#f59e0b"/>
+<text x="775.0" y="180.32786885245903" text-anchor="middle" font-size="11" font-family="Arial">0.671</text>
+<text x="775.0" y="448" text-anchor="middle" font-size="11" font-family="Arial">A→B auc</text>
+<rect x="884.6666666666666" y="176.77822580645162" width="93.99999999999999" height="253.22177419354838" fill="#d97706"/>
+<text x="931.6666666666666" y="168.77822580645162" text-anchor="middle" font-size="11" font-family="Arial">0.703</text>
+<text x="931.6666666666666" y="448" text-anchor="middle" font-size="11" font-family="Arial">B→A auc</text>
+</svg>

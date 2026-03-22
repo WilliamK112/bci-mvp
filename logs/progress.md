@@ -607,3 +607,7 @@ Implemented `src/plot_cross_subject_benchmark.py` to generate grouped-bar compar
 ## 2026-03-22 22:07:56 UTC — Added bidirectional cross-dataset generalization evaluation
 
 Implemented `src/cross_dataset_bidirectional.py` to report A->B and B->A transfer with symmetry-gap metrics; integrated into RC/full pipeline and report/docs indexes.
+
+## 2026-03-22 22:08:51 UTC — Added bidirectional cross-dataset visualization
+
+Implemented `src/plot_cross_dataset_bidirectional.py` to visualize A↔B RF metrics and integrated visual docs/artifacts into RC/full/report/docs index flows.
