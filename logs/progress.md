@@ -439,3 +439,7 @@ Implemented `src/release_summary_json.py` -> `docs/RELEASE_SUMMARY.json` and int
 ## 2026-03-22 17:48:12 UTC — Added release-summary schema validation
 
 Implemented `src/release_summary_validate.py` -> `docs/RELEASE_SUMMARY_VALIDATION.md` and integrated it into RC/full pipelines for machine-readable contract stability.
+
+## 2026-03-22 17:50:10 UTC — Surfaced release-summary validation in core doc navigation
+
+Added `docs/RELEASE_SUMMARY_VALIDATION.md` to docs home and docs bundle index; refreshed RC outputs for contract visibility.
