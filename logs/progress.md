@@ -235,3 +235,7 @@ Implemented `src/generate_results_md.py` -> `docs/RESULTS.md` and updated `app.p
 ## 2026-03-22 15:59:55 UTC — Integrated RESULTS summary into release-critical automation
 
 Added `docs/RESULTS.md` to docs bundle/release packet and wired `src/generate_results_md.py` into full pipeline + final RC generation/coverage.
+
+## 2026-03-22 16:01:57 UTC — Added Space end-user guide for public demo clarity
+
+Implemented `src/space_user_guide_gen.py` to generate `docs/SPACE_USER_GUIDE.md` with access steps, mode explanation, runtime indicator meaning, and troubleshooting.

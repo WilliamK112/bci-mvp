@@ -80,6 +80,7 @@ python src/space_smoke_test.py
 
 ## Documentation Index
 - Docs home: `docs/HOME.md`
+- Space user guide: `docs/SPACE_USER_GUIDE.md`
 - Docs bundle index: `docs/DOCS_BUNDLE_INDEX.md`
 - Command center: `docs/COMMAND_CENTER.md`
 - Figure gallery: `docs/FIGURE_GALLERY.md`
@@ -91,7 +92,7 @@ MIT
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:58:18 UTC — Added results summary doc + Space runtime mode visibility
+- 2026-03-22 16:01:57 UTC — Added Space end-user guide for public demo clarity
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
