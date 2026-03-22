@@ -16,6 +16,7 @@ STEPS = [
     ["python3", "src/build_report.py"],
     ["python3", "src/generate_results_md.py"],
     ["python3", "src/metrics_registry.py"],
+    ["python3", "src/data_provenance.py"],
     ["python3", "src/results_brief_zh.py"],
     ["python3", "src/results_brief_en.py"],
     ["python3", "src/generate_release_pack.py"],

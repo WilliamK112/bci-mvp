@@ -14,6 +14,7 @@ DOCS = [
     ('docs/METHODS.md', 'Methods (paper-style)'),
     ('docs/RESULTS.md', 'Results summary'),
     ('docs/METRICS_REGISTRY.md', 'Metrics registry'),
+    ('docs/DATA_PROVENANCE.md', 'Data provenance'),
     ('docs/RESULTS_BRIEF_EN.md', 'Results brief (EN)'),
     ('docs/RESULTS_BRIEF_ZH.md', 'Results brief (ZH)'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),

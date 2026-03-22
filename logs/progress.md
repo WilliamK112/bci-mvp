@@ -319,3 +319,7 @@ Integrated `docs/RESULTS_BRIEF_EN.md` and `docs/RESULTS_BRIEF_ZH.md` into docs h
 ## 2026-03-22 16:48:18 UTC — Added metrics registry and integrated into core release navigation
 
 Implemented `src/metrics_registry.py` -> `docs/METRICS_REGISTRY.md` and wired it into docs home, docs bundle, release packet, and RC/full pipeline.
+
+## 2026-03-22 16:50:26 UTC — Added data provenance registry and integrated into release surfaces
+
+Implemented `src/data_provenance.py` -> `docs/DATA_PROVENANCE.md` with source/inventory/labeling notes, and integrated into docs home, bundle, release packet, and RC/full pipeline.
