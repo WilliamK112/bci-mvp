@@ -547,3 +547,11 @@ Implemented `src/release_bundle_verify.py` to verify latest dist bundle and emit
 ## 2026-03-22 21:40:08 UTC — Added release readiness trend visualization
 
 Implemented `src/plot_status_history.py` to generate `assets/status_history_trend.svg` from `docs/STATUS_HISTORY.csv`, and integrated it into pipeline/RC/docs indices.
+
+## 2026-03-22 21:42:05 UTC — Added real-time streaming latency benchmark
+
+Implemented `src/streaming_latency_benchmark.py` with p50/p95/p99/max latency and throughput metrics; outputs JSON+doc and integrated into pipeline/RC/docs indices.
+
+## 2026-03-22 21:43:15 UTC — Fixed and finalized streaming latency benchmark runtime path
+
+Adjusted benchmark to use existing preprocessing/inference interfaces (`build_dataset_from_folder` + `predict_state`) and regenerated streaming latency outputs/docs.
