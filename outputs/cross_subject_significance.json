@@ -1,0 +1,26 @@
+{
+  "winner": "rf",
+  "method": "paired delta normal-approx (small-n caution)",
+  "comparisons": [
+    {
+      "winner": "rf",
+      "challenger": "svm_rbf",
+      "n": 2,
+      "delta_mean": 0.27378463927376967,
+      "z": 2.668752728860428,
+      "p_two_sided": 0.0076133476971804726,
+      "winner_mean_acc": 0.6235517200191113,
+      "challenger_mean_acc": 0.34976708074534163
+    },
+    {
+      "winner": "rf",
+      "challenger": "logreg",
+      "n": 2,
+      "delta_mean": 0.17766065456282848,
+      "z": 14.929736511919712,
+      "p_two_sided": 0.0,
+      "winner_mean_acc": 0.6235517200191113,
+      "challenger_mean_acc": 0.4458910654562828
+    }
+  ]
+}

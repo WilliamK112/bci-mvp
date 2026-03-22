@@ -123,6 +123,8 @@ def main():
         for r in (cs_bench.get('ranking') or []):
             lines.append(f"| {r.get('model')} | {r.get('mean_accuracy')} | {r.get('mean_f1')} | {r.get('mean_auc')} |")
 
+    lines += ["", "### Cross-Subject Significance", "", "- `docs/CROSS_SUBJECT_SIGNIFICANCE.md`"]
+
     lines += [
         "",
         "## 8) Visual Artifacts",

@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 21:53 UTC
+Generated: 2026-03-22 21:55 UTC
 
 ## 1) Benchmark Summary
 
@@ -68,6 +68,10 @@ Generated: 2026-03-22 21:53 UTC
 | rf | 0.6235517200191113 | 0.6662368543622681 | 0.6873526463070685 |
 | logreg | 0.4458910654562828 | 0.31176544136034007 | 0.6611930966860567 |
 | svm_rbf | 0.34976708074534163 | 0.11177944862155388 | 0.5805377445795875 |
+
+### Cross-Subject Significance
+
+- `docs/CROSS_SUBJECT_SIGNIFICANCE.md`
 
 ## 8) Visual Artifacts
 

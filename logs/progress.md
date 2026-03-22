@@ -579,3 +579,7 @@ Implemented `src/plot_explainability_heatmap.py` to render channel×band permuta
 ## 2026-03-22 21:53:33 UTC — Added explainability quality-gate validation
 
 Implemented `src/validate_explainability.py` to enforce explainability artifact/signal gates and integrated validation into pipeline, RC checks, and technical reporting/docs index flows.
+
+## 2026-03-22 21:55:44 UTC — Added cross-subject significance checks for model ranking robustness
+
+Implemented `src/cross_subject_significance.py` to compare LOSO winner vs challengers with paired-delta statistical approximation; integrated outputs into RC/full/report/docs flows.
