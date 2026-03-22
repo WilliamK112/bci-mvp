@@ -151,3 +151,7 @@ Implemented `src/hf_publish_safe.py` for environment-token based Space publish, 
 ## 2026-03-22 15:11:51 UTC — Added HF Space status checker
 
 Implemented `src/hf_space_status.py` to fetch runtime/build status for Space deployment and persist `docs/HF_SPACE_STATUS.md`.
+
+## 2026-03-22 15:13:37 UTC — Added deployment diagnostics playbook
+
+Implemented `src/deployment_diagnose.py` to generate `docs/DEPLOYMENT_DIAGNOSE.md` with endpoint checks and fast recovery steps for Space access issues.

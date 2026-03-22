@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:11:51 UTC — Added HF Space status checker
+- 2026-03-22 15:13:37 UTC — Added deployment diagnostics playbook
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -438,3 +438,12 @@ python src/hf_space_status.py --space williamKang112/bci-mvp-demo
 ```
 Output:
 - `docs/HF_SPACE_STATUS.md`
+
+
+## Deployment Diagnostics
+Generate quick deployment troubleshooting guide:
+```bash
+python src/deployment_diagnose.py
+```
+Output:
+- `docs/DEPLOYMENT_DIAGNOSE.md`
