@@ -675,3 +675,7 @@ Created `tests/test_generalization_scorecard_visual_unittest.py` and wired it in
 ## 2026-03-22 22:42:06 UTC — Added integrated reproducibility scorecard
 
 Implemented `src/reproducibility_scorecard.py` to aggregate reproducibility checks (cross-subject rerun, release signature, determinism audit, explainability stability) into one PASS/FAIL scorecard and integrated it into RC/full/report/docs flows.
+
+## 2026-03-22 22:43:44 UTC — Added reproducibility-scorecard regression test and CI coverage
+
+Created `tests/test_reproducibility_scorecard_unittest.py`, integrated into CI and quick regression suite, and validated full critical test stack pass.

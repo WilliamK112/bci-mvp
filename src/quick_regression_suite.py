@@ -9,6 +9,7 @@ TESTS = [
     'tests/test_streaming_scorecard_visual_unittest.py',
     'tests/test_generalization_scorecard_unittest.py',
     'tests/test_generalization_scorecard_visual_unittest.py',
+    'tests/test_reproducibility_scorecard_unittest.py',
 ]
 
 

@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 22:39:44 UTC — Added regression test for generalization scorecard visual artifacts
+- 2026-03-22 22:43:44 UTC — Added reproducibility-scorecard regression test and CI coverage
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
