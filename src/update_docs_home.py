@@ -10,6 +10,7 @@ SECTIONS = {
         'docs/QUALITY_SCORECARD.md',
         'docs/COMPLIANCE_SCORECARD.md',
         'docs/FINAL_RELEASE_CANDIDATE.md',
+        'docs/V1_RELEASE_READY.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],
