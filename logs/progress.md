@@ -215,3 +215,7 @@ Wired `src/docs_freshness_check.py` into full pipeline and final RC coverage so 
 ## 2026-03-22 15:49:58 UTC — Integrated full math model doc into release surfaces
 
 Added `docs/MATH_NOTATION.md` to docs bundle, release packet, and final RC output inventory so mathematical specification is first-class in release artifacts.
+
+## 2026-03-22 15:52:09 UTC — Added paper-style methods + formula-to-code mapping
+
+Created `docs/METHODS.md` (paper-style method section) and extended `docs/MATH_NOTATION.md` with explicit formula-to-code mapping for traceable technical rigor.

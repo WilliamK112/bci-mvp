@@ -67,6 +67,7 @@ python src/space_smoke_test.py
 
 ## Model & Math
 - Mathematical model section: `docs/MATH_NOTATION.md`
+- Methods (paper-style): `docs/METHODS.md`
 - Technical report: `docs/TECHNICAL_REPORT.md`
 - Model card: `docs/MODEL_CARD.md`
 
@@ -89,7 +90,7 @@ MIT
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:47:24 UTC — Added docs freshness monitor
+- 2026-03-22 15:52:09 UTC — Added paper-style methods + formula-to-code mapping
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

@@ -207,3 +207,19 @@ where $\theta_A$ is learned only from $D_A$. The cross-dataset matrix reports $\
 - Streaming stabilization: $O(1)$ per time step
 
 This formulation is designed for practical prototyping and can be extended to deep end-to-end models (e.g., EEGNet) in future versions.
+
+
+## 13) Formula-to-Code Mapping
+
+| Math Component | Code Location |
+|---|---|
+| Welch PSD + bandpower $	ext{BP}_{c,b}$ | `src/preprocess.py` (`bandpower_1d`, `epoch_to_features`) |
+| Feature vector $\mathbf{z}\in\mathbb{R}^{4C}$ | `src/preprocess.py` (`epoch_to_features`) |
+| Binary classifier $\hat{p}=P(y=1\mid\mathbf{z})$ | `src/train.py`, `src/infer.py` |
+| EMA update $	ilde{p}_t$ | `src/streaming.py` (`StreamingStateFilter.update`) |
+| Hysteresis state machine | `src/streaming.py` (`StreamingStateFilter.update`) |
+| Brier score calibration | `src/calibration_eval.py` |
+| Robustness perturbation $\mathbf{z}'=(\mathbf{z}+\epsilon)\odot\mathbf{m}$ | `src/robustness_eval.py` |
+| Band ablation $\Delta M_b$ | `src/ablation_eval.py` |
+| Bootstrap CI quantiles | `src/bootstrap_ci.py` |
+| Cross-dataset objective $\mathcal{G}(A	o B)$ | `src/cross_dataset_eval.py`, `src/cross_dataset_matrix.py` |
