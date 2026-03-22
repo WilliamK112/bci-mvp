@@ -8,22 +8,26 @@ app_port: 8000
 pinned: false
 ---
 
-# BCI MVP
+# 🧠 BCI MVP
 
-## Language
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
+
+## 🌐 Language
 - English (this file)
 - 中文: `README.zh-CN.md`
 
 A lightweight EEG brain-computer interface MVP focused on:
-- preprocessing EEG (EDF)
+- EEG preprocessing (EDF)
 - relaxed vs focused classification
 - real-time stable inference (EMA + hysteresis)
-- reproducible evaluation + release workflow
+- reproducible evaluation and release workflow
 
-## Live Demo
+## 🚀 Live Demo
 - Hugging Face Space: https://huggingface.co/spaces/williamKang112/bci-mvp-demo
 
-## Quick Start
+## ⚡ Quick Start
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -39,7 +43,7 @@ uvicorn api.main:app --reload --port 8000
 streamlit run app/dashboard.py
 ```
 
-## Project Structure
+## 📁 Project Structure
 ```text
 bci-mvp/
   src/            # preprocessing, training, eval, reports, release tooling
@@ -50,7 +54,7 @@ bci-mvp/
   tests/          # unit tests
 ```
 
-## Core Commands
+## 🧩 Core Commands
 ```bash
 # Full pipeline
 python src/run_full_pipeline.py
@@ -65,20 +69,20 @@ python src/hf_space_status.py --space williamKang112/bci-mvp-demo
 python src/space_smoke_test.py
 ```
 
-## Model & Math
-- Mathematical model section: `docs/MATH_NOTATION.md`
+## 📐 Model & Math
+- Mathematical model: `docs/MATH_NOTATION.md`
 - Methods (paper-style): `docs/METHODS.md`
 - Results summary: `docs/RESULTS.md`
 - Technical report: `docs/TECHNICAL_REPORT.md`
 - Model card: `docs/MODEL_CARD.md`
 
-## Quality & Readiness
+## ✅ Quality & Readiness
 - Quality scorecard: `docs/QUALITY_SCORECARD.md`
 - Release readiness: `docs/RELEASE_READINESS.md`
 - HF Space readiness: `docs/HF_SPACE_READINESS.md`
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
 
-## Documentation Index
+## 📚 Documentation Index
 - Docs home: `docs/HOME.md`
 - Space user guide: `docs/SPACE_USER_GUIDE.md`
 - Docs bundle index: `docs/DOCS_BUNDLE_INDEX.md`
@@ -86,21 +90,5 @@ python src/space_smoke_test.py
 - Figure gallery: `docs/FIGURE_GALLERY.md`
 - Release packet: `docs/RELEASE_PACKET.md`
 
-## License
+## 📄 License
 MIT
-
-
-<!-- LATEST_PROGRESS_START -->
-## Latest Progress
-- 2026-03-22 16:01:57 UTC — Added Space end-user guide for public demo clarity
-- Full log: `logs/progress.md`
-<!-- LATEST_PROGRESS_END -->
-
-
-## Docs Freshness Check
-Check whether key docs are recently updated:
-```bash
-python src/docs_freshness_check.py
-```
-Output:
-- `docs/DOCS_FRESHNESS.md`
