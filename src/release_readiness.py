@@ -12,6 +12,7 @@ CHECKS = [
     ('assets/robustness_accuracy.svg', 'Robustness chart'),
     ('docs/release/release_en.md', 'Release EN'),
     ('docs/release/release_zh.md', 'Release ZH'),
+    ('docs/RISK_REGISTER.md', 'Risk register'),
 ]
 
 

@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:45:56 UTC — Added final release-candidate orchestrator
+- 2026-03-22 14:47:47 UTC — Integrated risk governance into release readiness scoring
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -344,3 +344,5 @@ python src/final_release_candidate.py
 ```
 Output:
 - `docs/FINAL_RELEASE_CANDIDATE.md`
+
+- Release readiness now includes risk-register coverage (`docs/RISK_REGISTER.md`).

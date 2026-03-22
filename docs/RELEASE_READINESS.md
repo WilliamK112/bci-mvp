@@ -1,6 +1,6 @@
 # Release Readiness
 
-Generated: 2026-03-22 14:26 UTC
+Generated: 2026-03-22 14:47 UTC
 
 - [x] Technical report (`docs/TECHNICAL_REPORT.md`)
 - [x] Model card (`docs/MODEL_CARD.md`)
@@ -12,5 +12,6 @@ Generated: 2026-03-22 14:26 UTC
 - [ ] Robustness chart (`assets/robustness_accuracy.svg`)
 - [x] Release EN (`docs/release/release_en.md`)
 - [x] Release ZH (`docs/release/release_zh.md`)
+- [x] Risk register (`docs/RISK_REGISTER.md`)
 
-**Score:** 8/10
+**Score:** 9/11

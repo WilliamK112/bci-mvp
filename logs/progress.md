@@ -99,3 +99,7 @@ Implemented `src/risk_register.py` to generate `docs/RISK_REGISTER.md` with key 
 ## 2026-03-22 14:45:56 UTC — Added final release-candidate orchestrator
 
 Implemented `src/final_release_candidate.py` to run all major doc/report generators and produce `docs/FINAL_RELEASE_CANDIDATE.md` with success + coverage summary.
+
+## 2026-03-22 14:47:47 UTC — Integrated risk governance into release readiness scoring
+
+Updated `src/release_readiness.py` to include `docs/RISK_REGISTER.md` in readiness checks and regenerated readiness/final RC reports.
