@@ -419,3 +419,7 @@ Implemented `src/v1_release_notes_build.py` -> `docs/V1_RELEASE_NOTES.md` and in
 ## 2026-03-22 17:38:00 UTC — Surfaced v1 release notes in top-level bilingual READMEs
 
 Added direct links to `docs/V1_RELEASE_NOTES.md` in both README.md and README.zh-CN.md for immediate launch-communication access.
+
+## 2026-03-22 17:40:07 UTC — Updated status templates with v1 release-notes pointer
+
+Enhanced `src/status_message_template.py` so EN/ZH quick-share messages include `docs/V1_RELEASE_NOTES.md` reference.

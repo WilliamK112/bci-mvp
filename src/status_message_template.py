@@ -10,8 +10,8 @@ def main():
     snap = Path('docs/STATUS_SNAPSHOT.txt').read_text(encoding='utf-8', errors='ignore').strip() if Path('docs/STATUS_SNAPSHOT.txt').exists() else 'status=n/a'
     ready = 'READY' if 'ready=READY' in snap else 'NOT_READY'
 
-    en = f"[BCI MVP] {ready} | {snap} | Demo: https://huggingface.co/spaces/williamKang112/bci-mvp-demo"
-    zh = f"【BCI MVP】当前状态：{ready}｜{snap}｜演示链接：https://huggingface.co/spaces/williamKang112/bci-mvp-demo"
+    en = f"[BCI MVP] {ready} | {snap} | Demo: https://huggingface.co/spaces/williamKang112/bci-mvp-demo | V1 notes: docs/V1_RELEASE_NOTES.md"
+    zh = f"【BCI MVP】当前状态：{ready}｜{snap}｜演示链接：https://huggingface.co/spaces/williamKang112/bci-mvp-demo｜v1说明：docs/V1_RELEASE_NOTES.md"
 
     lines = [
         '# Status Message Templates',
