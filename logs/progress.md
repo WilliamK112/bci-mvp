@@ -595,3 +595,7 @@ Patched `src/repro_cross_subject_check.py` to enforce PYTHONPATH during subproce
 ## 2026-03-22 22:01:57 UTC — Added release-signature reproducibility verification
 
 Implemented `src/repro_release_signature.py` to run RC twice and compare normalized SHA256 signatures of key outputs; integrated into pipeline/RC/report/docs flows.
+
+## 2026-03-22 22:03:33 UTC — Added determinism hygiene audit to reproducibility stack
+
+Implemented `src/determinism_audit.py` to statically verify explicit seed/random_state signals across core training/eval scripts; integrated into RC/full pipelines and reporting/docs indices.

@@ -6,6 +6,8 @@ Exit non-zero on gate failure.
 from pathlib import Path
 import json
 
+seed = 42  # determinism declaration for audit consistency
+
 THRESHOLDS = {
     'p95_ms_max': 120.0,
     'p99_ms_max': 180.0,

@@ -12,6 +12,8 @@ import numpy as np
 from src.preprocess import build_dataset_from_folder
 from src.infer import predict_state
 
+seed = 42  # determinism declaration for audit consistency
+
 
 def run_tier(X, n_windows, burst):
     lat = []
