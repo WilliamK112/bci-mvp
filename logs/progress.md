@@ -251,3 +251,7 @@ Updated `README.zh-CN.md` with banner/badges parity and added `src/readme_i18n_c
 ## 2026-03-22 16:08:08 UTC — Integrated README i18n consistency into RC/full pipeline
 
 Wired `src/readme_i18n_consistency.py` into the automated quality pipeline and final RC output inventory for bilingual release hygiene.
+
+## 2026-03-22 16:10:10 UTC — Promoted Space user guide into release-critical artifact surfaces
+
+Integrated `docs/SPACE_USER_GUIDE.md` into docs bundle index, release packet, and final RC output coverage for better public usability handoff.

@@ -8,6 +8,7 @@ DOCS = [
     ('docs/TECHNICAL_REPORT.md', 'Technical report'),
     ('docs/RELEASE_READINESS.md', 'Release readiness dashboard'),
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),
+    ('docs/SPACE_USER_GUIDE.md', 'Space user guide'),
     ('docs/MODEL_CARD.md', 'Model card'),
     ('docs/MATH_NOTATION.md', 'Mathematical model'),
     ('docs/METHODS.md', 'Methods (paper-style)'),

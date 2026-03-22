@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:08 UTC
+Generated: 2026-03-22 16:10 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -29,6 +29,7 @@ Generated: 2026-03-22 16:08 UTC
 - [x] `docs/TECHNICAL_REPORT.md`
 - [x] `docs/RELEASE_READINESS.md`
 - [x] `docs/HF_SPACE_READINESS.md`
+- [x] `docs/SPACE_USER_GUIDE.md`
 - [x] `docs/MODEL_LEADERBOARD.md`
 - [x] `docs/FIGURE_GALLERY.md`
 - [x] `docs/CHANGELOG_AUTO.md`
@@ -52,4 +53,4 @@ Generated: 2026-03-22 16:08 UTC
 - [x] `docs/release/bilibili_post.md`
 
 **Pipeline success:** 20/21
-**Output coverage:** 24/24
+**Output coverage:** 25/25

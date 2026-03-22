@@ -1,11 +1,12 @@
 # Documentation Bundle Index
 
-Generated: 2026-03-22 15:59 UTC
+Generated: 2026-03-22 16:10 UTC
 
 ## Core
 - ✅ [Technical report](TECHNICAL_REPORT.md) — `docs/TECHNICAL_REPORT.md`
 - ✅ [Release readiness dashboard](RELEASE_READINESS.md) — `docs/RELEASE_READINESS.md`
 - ✅ [HF Space readiness](HF_SPACE_READINESS.md) — `docs/HF_SPACE_READINESS.md`
+- ✅ [Space user guide](SPACE_USER_GUIDE.md) — `docs/SPACE_USER_GUIDE.md`
 - ✅ [Model card](MODEL_CARD.md) — `docs/MODEL_CARD.md`
 - ✅ [Mathematical model](MATH_NOTATION.md) — `docs/MATH_NOTATION.md`
 - ✅ [Methods (paper-style)](METHODS.md) — `docs/METHODS.md`

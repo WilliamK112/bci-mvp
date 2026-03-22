@@ -34,6 +34,7 @@ OUTPUTS = [
     "docs/TECHNICAL_REPORT.md",
     "docs/RELEASE_READINESS.md",
     "docs/HF_SPACE_READINESS.md",
+    "docs/SPACE_USER_GUIDE.md",
     "docs/MODEL_LEADERBOARD.md",
     "docs/FIGURE_GALLERY.md",
     "docs/CHANGELOG_AUTO.md",
