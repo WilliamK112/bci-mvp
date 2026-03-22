@@ -227,3 +227,7 @@ Integrated `docs/METHODS.md` into docs bundle index, release packet, and final R
 ## 2026-03-22 15:56:01 UTC — Added auto-refresh for docs home and integrated into pipeline
 
 Implemented `src/update_docs_home.py` and wired it into RC/full pipeline so `docs/HOME.md` stays synchronized with evolving artifacts.
+
+## 2026-03-22 15:58:18 UTC — Added results summary doc + Space runtime mode visibility
+
+Implemented `src/generate_results_md.py` -> `docs/RESULTS.md` and updated `app.py` to display REAL_MODEL vs MOCK_FALLBACK runtime mode explicitly for demo transparency.
