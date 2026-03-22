@@ -651,3 +651,7 @@ Created `tests/test_streaming_scorecard_unittest.py`, wired it into CI and `src/
 ## 2026-03-22 22:30:01 UTC — Added streaming scorecard visualization
 
 Implemented `src/plot_streaming_scorecard.py` to render gate-level streaming status as `assets/streaming_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs indexes.
+
+## 2026-03-22 22:31:46 UTC — Added regression test for streaming scorecard visual artifacts
+
+Created `tests/test_streaming_scorecard_visual_unittest.py` and wired it into CI plus quick regression suite to guard visualization/document linkage integrity.
