@@ -12,6 +12,7 @@ SECTIONS = {
         'docs/FINAL_RELEASE_CANDIDATE.md',
         'docs/V1_RELEASE_READY.md',
         'docs/RELEASE_TAG_PLAN.md',
+        'docs/TAG_DRY_RUN.md',
         'docs/RELEASE_CHECKLIST.md',
         'docs/RELEASE_DASHBOARD.md',
         'docs/LAUNCH_STATUS.md',

@@ -387,3 +387,7 @@ Implemented `src/launch_status.py` -> `docs/LAUNCH_STATUS.md` to provide a compa
 ## 2026-03-22 17:22:01 UTC — Surfaced launch status in top-level README
 
 Added direct README link to `docs/LAUNCH_STATUS.md` for immediate launch-state visibility.
+
+## 2026-03-22 17:24:23 UTC — Added tag dry-run preflight check and integrated into automation
+
+Implemented `src/tag_dry_run_check.py` -> `docs/TAG_DRY_RUN.md` and integrated it into docs/release/RC/full pipelines for safer v1 tagging.
