@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 21:21:39 UTC — Added subject-holdout evaluation and fixed technical-report generator syntax
+- 2026-03-22 22:18:41 UTC — Added regression tests for new streaming/cross-dataset artifacts
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
