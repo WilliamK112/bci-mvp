@@ -731,3 +731,7 @@ Created tests for `docs/REAL_DATA_EVIDENCE.md` and `src/repro_one_command.py`, t
 ## 2026-03-22 23:14:57 UTC — Added release readiness matrix across all scorecard layers
 
 Implemented `src/release_readiness_matrix.py` to summarize presence/pass/score across streaming/generalization/reproducibility/master/overview; integrated into pipeline, RC checks, and report/docs indexes.
+
+## 2026-03-22 23:16:52 UTC — Added release-readiness-matrix regression test and CI coverage
+
+Created `tests/test_release_readiness_matrix_unittest.py`, integrated it into CI and quick regression suite, and validated full critical-test stack pass.

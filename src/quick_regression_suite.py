@@ -17,6 +17,7 @@ TESTS = [
     'tests/test_scorecards_overview_visual_unittest.py',
     'tests/test_real_data_evidence_unittest.py',
     'tests/test_repro_one_command_entrypoint_unittest.py',
+    'tests/test_release_readiness_matrix_unittest.py',
 ]
 
 
