@@ -12,6 +12,7 @@ ITEMS = [
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),
     ('docs/REAL_DATA_GAP_REPORT.md', 'Real-data gap report'),
     ('docs/MODEL_CARD.md', 'Model card'),
+    ('docs/MATH_NOTATION.md', 'Mathematical model'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/release/release_en.md', 'Release post (EN)'),

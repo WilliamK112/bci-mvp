@@ -211,3 +211,7 @@ Implemented `src/docs_freshness_check.py` to track staleness of key docs and out
 ## 2026-03-22 15:47:58 UTC — Integrated docs freshness into quality pipeline
 
 Wired `src/docs_freshness_check.py` into full pipeline and final RC coverage so documentation staleness is continuously tracked.
+
+## 2026-03-22 15:49:58 UTC — Integrated full math model doc into release surfaces
+
+Added `docs/MATH_NOTATION.md` to docs bundle, release packet, and final RC output inventory so mathematical specification is first-class in release artifacts.

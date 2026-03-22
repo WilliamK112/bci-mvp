@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 15:47 UTC
+Generated: 2026-03-22 15:49 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -30,6 +30,7 @@ Generated: 2026-03-22 15:47 UTC
 - [x] `docs/FIGURE_GALLERY.md`
 - [x] `docs/CHANGELOG_AUTO.md`
 - [x] `docs/MODEL_CARD.md`
+- [x] `docs/MATH_NOTATION.md`
 - [x] `docs/DOCS_BUNDLE_INDEX.md`
 - [x] `docs/RISK_REGISTER.md`
 - [x] `docs/EXECUTIVE_SUMMARY.md`
@@ -45,4 +46,4 @@ Generated: 2026-03-22 15:47 UTC
 - [x] `docs/release/bilibili_post.md`
 
 **Pipeline success:** 18/18
-**Output coverage:** 20/20
+**Output coverage:** 21/21

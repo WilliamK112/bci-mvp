@@ -35,6 +35,7 @@ OUTPUTS = [
     "docs/FIGURE_GALLERY.md",
     "docs/CHANGELOG_AUTO.md",
     "docs/MODEL_CARD.md",
+    "docs/MATH_NOTATION.md",
     "docs/DOCS_BUNDLE_INDEX.md",
     "docs/RISK_REGISTER.md",
     "docs/EXECUTIVE_SUMMARY.md",
