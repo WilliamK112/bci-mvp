@@ -107,6 +107,15 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:30:18 UTC — Added auto latest-release-notes generator
+- 2026-03-22 16:34:39 UTC — Added Chinese one-sentence tagline guardrail
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
+
+
+## Public EEG Data Bootstrap (Auto Fetch)
+```bash
+python src/fetch_public_eeg_data.py
+```
+This fetches EEGBCI public data and prepares:
+- `data/relaxed/*.edf`
+- `data/focused/*.edf`
