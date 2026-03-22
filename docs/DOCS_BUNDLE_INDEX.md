@@ -1,6 +1,6 @@
 # Documentation Bundle Index
 
-Generated: 2026-03-22 23:02 UTC
+Generated: 2026-03-22 23:06 UTC
 
 ## Core
 - ✅ [Technical report](TECHNICAL_REPORT.md) — `docs/TECHNICAL_REPORT.md`

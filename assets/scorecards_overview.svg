@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490" y="34" text-anchor="middle" font-size="24" font-family="Arial">Unified Scorecards Overview</text>
+<line x1="60" y1="370" x2="920" y2="370" stroke="#111"/>
+<line x1="60" y1="60" x2="60" y2="370" stroke="#111"/>
+<rect x="97.625" y="60.0" width="139.75" height="310.0" fill="#16a34a"/>
+<text x="167.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">1.00</text>
+<text x="167.5" y="388" text-anchor="middle" font-size="11" font-family="Arial">streaming</text>
+<rect x="312.625" y="60.0" width="139.75" height="310.0" fill="#16a34a"/>
+<text x="382.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">1.00</text>
+<text x="382.5" y="388" text-anchor="middle" font-size="11" font-family="Arial">generalization</text>
+<rect x="527.625" y="60.0" width="139.75" height="310.0" fill="#16a34a"/>
+<text x="597.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">1.00</text>
+<text x="597.5" y="388" text-anchor="middle" font-size="11" font-family="Arial">reproducibility</text>
+<rect x="742.625" y="60.0" width="139.75" height="310.0" fill="#16a34a"/>
+<text x="812.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">1.00</text>
+<text x="812.5" y="388" text-anchor="middle" font-size="11" font-family="Arial">master</text>
+</svg>

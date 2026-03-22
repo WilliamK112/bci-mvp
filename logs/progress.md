@@ -711,3 +711,7 @@ Implemented `src/scorecards_overview.py` to aggregate Streaming/Generalization/R
 ## 2026-03-22 23:04:45 UTC — Added scorecards-overview regression test and CI coverage
 
 Created `tests/test_scorecards_overview_unittest.py`, integrated it into CI and quick regression suite, and validated full critical-test pass.
+
+## 2026-03-22 23:06:59 UTC — Added scorecards-overview visualization
+
+Implemented `src/plot_scorecards_overview.py` to render unified scorecards overview as `assets/scorecards_overview.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
