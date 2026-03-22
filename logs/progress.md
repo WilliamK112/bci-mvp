@@ -339,3 +339,7 @@ Implemented `src/artifact_hash_manifest.py` to generate `docs/ARTIFACT_HASH_MANI
 ## 2026-03-22 16:58:06 UTC — Removed legacy MNE pick_types usage to reduce warnings
 
 Updated EEG scripts to use modern `raw.pick(...)` API in fetch/preprocess/data-check paths for cleaner logs and forward compatibility.
+
+## 2026-03-22 17:00:18 UTC — Added reviewer pack and integrated into release automation
+
+Implemented `src/reviewer_pack.py` -> `docs/REVIEWER_PACK.md` (3 docs + 3 visuals) and integrated into docs home/bundle/release packet and RC/full pipeline.

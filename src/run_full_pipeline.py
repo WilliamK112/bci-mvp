@@ -45,6 +45,7 @@ STEPS = [
     ["python3", "src/compliance_scorecard.py"],
     ["python3", "src/project_health_badge.py"],
     ["python3", "src/one_pager.py"],
+    ["python3", "src/reviewer_pack.py"],
     ["python3", "src/release_notes_latest.py"],
     ["python3", "src/validate_artifacts.py"],
 ]
