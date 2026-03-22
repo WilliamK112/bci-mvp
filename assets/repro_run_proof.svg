@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="440">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540" y="34" text-anchor="middle" font-size="24" font-family="Arial">Repro Run Proof (PASS)</text>
+<line x1="60" y1="380" x2="1020" y2="380" stroke="#111"/>
+<rect x="98.4" y="60.0" width="115.19999999999999" height="320.0" fill="#16a34a"/>
+<text x="156.0" y="396" text-anchor="middle" font-size="9" font-family="Arial">FINAL_RELEASE_CANDIDATE.md</text>
+<text x="156.0" y="52.0" text-anchor="middle" font-size="11" font-family="Arial">OK</text>
+<rect x="290.4" y="60.0" width="115.19999999999999" height="320.0" fill="#16a34a"/>
+<text x="348.0" y="396" text-anchor="middle" font-size="9" font-family="Arial">PROJECT_MASTER_SCORECARD.md</text>
+<text x="348.0" y="52.0" text-anchor="middle" font-size="11" font-family="Arial">OK</text>
+<rect x="482.4" y="60.0" width="115.19999999999999" height="320.0" fill="#16a34a"/>
+<text x="540.0" y="396" text-anchor="middle" font-size="9" font-family="Arial">RELEASE_DECISION_GATE.md</text>
+<text x="540.0" y="52.0" text-anchor="middle" font-size="11" font-family="Arial">OK</text>
+<rect x="674.4" y="60.0" width="115.19999999999999" height="320.0" fill="#16a34a"/>
+<text x="732.0" y="396" text-anchor="middle" font-size="9" font-family="Arial">project_master_scorecard.json</text>
+<text x="732.0" y="52.0" text-anchor="middle" font-size="11" font-family="Arial">OK</text>
+<rect x="866.4" y="60.0" width="115.19999999999999" height="320.0" fill="#16a34a"/>
+<text x="924.0" y="396" text-anchor="middle" font-size="9" font-family="Arial">release_decision_gate.json</text>
+<text x="924.0" y="52.0" text-anchor="middle" font-size="11" font-family="Arial">OK</text>
+</svg>
