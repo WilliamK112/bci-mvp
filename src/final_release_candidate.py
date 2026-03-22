@@ -20,6 +20,9 @@ STEPS = [
     ["python3", "src/risk_register.py"],
     ["python3", "src/executive_summary.py"],
     ["python3", "src/release_packet.py"],
+    ["python3", "src/report_consistency_check.py"],
+    ["python3", "src/env_compat_check.py"],
+    ["python3", "src/repro_snapshot.py"],
 ]
 
 OUTPUTS = [
@@ -34,6 +37,9 @@ OUTPUTS = [
     "docs/RISK_REGISTER.md",
     "docs/EXECUTIVE_SUMMARY.md",
     "docs/RELEASE_PACKET.md",
+    "docs/REPORT_CONSISTENCY.md",
+    "docs/ENV_COMPAT.md",
+    "docs/REPRO_SNAPSHOT.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",

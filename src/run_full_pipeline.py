@@ -22,6 +22,9 @@ STEPS = [
     ["python3", "src/update_docs_bundle.py"],
     ["python3", "src/executive_summary.py"],
     ["python3", "src/release_packet.py"],
+    ["python3", "src/report_consistency_check.py"],
+    ["python3", "src/env_compat_check.py"],
+    ["python3", "src/repro_snapshot.py"],
     ["python3", "src/validate_artifacts.py"],
 ]
 

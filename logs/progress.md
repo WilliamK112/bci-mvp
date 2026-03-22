@@ -179,3 +179,7 @@ Added `docs/MATH_NOTATION.md` with symbol table, assumptions, and complexity not
 ## 2026-03-22 15:26:25 UTC — Added report consistency checker for documentation quality
 
 Implemented `src/report_consistency_check.py` to validate required sections across key docs and produce `docs/REPORT_CONSISTENCY.md`.
+
+## 2026-03-22 15:28:26 UTC — Integrated consistency/env/repro checks into RC and full pipeline
+
+Updated pipeline orchestrators to always run report consistency check, environment compatibility check, and reproducibility snapshot; RC coverage now tracks these artifacts.
