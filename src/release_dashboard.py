@@ -20,6 +20,15 @@ def main():
     failed='0' if '- Failed steps: 0' in diag else 'non-zero'
     missing='0' if '- Missing outputs: 0' in diag else 'non-zero'
 
+    import json
+    loso_mean='n/a'
+    lp=Path('outputs/cross_subject_results.json')
+    if lp.exists():
+        try:
+            loso_mean = str(json.loads(lp.read_text()).get('mean_accuracy'))
+        except Exception:
+            pass
+
     checklist_done = chk.count('- [x]')
     checklist_total = chk.count('- [x]') + chk.count('- [ ]')
 
@@ -29,6 +38,7 @@ def main():
         f'- Failed steps: **{failed}**',
         f'- Missing outputs: **{missing}**',
         f'- Checklist completion: **{checklist_done}/{checklist_total}**',
+        f'- LOSO mean accuracy: **{loso_mean}**',
         '',
         '## Links',
         '- `docs/RELEASE_READY_SIGNAL.md`',

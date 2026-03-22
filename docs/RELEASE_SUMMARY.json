@@ -1,8 +1,17 @@
 {
-  "generated_at_utc": "2026-03-22T17:46:15Z",
-  "ready": true,
-  "pipeline_success": "54/54",
-  "output_coverage": "59/59",
+  "generated_at_utc": "2026-03-22T21:24:45Z",
+  "ready": false,
+  "pipeline_success": "64/66",
+  "output_coverage": "69/69",
   "demo_url": "https://huggingface.co/spaces/williamKang112/bci-mvp-demo",
-  "repo_url": "https://github.com/WilliamK112/bci-mvp"
+  "repo_url": "https://github.com/WilliamK112/bci-mvp",
+  "cross_subject_loso": {
+    "subjects": [
+      1,
+      2
+    ],
+    "mean_accuracy": 0.6235517200191113,
+    "mean_f1": 0.6662368543622681,
+    "mean_auc": 0.6873526463070685
+  }
 }

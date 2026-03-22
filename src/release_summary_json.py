@@ -17,6 +17,21 @@ def main():
     rc_txt = Path('docs/FINAL_RELEASE_CANDIDATE.md').read_text(encoding='utf-8', errors='ignore') if Path('docs/FINAL_RELEASE_CANDIDATE.md').exists() else ''
     sig_txt = Path('docs/RELEASE_READY_SIGNAL.md').read_text(encoding='utf-8', errors='ignore') if Path('docs/RELEASE_READY_SIGNAL.md').exists() else ''
 
+    loso = None
+    lp = Path('outputs/cross_subject_results.json')
+    if lp.exists():
+        try:
+            import json as _j
+            obj = _j.loads(lp.read_text(encoding='utf-8'))
+            loso = {
+                'subjects': obj.get('subjects'),
+                'mean_accuracy': obj.get('mean_accuracy'),
+                'mean_f1': obj.get('mean_f1'),
+                'mean_auc': obj.get('mean_auc'),
+            }
+        except Exception:
+            loso = None
+
     data = {
         'generated_at_utc': ts,
         'ready': 'SIGNAL: READY' in sig_txt,
@@ -24,6 +39,7 @@ def main():
         'output_coverage': extract(r'\*\*Output coverage:\*\*\s*([^\n]+)', rc_txt, 'n/a'),
         'demo_url': 'https://huggingface.co/spaces/williamKang112/bci-mvp-demo',
         'repo_url': 'https://github.com/WilliamK112/bci-mvp',
+        'cross_subject_loso': loso,
     }
 
     out = Path('docs/RELEASE_SUMMARY.json')

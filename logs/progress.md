@@ -523,3 +523,7 @@ Repaired `src/build_report.py` section ordering and added explicit LOSO summary 
 ## 2026-03-22 21:22:47 UTC — Promoted LOSO metrics in registry and bilingual result briefs
 
 Updated `src/metrics_registry.py` with LOSO metric definition and enhanced EN/ZH results briefs to include LOSO mean accuracy when available.
+
+## 2026-03-22 21:24:46 UTC — Integrated LOSO into machine-readable release summary and dashboard
+
+Updated `src/release_summary_json.py` to include `cross_subject_loso` block and `src/release_dashboard.py` to display LOSO mean accuracy in release status overview.
