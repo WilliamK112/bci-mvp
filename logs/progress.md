@@ -11,3 +11,7 @@ Added `src/build_report.py` to aggregate benchmark, cross-dataset, and explainab
 ## 2026-03-22 14:02:11 UTC — Upgraded real-time streaming stability
 
 Added EMA+hysteresis streaming filter (`src/streaming.py`), integrated in `app/streaming_demo.py`, and added unit test `tests/test_streaming_unittest.py`.
+
+## 2026-03-22 14:03:58 UTC — Added stronger nonlinear baseline for benchmark depth
+
+Implemented `src/deep_baseline.py` (MLP) and `src/merge_results.py` to produce unified model comparison outputs.

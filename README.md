@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:02:11 UTC — Upgraded real-time streaming stability
+- 2026-03-22 14:03:58 UTC — Added stronger nonlinear baseline for benchmark depth
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -141,3 +141,13 @@ Added `src/streaming.py`:
 - Hysteresis thresholds for stable state transitions
 
 This reduces flicker in real-time prediction UIs.
+
+
+## Stronger Nonlinear Baseline
+Added `src/deep_baseline.py` (MLP baseline) and `src/merge_results.py` to combine classical + deep results.
+
+Run:
+```bash
+python src/deep_baseline.py
+python src/merge_results.py
+```
