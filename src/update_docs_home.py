@@ -11,6 +11,7 @@ SECTIONS = {
         'docs/COMPLIANCE_SCORECARD.md',
         'docs/FINAL_RELEASE_CANDIDATE.md',
         'docs/RELEASE_READY_SIGNAL.md',
+        'docs/RELEASE_READY_DIAGNOSE.md',
     ],
     'Technical Core': [
         'docs/TECHNICAL_REPORT.md',

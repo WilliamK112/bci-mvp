@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 17:02 UTC
+Generated: 2026-03-22 17:04 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -8,6 +8,7 @@ Generated: 2026-03-22 17:02 UTC
 - ✅ Limitations report: `docs/LIMITATIONS.md`
 - ✅ Final release candidate: `docs/FINAL_RELEASE_CANDIDATE.md`
 - ✅ Release-ready signal: `docs/RELEASE_READY_SIGNAL.md`
+- ✅ Release-ready diagnose: `docs/RELEASE_READY_DIAGNOSE.md`
 - ✅ Release readiness: `docs/RELEASE_READINESS.md`
 - ✅ HF Space readiness: `docs/HF_SPACE_READINESS.md`
 - ✅ Space user guide: `docs/SPACE_USER_GUIDE.md`

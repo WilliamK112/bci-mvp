@@ -1,6 +1,6 @@
 # BCI MVP Docs Home
 
-Generated: 2026-03-22 17:02 UTC
+Generated: 2026-03-22 17:04 UTC
 
 ## Project Status
 
@@ -9,6 +9,7 @@ Generated: 2026-03-22 17:02 UTC
 - ✅ `COMPLIANCE_SCORECARD.md`
 - ✅ `FINAL_RELEASE_CANDIDATE.md`
 - ✅ `RELEASE_READY_SIGNAL.md`
+- ✅ `RELEASE_READY_DIAGNOSE.md`
 
 ## Technical Core
 

@@ -1,7 +1,7 @@
 # Release Ready Signal
 
-Generated: 2026-03-22 17:02 UTC
-- Pipeline success: 36/38
-- Output coverage: 43/43
+Generated: 2026-03-22 17:04 UTC
+- Pipeline success: 38/40
+- Output coverage: 45/45
 
 ## SIGNAL: NOT_READY
