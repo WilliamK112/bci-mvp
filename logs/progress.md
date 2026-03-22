@@ -207,3 +207,7 @@ Implemented `tests/test_api_contract_unittest.py` for `/health` and `/predict` s
 ## 2026-03-22 15:47:24 UTC — Added docs freshness monitor
 
 Implemented `src/docs_freshness_check.py` to track staleness of key docs and output `docs/DOCS_FRESHNESS.md` for maintenance quality.
+
+## 2026-03-22 15:47:58 UTC — Integrated docs freshness into quality pipeline
+
+Wired `src/docs_freshness_check.py` into full pipeline and final RC coverage so documentation staleness is continuously tracked.

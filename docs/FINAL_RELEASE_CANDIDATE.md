@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 15:34 UTC
+Generated: 2026-03-22 15:47 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -20,6 +20,7 @@ Generated: 2026-03-22 15:34 UTC
 - [OK] `python3 src/env_compat_check.py`
 - [OK] `python3 src/repro_snapshot.py`
 - [OK] `python3 src/readme_quality_check.py`
+- [OK] `python3 src/docs_freshness_check.py`
 
 ## Output Inventory
 - [x] `docs/TECHNICAL_REPORT.md`
@@ -37,10 +38,11 @@ Generated: 2026-03-22 15:34 UTC
 - [x] `docs/ENV_COMPAT.md`
 - [x] `docs/REPRO_SNAPSHOT.md`
 - [x] `docs/README_QUALITY.md`
+- [x] `docs/DOCS_FRESHNESS.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 
-**Pipeline success:** 17/17
-**Output coverage:** 19/19
+**Pipeline success:** 18/18
+**Output coverage:** 20/20
