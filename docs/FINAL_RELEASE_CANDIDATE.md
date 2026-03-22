@@ -1,9 +1,10 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 15:56 UTC
+Generated: 2026-03-22 15:59 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
+- [OK] `python3 src/generate_results_md.py`
 - [OK] `python3 src/release_readiness.py`
 - [OK] `python3 src/hf_space_readiness.py`
 - [OK] `python3 src/leaderboard.py`
@@ -33,6 +34,7 @@ Generated: 2026-03-22 15:56 UTC
 - [x] `docs/MODEL_CARD.md`
 - [x] `docs/MATH_NOTATION.md`
 - [x] `docs/METHODS.md`
+- [x] `docs/RESULTS.md`
 - [x] `docs/DOCS_BUNDLE_INDEX.md`
 - [x] `docs/RISK_REGISTER.md`
 - [x] `docs/EXECUTIVE_SUMMARY.md`
@@ -47,5 +49,5 @@ Generated: 2026-03-22 15:56 UTC
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 
-**Pipeline success:** 19/19
-**Output coverage:** 22/22
+**Pipeline success:** 20/20
+**Output coverage:** 23/23

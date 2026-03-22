@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 15:53 UTC
+Generated: 2026-03-22 15:59 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -12,6 +12,7 @@ Generated: 2026-03-22 15:53 UTC
 - ✅ Model card: `docs/MODEL_CARD.md`
 - ✅ Mathematical model: `docs/MATH_NOTATION.md`
 - ✅ Methods (paper-style): `docs/METHODS.md`
+- ✅ Results summary: `docs/RESULTS.md`
 - ✅ Model leaderboard: `docs/MODEL_LEADERBOARD.md`
 - ✅ Figure gallery: `docs/FIGURE_GALLERY.md`
 - ✅ Release post (EN): `docs/release/release_en.md`

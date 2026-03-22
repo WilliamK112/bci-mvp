@@ -11,6 +11,7 @@ DOCS = [
     ('docs/MODEL_CARD.md', 'Model card'),
     ('docs/MATH_NOTATION.md', 'Mathematical model'),
     ('docs/METHODS.md', 'Methods (paper-style)'),
+    ('docs/RESULTS.md', 'Results summary'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/CHANGELOG_AUTO.md', 'Auto changelog'),

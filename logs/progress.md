@@ -231,3 +231,7 @@ Implemented `src/update_docs_home.py` and wired it into RC/full pipeline so `doc
 ## 2026-03-22 15:58:18 UTC — Added results summary doc + Space runtime mode visibility
 
 Implemented `src/generate_results_md.py` -> `docs/RESULTS.md` and updated `app.py` to display REAL_MODEL vs MOCK_FALLBACK runtime mode explicitly for demo transparency.
+
+## 2026-03-22 15:59:55 UTC — Integrated RESULTS summary into release-critical automation
+
+Added `docs/RESULTS.md` to docs bundle/release packet and wired `src/generate_results_md.py` into full pipeline + final RC generation/coverage.
