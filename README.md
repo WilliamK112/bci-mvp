@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 18:32:47 UTC — Added quick-health CLI for terminal-first status checks
+- 2026-03-22 21:14:34 UTC — Added cross-subject generalization evaluation (LOSO)
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -131,3 +131,12 @@ This fetches EEGBCI public data and prepares:
 
 ## 📝 Results Brief
 - `docs/RESULTS_BRIEF_EN.md`
+
+
+## 👥 Cross-Subject Evaluation
+Measure subject-level generalization (Leave-One-Subject-Out):
+```bash
+python src/cross_subject_eval.py
+```
+Output:
+- `outputs/cross_subject_results.json`

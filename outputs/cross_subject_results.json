@@ -1,0 +1,28 @@
+{
+  "n_subjects": 2,
+  "subjects": [
+    1,
+    2
+  ],
+  "mean_accuracy": 0.6235517200191113,
+  "mean_f1": 0.6662368543622681,
+  "mean_auc": 0.6873526463070685,
+  "per_subject": [
+    {
+      "test_subject": 1,
+      "train_samples": 364,
+      "test_samples": 368,
+      "accuracy": 0.5135869565217391,
+      "f1": 0.5041551246537396,
+      "auc": 0.703393817204301
+    },
+    {
+      "test_subject": 2,
+      "train_samples": 368,
+      "test_samples": 364,
+      "accuracy": 0.7335164835164835,
+      "f1": 0.8283185840707965,
+      "auc": 0.671311475409836
+    }
+  ]
+}

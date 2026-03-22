@@ -503,3 +503,7 @@ Implemented `src/status_history_append.py` -> `docs/STATUS_HISTORY.log` and inte
 ## 2026-03-22 18:32:47 UTC — Added quick-health CLI for terminal-first status checks
 
 Implemented `src/quick_health_cli.py` returning ready/launch/guard in one line; integrated into RC/full pipeline and README core commands.
+
+## 2026-03-22 21:14:34 UTC — Added cross-subject generalization evaluation (LOSO)
+
+Implemented `src/cross_subject_eval.py` for leave-one-subject-out testing and documented usage in README; outputs `outputs/cross_subject_results.json`.
