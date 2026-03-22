@@ -575,3 +575,7 @@ Implemented `src/cross_subject_ci.py` to compute model-wise LOSO bootstrap CIs (
 ## 2026-03-22 21:52:20 UTC — Added explainability heatmap visualization
 
 Implemented `src/plot_explainability_heatmap.py` to render channel×band permutation-importance heatmap (`assets/explainability_heatmap.svg`) with dedicated docs page and full pipeline/RC/report integration.
+
+## 2026-03-22 21:53:33 UTC — Added explainability quality-gate validation
+
+Implemented `src/validate_explainability.py` to enforce explainability artifact/signal gates and integrated validation into pipeline, RC checks, and technical reporting/docs index flows.

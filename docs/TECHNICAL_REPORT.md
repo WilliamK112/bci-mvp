@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 21:52 UTC
+Generated: 2026-03-22 21:53 UTC
 
 ## 1) Benchmark Summary
 
@@ -36,6 +36,7 @@ Generated: 2026-03-22 21:52 UTC
 - Top channel: [{'channel': 4, 'importance_mean': 0.03401360544217691}]
 
 - ![Explainability Heatmap](../assets/explainability_heatmap.svg)
+- Validation: `docs/EXPLAINABILITY_VALIDATION.md`
 
 ## 5) Probability Calibration
 
