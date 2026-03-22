@@ -719,3 +719,7 @@ Implemented `src/plot_scorecards_overview.py` to render unified scorecards overv
 ## 2026-03-22 23:08:38 UTC — Added regression test for scorecards-overview visual artifacts
 
 Created `tests/test_scorecards_overview_visual_unittest.py` and integrated it into CI + quick regression suite to protect overview visual/doc linkage integrity.
+
+## 2026-03-22 23:10:56 UTC — Added real-data evidence report and one-command reproducibility entrypoint
+
+Implemented `src/real_data_evidence.py` -> `docs/REAL_DATA_EVIDENCE.md` and `src/repro_one_command.py` for full repro flow; integrated docs navigation and README quick-start entry.

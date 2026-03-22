@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:08:38 UTC — Added regression test for scorecards-overview visual artifacts
+- 2026-03-22 23:10:56 UTC — Added real-data evidence report and one-command reproducibility entrypoint
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -157,3 +157,12 @@ python src/subject_holdout_eval.py
 ```
 Output:
 - `outputs/subject_holdout_results.json`
+
+
+## 🔁 One-command Repro
+```bash
+python src/repro_one_command.py
+```
+
+## 🧾 Real Data Evidence
+See: `docs/REAL_DATA_EVIDENCE.md`
