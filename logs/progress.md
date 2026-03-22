@@ -295,3 +295,7 @@ Implemented `src/project_health_badge.py` to generate `assets/badge_project_heal
 ## 2026-03-22 16:30:18 UTC — Added auto latest-release-notes generator
 
 Implemented `src/release_notes_latest.py` -> `docs/RELEASE_NOTES_LATEST.md` and integrated it into full pipeline + final RC coverage.
+
+## 2026-03-22 16:32:39 UTC — Added visuals presence guardrail for README quality
+
+Implemented `src/visuals_presence_check.py` to verify banner/heatmap/health badge assets and integrated it into full pipeline + RC coverage.
