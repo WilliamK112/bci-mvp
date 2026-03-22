@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:03:58 UTC — Added stronger nonlinear baseline for benchmark depth
+- 2026-03-22 14:06:09 UTC — Added unified multi-model visualization
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -150,4 +150,14 @@ Run:
 ```bash
 python src/deep_baseline.py
 python src/merge_results.py
+```
+
+
+### Unified Model Comparison
+![All Model Comparison](assets/all_model_comparison.svg)
+
+Generate it with:
+```bash
+python src/merge_results.py
+python src/plot_all_models.py
 ```
