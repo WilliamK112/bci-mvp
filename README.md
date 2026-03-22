@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:57:50 UTC — Integrated bootstrap uncertainty into reporting and readiness
+- 2026-03-22 14:59:50 UTC — Added reproducibility snapshot generator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -375,3 +375,12 @@ Output:
 - `outputs/bootstrap_ci_results.json`
 
 - Release readiness now includes bootstrap CI artifact coverage (`outputs/bootstrap_ci_results.json`).
+
+
+## Reproducibility Snapshot
+Generate environment + file-hash snapshot:
+```bash
+python src/repro_snapshot.py
+```
+Output:
+- `docs/REPRO_SNAPSHOT.md`

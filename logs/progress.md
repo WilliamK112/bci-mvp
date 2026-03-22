@@ -123,3 +123,7 @@ Implemented `src/bootstrap_ci.py` to estimate CI95 for accuracy/F1/AUC via boots
 ## 2026-03-22 14:57:50 UTC — Integrated bootstrap uncertainty into reporting and readiness
 
 Updated technical report and release readiness checks to include `outputs/bootstrap_ci_results.json`; regenerated readiness + final RC docs.
+
+## 2026-03-22 14:59:50 UTC — Added reproducibility snapshot generator
+
+Implemented `src/repro_snapshot.py` to capture Python/platform/git revision and SHA256 hashes into `docs/REPRO_SNAPSHOT.md`.
