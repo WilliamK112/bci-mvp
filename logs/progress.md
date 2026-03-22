@@ -527,3 +527,7 @@ Updated `src/metrics_registry.py` with LOSO metric definition and enhanced EN/ZH
 ## 2026-03-22 21:24:46 UTC — Integrated LOSO into machine-readable release summary and dashboard
 
 Updated `src/release_summary_json.py` to include `cross_subject_loso` block and `src/release_dashboard.py` to display LOSO mean accuracy in release status overview.
+
+## 2026-03-22 21:26:42 UTC — Extended release-summary validation to cover LOSO schema
+
+Updated `src/release_summary_validate.py` to validate optional `cross_subject_loso` block fields, strengthening machine-readable contract checks.

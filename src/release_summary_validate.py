@@ -18,11 +18,22 @@ def main():
     for k in REQUIRED:
         lines.append(f"| `{k}` | {'✅' if k in obj else '❌'} |")
 
+    # optional LOSO block validation
+    loso_ok = True
+    loso = obj.get('cross_subject_loso')
+    loso_fields = ['subjects', 'mean_accuracy', 'mean_f1', 'mean_auc']
+    if loso is not None:
+        for k in loso_fields:
+            if k not in loso:
+                loso_ok = False
+
+    lines.append(f"| `cross_subject_loso` schema | {'✅' if loso_ok else '❌'} |")
+
     out = Path('docs/RELEASE_SUMMARY_VALIDATION.md')
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f'Generated {out}')
 
-    if missing:
+    if missing or not loso_ok:
         raise SystemExit(2)
 
 

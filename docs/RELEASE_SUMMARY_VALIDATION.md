@@ -8,3 +8,4 @@
 | `output_coverage` | ✅ |
 | `demo_url` | ✅ |
 | `repo_url` | ✅ |
+| `cross_subject_loso` schema | ✅ |
