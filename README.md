@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:35:50 UTC — Added auto figure gallery generation
+- 2026-03-22 14:37:57 UTC — Added docs bundle index + integrated full pipeline doc refresh
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -298,3 +298,12 @@ python src/generate_figure_gallery.py
 ```
 Output:
 - `docs/FIGURE_GALLERY.md`
+
+
+## Docs Bundle Index
+Generate a single navigation page for all major docs:
+```bash
+python src/update_docs_bundle.py
+```
+Output:
+- `docs/DOCS_BUNDLE_INDEX.md`

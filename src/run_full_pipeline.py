@@ -16,6 +16,10 @@ STEPS = [
     ["python3", "src/build_report.py"],
     ["python3", "src/generate_release_pack.py"],
     ["python3", "src/generate_model_card.py"],
+    ["python3", "src/leaderboard.py"],
+    ["python3", "src/generate_figure_gallery.py"],
+    ["python3", "src/changelog_from_git.py"],
+    ["python3", "src/update_docs_bundle.py"],
     ["python3", "src/validate_artifacts.py"],
 ]
 

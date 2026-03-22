@@ -79,3 +79,7 @@ Implemented band-level ablation evaluation (`src/ablation_eval.py`) and visualiz
 ## 2026-03-22 14:35:50 UTC — Added auto figure gallery generation
 
 Implemented `src/generate_figure_gallery.py` to auto-build `docs/FIGURE_GALLERY.md` from all assets for easier release packaging and review.
+
+## 2026-03-22 14:37:57 UTC — Added docs bundle index + integrated full pipeline doc refresh
+
+Implemented `src/update_docs_bundle.py` and integrated it into `src/run_full_pipeline.py` with leaderboard/gallery/changelog refresh steps.
