@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:08:05 UTC — Prepared Hugging Face Space one-click deployment
+- 2026-03-22 14:09:52 UTC — Added cross-dataset matrix evaluator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -161,3 +161,11 @@ Generate it with:
 python src/merge_results.py
 python src/plot_all_models.py
 ```
+
+
+## Cross-Dataset Matrix Evaluation
+For multiple datasets, run all train→test pairs:
+```bash
+python src/cross_dataset_matrix.py
+```
+Output: `outputs/cross_dataset_matrix.json`

@@ -23,3 +23,7 @@ Implemented `src/plot_all_models.py` to render ACC/F1/AUC comparison chart from 
 ## 2026-03-22 14:08:05 UTC — Prepared Hugging Face Space one-click deployment
 
 Added root app entrypoint and .streamlit config for Space runtime compatibility.
+
+## 2026-03-22 14:09:52 UTC — Added cross-dataset matrix evaluator
+
+Implemented `src/cross_dataset_matrix.py` to run all dataset pair evaluations and export `outputs/cross_dataset_matrix.json`.
