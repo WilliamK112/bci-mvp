@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 18:04 UTC
+Generated: 2026-03-22 18:06 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -42,6 +42,7 @@ Generated: 2026-03-22 18:04 UTC
 - [OK] `python3 src/reviewer_pack.py`
 - [OK] `python3 src/release_notes_latest.py`
 - [OK] `python3 src/release_ready_signal.py`
+- [OK] `python3 src/release_guard.py`
 - [OK] `python3 src/release_ready_badge.py`
 - [OK] `python3 src/v1_release_ready.py`
 - [OK] `python3 src/v1_release_notes_build.py`
@@ -129,5 +130,5 @@ Generated: 2026-03-22 18:04 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 59/59
+**Pipeline success:** 60/60
 **Output coverage:** 64/64

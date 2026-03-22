@@ -463,3 +463,7 @@ Added direct links to `docs/RELEASE_ARCHIVE_MANIFEST.md` in both README.md and R
 ## 2026-03-22 18:04:17 UTC — Added handoff packet and integrated into release automation
 
 Implemented `src/handoff_packet.py` -> `docs/HANDOFF_PACKET.md` and integrated it into docs home/bundle/release packet plus RC/full pipelines for seamless operator transfer.
+
+## 2026-03-22 18:06:08 UTC — Added hard release guard and integrated into automation
+
+Implemented `src/release_guard.py` to enforce READY state and wired it into full/RC pipelines to prevent accidental non-ready release flow.
