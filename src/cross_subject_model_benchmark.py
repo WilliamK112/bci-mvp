@@ -15,6 +15,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
+from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 
 from src.preprocess import load_edf_extract_features
@@ -53,6 +54,10 @@ def model_zoo():
         'logreg': Pipeline([
             ('scaler', StandardScaler()),
             ('clf', LogisticRegression(max_iter=2000, class_weight='balanced', random_state=42)),
+        ]),
+        'mlp': Pipeline([
+            ('scaler', StandardScaler()),
+            ('clf', MLPClassifier(hidden_layer_sizes=(64, 32), activation='relu', alpha=1e-4, learning_rate_init=1e-3, max_iter=600, random_state=42)),
         ]),
     }
 

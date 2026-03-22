@@ -21,6 +21,16 @@
       "p_two_sided": 0.0,
       "winner_mean_acc": 0.6235517200191113,
       "challenger_mean_acc": 0.4458910654562828
+    },
+    {
+      "winner": "rf",
+      "challenger": "mlp",
+      "n": 2,
+      "delta_mean": 0.12319338270425226,
+      "z": 2.775311133535151,
+      "p_two_sided": 0.005514892046615261,
+      "winner_mean_acc": 0.6235517200191113,
+      "challenger_mean_acc": 0.500358337314859
     }
   ]
 }

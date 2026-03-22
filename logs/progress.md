@@ -615,3 +615,7 @@ Implemented `src/plot_cross_dataset_bidirectional.py` to visualize A↔B RF metr
 ## 2026-03-22 22:11:21 UTC — Added bidirectional cross-dataset quality-gate validation
 
 Implemented `src/validate_cross_dataset_bidirectional.py` with transfer/symmetry gates and integrated validation into RC/full/report/docs index flows.
+
+## 2026-03-22 22:12:30 UTC — Extended LOSO benchmark with neural baseline (MLP)
+
+Upgraded `src/cross_subject_model_benchmark.py` to include deterministic `MLPClassifier` baseline, then regenerated cross-subject ranking/CI/significance/visual/report artifacts.
