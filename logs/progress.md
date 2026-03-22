@@ -459,3 +459,7 @@ Implemented `src/release_archive_manifest.py` -> `docs/RELEASE_ARCHIVE_MANIFEST.
 ## 2026-03-22 18:02:03 UTC — Surfaced release archive manifest in bilingual READMEs
 
 Added direct links to `docs/RELEASE_ARCHIVE_MANIFEST.md` in both README.md and README.zh-CN.md for immediate packaging guidance.
+
+## 2026-03-22 18:04:17 UTC — Added handoff packet and integrated into release automation
+
+Implemented `src/handoff_packet.py` -> `docs/HANDOFF_PACKET.md` and integrated it into docs home/bundle/release packet plus RC/full pipelines for seamless operator transfer.

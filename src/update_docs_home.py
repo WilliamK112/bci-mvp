@@ -21,6 +21,7 @@ SECTIONS = {
         'docs/RELEASE_SUMMARY_VALIDATION.md',
         'docs/LAUNCH_STATUS.md',
         'docs/OPERATOR_QUICKLINKS.md',
+        'docs/HANDOFF_PACKET.md',
         'docs/MILESTONE_STAMP.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
