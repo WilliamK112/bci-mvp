@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 21:46 UTC
+Generated: 2026-03-22 21:48 UTC
 
 ## 1) Benchmark Summary
 
@@ -54,6 +54,14 @@ No `outputs/permutation_importance_summary.json` found.
 - Mean Accuracy: 0.6235517200191113
 - Mean F1: 0.6662368543622681
 - Mean AUC: 0.6873526463070685
+
+### Cross-Subject Model Benchmark
+
+| Model | Mean Accuracy | Mean F1 | Mean AUC |
+|---|---:|---:|---:|
+| rf | 0.6235517200191113 | 0.6662368543622681 | 0.6873526463070685 |
+| logreg | 0.4458910654562828 | 0.31176544136034007 | 0.6611930966860567 |
+| svm_rbf | 0.34976708074534163 | 0.11177944862155388 | 0.5805377445795875 |
 
 ## 8) Visual Artifacts
 

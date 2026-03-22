@@ -563,3 +563,7 @@ Implemented `src/plot_streaming_latency.py` to generate `assets/streaming_latenc
 ## 2026-03-22 21:46:07 UTC — Added streaming latency quality gates and validation report
 
 Implemented `src/validate_streaming_latency.py` with explicit latency/throughput thresholds and integrated validation output into pipeline, RC checks, and technical reporting.
+
+## 2026-03-22 21:48:47 UTC — Integrated LOSO multi-model benchmark into report and release flows
+
+Wired cross-subject RF/SVM/LogReg benchmark outputs into technical report, RC required outputs, and docs indices for stronger comparative generalization evidence.

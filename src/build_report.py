@@ -35,6 +35,7 @@ def main():
     calib = read_json(out / "calibration_results.json")
     robust = read_json(out / "robustness_results.json")
     loso = read_json(out / "cross_subject_results.json")
+    cs_bench = read_json(out / "cross_subject_model_benchmark.json")
     boot = read_json(out / "bootstrap_ci_results.json")
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -115,6 +116,11 @@ def main():
         ]
     else:
         lines += ["", "No `outputs/cross_subject_results.json` found."]
+
+    if cs_bench:
+        lines += ["", "### Cross-Subject Model Benchmark", "", "| Model | Mean Accuracy | Mean F1 | Mean AUC |", "|---|---:|---:|---:|"]
+        for r in (cs_bench.get('ranking') or []):
+            lines.append(f"| {r.get('model')} | {r.get('mean_accuracy')} | {r.get('mean_f1')} | {r.get('mean_auc')} |")
 
     lines += [
         "",
