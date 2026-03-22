@@ -671,3 +671,7 @@ Implemented `src/plot_generalization_scorecard.py` to render gate-level generali
 ## 2026-03-22 22:39:44 UTC — Added regression test for generalization scorecard visual artifacts
 
 Created `tests/test_generalization_scorecard_visual_unittest.py` and wired it into CI + quick regression suite to guard generalization visual/doc linkage.
+
+## 2026-03-22 22:42:06 UTC — Added integrated reproducibility scorecard
+
+Implemented `src/reproducibility_scorecard.py` to aggregate reproducibility checks (cross-subject rerun, release signature, determinism audit, explainability stability) into one PASS/FAIL scorecard and integrated it into RC/full/report/docs flows.

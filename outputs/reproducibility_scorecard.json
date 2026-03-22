@@ -1,0 +1,10 @@
+{
+  "overall_pass": true,
+  "score": 1.0,
+  "checks": {
+    "repro_cross_subject_pass": true,
+    "repro_release_signature_pass": true,
+    "determinism_audit_pass": true,
+    "explainability_stability_pass": true
+  }
+}
