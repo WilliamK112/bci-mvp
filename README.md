@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:29:53 UTC — Added model leaderboard generation
+- 2026-03-22 14:31:47 UTC — Added auto changelog generation from git history
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -269,3 +269,12 @@ python src/leaderboard.py
 ```
 Output:
 - `docs/MODEL_LEADERBOARD.md`
+
+
+## Auto Changelog
+Generate changelog from recent git commits:
+```bash
+python src/changelog_from_git.py
+```
+Output:
+- `docs/CHANGELOG_AUTO.md`

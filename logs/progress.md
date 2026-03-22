@@ -67,3 +67,7 @@ Implemented `src/hf_space_readiness.py` to generate `docs/HF_SPACE_READINESS.md`
 ## 2026-03-22 14:29:53 UTC — Added model leaderboard generation
 
 Implemented `src/leaderboard.py` to rank models by accuracy/AUC and generate `docs/MODEL_LEADERBOARD.md`.
+
+## 2026-03-22 14:31:47 UTC — Added auto changelog generation from git history
+
+Implemented `src/changelog_from_git.py` to produce `docs/CHANGELOG_AUTO.md` for transparent project evolution tracking.
