@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 21:19:51 UTC — Added LOSO cross-subject visualization and pipeline integration
+- 2026-03-22 21:21:39 UTC — Added subject-holdout evaluation and fixed technical-report generator syntax
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -148,3 +148,12 @@ python src/plot_cross_subject.py
 ```
 Output:
 - `assets/cross_subject_loso.svg`
+
+
+## 👤 Subject-Holdout Evaluation
+Test generalization by holding out one subject at a time:
+```bash
+python src/subject_holdout_eval.py
+```
+Output:
+- `outputs/subject_holdout_results.json`

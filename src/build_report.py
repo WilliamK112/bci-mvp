@@ -34,6 +34,7 @@ def main():
     explain = read_json(out / "permutation_importance_summary.json")
     calib = read_json(out / "calibration_results.json")
     robust = read_json(out / "robustness_results.json")
+    loso = read_json(out / "cross_subject_results.json")
     boot = read_json(out / "bootstrap_ci_results.json")
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -109,10 +110,11 @@ def main():
         "",
         "- ![All Model](../assets/all_model_comparison.svg)",
         "- ![Cross Matrix](../assets/cross_dataset_matrix.svg)",
+        "- ![Cross Subject LOSO](../assets/cross_subject_loso.svg)",
         "- ![Calibration](../assets/calibration_curve.svg)",
         "- ![Robustness](../assets/robustness_accuracy.svg)",
         "",
-        "## 9) Release Readiness",
+        "## 10) Release Readiness",
         "",
         "- Pipeline status: `docs/PIPELINE_STATUS.md`",
         "- Artifact validation: `outputs/artifact_validation_report.txt`",

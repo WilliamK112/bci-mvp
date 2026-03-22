@@ -511,3 +511,7 @@ Implemented `src/cross_subject_eval.py` for leave-one-subject-out testing and do
 ## 2026-03-22 21:19:51 UTC — Added LOSO cross-subject visualization and pipeline integration
 
 Implemented `src/plot_cross_subject.py` to render `assets/cross_subject_loso.svg` from LOSO results and integrated it into RC/full pipelines.
+
+## 2026-03-22 21:21:39 UTC — Added subject-holdout evaluation and fixed technical-report generator syntax
+
+Implemented `src/subject_holdout_eval.py` for cross-subject generalization and fixed a string-literal bug in `src/build_report.py` to restore report generation reliability.
