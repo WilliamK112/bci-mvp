@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:04:45 UTC — Added scorecards-overview regression test and CI coverage
+- 2026-03-22 23:08:38 UTC — Added regression test for scorecards-overview visual artifacts
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

@@ -715,3 +715,7 @@ Created `tests/test_scorecards_overview_unittest.py`, integrated it into CI and 
 ## 2026-03-22 23:06:59 UTC — Added scorecards-overview visualization
 
 Implemented `src/plot_scorecards_overview.py` to render unified scorecards overview as `assets/scorecards_overview.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
+
+## 2026-03-22 23:08:38 UTC — Added regression test for scorecards-overview visual artifacts
+
+Created `tests/test_scorecards_overview_visual_unittest.py` and integrated it into CI + quick regression suite to protect overview visual/doc linkage integrity.
