@@ -36,6 +36,7 @@ OUTPUTS = [
     "docs/CHANGELOG_AUTO.md",
     "docs/MODEL_CARD.md",
     "docs/MATH_NOTATION.md",
+    "docs/METHODS.md",
     "docs/DOCS_BUNDLE_INDEX.md",
     "docs/RISK_REGISTER.md",
     "docs/EXECUTIVE_SUMMARY.md",

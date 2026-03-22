@@ -219,3 +219,7 @@ Added `docs/MATH_NOTATION.md` to docs bundle, release packet, and final RC outpu
 ## 2026-03-22 15:52:09 UTC — Added paper-style methods + formula-to-code mapping
 
 Created `docs/METHODS.md` (paper-style method section) and extended `docs/MATH_NOTATION.md` with explicit formula-to-code mapping for traceable technical rigor.
+
+## 2026-03-22 15:53:58 UTC — Promoted METHODS doc into release-critical surfaces
+
+Integrated `docs/METHODS.md` into docs bundle index, release packet, and final RC output inventory for stronger research-style presentation.

@@ -10,6 +10,7 @@ DOCS = [
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),
     ('docs/MODEL_CARD.md', 'Model card'),
     ('docs/MATH_NOTATION.md', 'Mathematical model'),
+    ('docs/METHODS.md', 'Methods (paper-style)'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/CHANGELOG_AUTO.md', 'Auto changelog'),

@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 15:49 UTC
+Generated: 2026-03-22 15:53 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -11,6 +11,7 @@ Generated: 2026-03-22 15:49 UTC
 - ✅ Real-data gap report: `docs/REAL_DATA_GAP_REPORT.md`
 - ✅ Model card: `docs/MODEL_CARD.md`
 - ✅ Mathematical model: `docs/MATH_NOTATION.md`
+- ✅ Methods (paper-style): `docs/METHODS.md`
 - ✅ Model leaderboard: `docs/MODEL_LEADERBOARD.md`
 - ✅ Figure gallery: `docs/FIGURE_GALLERY.md`
 - ✅ Release post (EN): `docs/release/release_en.md`
