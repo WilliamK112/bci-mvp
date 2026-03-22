@@ -33,6 +33,7 @@ STEPS = [
     ["python3", "src/navigation_health_check.py"],
     ["python3", "src/secrets_hygiene_check.py"],
     ["python3", "src/compliance_scorecard.py"],
+    ["python3", "src/one_pager.py"],
 ]
 
 OUTPUTS = [
@@ -62,6 +63,7 @@ OUTPUTS = [
     "docs/NAVIGATION_HEALTH.md",
     "docs/SECRETS_HYGIENE.md",
     "docs/COMPLIANCE_SCORECARD.md",
+    "docs/ONE_PAGER.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",

@@ -283,3 +283,7 @@ Implemented `src/compliance_scorecard.py` to summarize navigation/i18n/secrets/c
 ## 2026-03-22 16:24:07 UTC — Promoted compliance scorecard visibility in primary entrypoints
 
 Linked `docs/COMPLIANCE_SCORECARD.md` in README and docs home generator; refreshed HOME and final RC outputs.
+
+## 2026-03-22 16:26:24 UTC — Added one-page external brief and integrated into RC pipeline
+
+Implemented `src/one_pager.py` generating `docs/ONE_PAGER.md` and integrated it into full pipeline/final RC coverage for concise external communication.

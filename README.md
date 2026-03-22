@@ -87,6 +87,7 @@ python src/space_smoke_test.py
 
 ## 📚 Documentation Index
 - Docs home: `docs/HOME.md`
+- One pager: `docs/ONE_PAGER.md`
 - Space user guide: `docs/SPACE_USER_GUIDE.md`
 - Docs bundle index: `docs/DOCS_BUNDLE_INDEX.md`
 - Command center: `docs/COMMAND_CENTER.md`
@@ -102,6 +103,6 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:24:07 UTC — Promoted compliance scorecard visibility in primary entrypoints
+- 2026-03-22 16:26:24 UTC — Added one-page external brief and integrated into RC pipeline
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
