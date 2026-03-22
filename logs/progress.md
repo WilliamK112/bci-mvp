@@ -163,3 +163,7 @@ Implemented `src/model_fallback.py` and updated inference to gracefully use dete
 ## 2026-03-22 15:17:43 UTC — Added Space smoke-test diagnostics
 
 Implemented `src/space_smoke_test.py` to verify both Hugging Face page URL and hf.space direct URL, with tracked output `docs/SPACE_SMOKE_TEST.md`.
+
+## 2026-03-22 15:21:52 UTC — Improved QA: added inference fallback unit tests + CI test stage
+
+Added `tests/test_infer_fallback_unittest.py` and extended CI workflow to run unit tests for streaming + inference fallback reliability.

@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:17:43 UTC — Added Space smoke-test diagnostics
+- 2026-03-22 15:21:52 UTC — Improved QA: added inference fallback unit tests + CI test stage
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

@@ -26,3 +26,6 @@ jobs:
           import src.infer
           print('imports ok')
           PY
+      - name: Unit tests
+        run: |
+          python -m unittest -q tests/test_streaming_unittest.py tests/test_infer_fallback_unittest.py
