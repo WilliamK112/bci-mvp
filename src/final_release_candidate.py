@@ -52,6 +52,7 @@ STEPS = [
     ["python3", "src/tag_dry_run_check.py"],
     ["python3", "src/release_checklist.py"],
     ["python3", "src/release_dashboard.py"],
+    ["python3", "src/status_snapshot.py"],
     ["python3", "src/launch_status.py"],
     ["python3", "src/release_ready_diagnose.py"],
 ]
@@ -102,6 +103,7 @@ OUTPUTS = [
     "docs/TAG_DRY_RUN.md",
     "docs/RELEASE_CHECKLIST.md",
     "docs/RELEASE_DASHBOARD.md",
+    "docs/STATUS_SNAPSHOT.txt",
     "docs/LAUNCH_STATUS.md",
     "docs/RELEASE_READY_DIAGNOSE.md",
     "docs/release/release_en.md",

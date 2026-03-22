@@ -391,3 +391,7 @@ Added direct README link to `docs/LAUNCH_STATUS.md` for immediate launch-state v
 ## 2026-03-22 17:24:23 UTC — Added tag dry-run preflight check and integrated into automation
 
 Implemented `src/tag_dry_run_check.py` -> `docs/TAG_DRY_RUN.md` and integrated it into docs/release/RC/full pipelines for safer v1 tagging.
+
+## 2026-03-22 17:26:11 UTC — Added one-line status snapshot for rapid ops updates
+
+Implemented `src/status_snapshot.py` -> `docs/STATUS_SNAPSHOT.txt` and integrated it into full/RC pipelines for concise health broadcasting.

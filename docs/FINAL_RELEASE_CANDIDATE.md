@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 17:24 UTC
+Generated: 2026-03-22 17:26 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -48,6 +48,7 @@ Generated: 2026-03-22 17:24 UTC
 - [OK] `python3 src/tag_dry_run_check.py`
 - [OK] `python3 src/release_checklist.py`
 - [OK] `python3 src/release_dashboard.py`
+- [OK] `python3 src/status_snapshot.py`
 - [OK] `python3 src/launch_status.py`
 - [OK] `python3 src/release_ready_diagnose.py`
 
@@ -97,6 +98,7 @@ Generated: 2026-03-22 17:24 UTC
 - [x] `docs/TAG_DRY_RUN.md`
 - [x] `docs/RELEASE_CHECKLIST.md`
 - [x] `docs/RELEASE_DASHBOARD.md`
+- [x] `docs/STATUS_SNAPSHOT.txt`
 - [x] `docs/LAUNCH_STATUS.md`
 - [x] `docs/RELEASE_READY_DIAGNOSE.md`
 - [x] `docs/release/release_en.md`
@@ -105,5 +107,5 @@ Generated: 2026-03-22 17:24 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 47/47
-**Output coverage:** 52/52
+**Pipeline success:** 48/48
+**Output coverage:** 53/53
