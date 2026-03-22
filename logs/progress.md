@@ -495,3 +495,7 @@ Implemented `src/ops_digest_zh.py` -> `docs/OPS_DIGEST_ZH.md`, integrated into R
 ## 2026-03-22 18:22:09 UTC — Surfaced Chinese ops digest in bundle and release packet
 
 Added `docs/OPS_DIGEST_ZH.md` to docs bundle index and release packet surfaces, then refreshed final RC outputs.
+
+## 2026-03-22 18:32:01 UTC — Added rolling status history for trend tracking
+
+Implemented `src/status_history_append.py` -> `docs/STATUS_HISTORY.log` and integrated into RC/full pipelines for longitudinal ops visibility.
