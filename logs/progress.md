@@ -663,3 +663,7 @@ Implemented `src/generalization_scorecard.py` to aggregate LOSO and bidirectiona
 ## 2026-03-22 22:35:48 UTC — Added generalization-scorecard regression test and CI coverage
 
 Created `tests/test_generalization_scorecard_unittest.py`, integrated it into CI and `src/quick_regression_suite.py`, and verified complete quick-regression pass.
+
+## 2026-03-22 22:38:00 UTC — Added generalization scorecard visualization
+
+Implemented `src/plot_generalization_scorecard.py` to render gate-level generalization status as `assets/generalization_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs index flows.

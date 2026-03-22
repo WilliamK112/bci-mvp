@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490" y="34" text-anchor="middle" font-size="24" font-family="Arial">Generalization Scorecard Gates</text>
+<line x1="60" y1="360" x2="920" y2="360" stroke="#111"/>
+<rect x="97.625" y="60.0" width="139.75" height="300.0" fill="#16a34a"/>
+<text x="167.5" y="378" text-anchor="middle" font-size="10" font-family="Arial">cross_subject_best_acc_ge_0_60</text>
+<text x="167.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="312.625" y="60.0" width="139.75" height="300.0" fill="#16a34a"/>
+<text x="382.5" y="378" text-anchor="middle" font-size="10" font-family="Arial">cross_dataset_A_to_B_acc_ge_0_50</text>
+<text x="382.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="527.625" y="60.0" width="139.75" height="300.0" fill="#16a34a"/>
+<text x="597.5" y="378" text-anchor="middle" font-size="10" font-family="Arial">cross_dataset_B_to_A_acc_ge_0_50</text>
+<text x="597.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="742.625" y="60.0" width="139.75" height="300.0" fill="#16a34a"/>
+<text x="812.5" y="378" text-anchor="middle" font-size="10" font-family="Arial">cross_dataset_symmetry_gap_acc_le_0_25</text>
+<text x="812.5" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+</svg>
