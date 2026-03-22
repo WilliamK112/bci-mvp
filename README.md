@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:13:37 UTC — Added deployment diagnostics playbook
+- 2026-03-22 15:15:55 UTC — Added demo reliability fallback for Space uptime
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -447,3 +447,9 @@ python src/deployment_diagnose.py
 ```
 Output:
 - `docs/DEPLOYMENT_DIAGNOSE.md`
+
+
+## Demo Reliability Fallback
+Space demo now supports model fallback mode:
+- If `outputs/model_rf_real.joblib` is missing, inference returns deterministic mock probabilities.
+- Response includes `mode` = `mock_fallback` or `real_model`.

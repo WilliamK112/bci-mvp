@@ -155,3 +155,7 @@ Implemented `src/hf_space_status.py` to fetch runtime/build status for Space dep
 ## 2026-03-22 15:13:37 UTC — Added deployment diagnostics playbook
 
 Implemented `src/deployment_diagnose.py` to generate `docs/DEPLOYMENT_DIAGNOSE.md` with endpoint checks and fast recovery steps for Space access issues.
+
+## 2026-03-22 15:15:55 UTC — Added demo reliability fallback for Space uptime
+
+Implemented `src/model_fallback.py` and updated inference to gracefully use deterministic mock predictions when trained model is missing; app now surfaces fallback behavior.

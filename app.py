@@ -11,6 +11,8 @@ st.set_page_config(page_title="BCI MVP Space", layout="wide")
 st.title("🧠 BCI MVP — Public Space Demo")
 st.caption("Low-hardware EEG BCI prototype: feature inference + streaming stability.")
 
+st.info("If trained model is unavailable in Space, app uses stable mock-fallback predictions so demo remains interactive.")
+
 mode = st.radio("Mode", ["Single Prediction", "Streaming (Simulated)"], horizontal=True)
 
 if mode == "Single Prediction":
