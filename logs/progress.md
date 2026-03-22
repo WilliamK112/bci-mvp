@@ -307,3 +307,7 @@ Implemented `src/tagline_check.py` to enforce a concise Chinese project one-line
 ## 2026-03-22 16:42:15 UTC — Added Chinese results brief and integrated into release automation
 
 Implemented `src/results_brief_zh.py` generating `docs/RESULTS_BRIEF_ZH.md`, linked from zh README, and integrated into full pipeline + RC coverage.
+
+## 2026-03-22 16:44:15 UTC — Added English results brief and integrated into release automation
+
+Implemented `src/results_brief_en.py` generating `docs/RESULTS_BRIEF_EN.md`, linked from README, and integrated into full pipeline + RC coverage.

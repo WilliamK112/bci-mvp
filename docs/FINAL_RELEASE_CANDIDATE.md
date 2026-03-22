@@ -1,11 +1,12 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:42 UTC
+Generated: 2026-03-22 16:44 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
 - [OK] `python3 src/generate_results_md.py`
 - [OK] `python3 src/results_brief_zh.py`
+- [OK] `python3 src/results_brief_en.py`
 - [OK] `python3 src/release_readiness.py`
 - [OK] `python3 src/hf_space_readiness.py`
 - [OK] `python3 src/leaderboard.py`
@@ -55,6 +56,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/METHODS.md`
 - [x] `docs/RESULTS.md`
 - [x] `docs/RESULTS_BRIEF_ZH.md`
+- [x] `docs/RESULTS_BRIEF_EN.md`
 - [x] `docs/DOCS_BUNDLE_INDEX.md`
 - [x] `docs/RISK_REGISTER.md`
 - [x] `docs/EXECUTIVE_SUMMARY.md`
@@ -79,5 +81,5 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 30/32
-**Output coverage:** 37/37
+**Pipeline success:** 31/33
+**Output coverage:** 38/38

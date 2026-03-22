@@ -107,7 +107,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:34:39 UTC — Added Chinese one-sentence tagline guardrail
+- 2026-03-22 16:44:15 UTC — Added English results brief and integrated into release automation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -119,3 +119,6 @@ python src/fetch_public_eeg_data.py
 This fetches EEGBCI public data and prepares:
 - `data/relaxed/*.edf`
 - `data/focused/*.edf`
+
+## 📝 Results Brief
+- `docs/RESULTS_BRIEF_EN.md`
