@@ -483,3 +483,7 @@ Added direct links to `docs/RELEASE_GUARD_REPORT.md` in README.md and README.zh-
 ## 2026-03-22 18:16:21 UTC — Added governance matrix and integrated into release automation
 
 Implemented `src/governance_matrix.py` -> `docs/GOVERNANCE_MATRIX.md` mapping control areas to artifacts/generators; integrated across docs/release/RC/full pipelines.
+
+## 2026-03-22 18:18:15 UTC — Added operations digest and integrated into automation
+
+Implemented `src/ops_digest.py` -> `docs/OPS_DIGEST.md` for concise periodic operational status, integrated into docs home/bundle and RC/full pipelines.

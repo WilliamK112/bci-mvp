@@ -1,6 +1,6 @@
 # BCI MVP Docs Home
 
-Generated: 2026-03-22 18:16 UTC
+Generated: 2026-03-22 18:18 UTC
 
 ## Project Status
 
@@ -19,6 +19,7 @@ Generated: 2026-03-22 18:16 UTC
 - ✅ `RELEASE_SUMMARY_VALIDATION.md`
 - ✅ `LAUNCH_STATUS.md`
 - ✅ `OPERATOR_QUICKLINKS.md`
+- ✅ `OPS_DIGEST.md`
 - ✅ `HANDOFF_PACKET.md`
 - ✅ `MILESTONE_STAMP.md`
 - ✅ `RELEASE_READY_SIGNAL.md`
