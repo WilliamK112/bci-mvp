@@ -16,6 +16,7 @@ pinned: false
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
 ![Project Health](assets/badge_project_health.svg)
+![Release Ready](assets/badge_release_ready.svg)
 
 ## 🌐 Language
 - English (this file)
@@ -109,7 +110,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 17:16:02 UTC — Surfaced release dashboard in top-level README quality section
+- 2026-03-22 17:18:12 UTC — Added release-ready badge and integrated into automation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

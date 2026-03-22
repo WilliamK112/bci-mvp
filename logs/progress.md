@@ -375,3 +375,7 @@ Implemented `src/release_dashboard.py` -> `docs/RELEASE_DASHBOARD.md` summarizin
 ## 2026-03-22 17:16:02 UTC — Surfaced release dashboard in top-level README quality section
 
 Added direct README link to `docs/RELEASE_DASHBOARD.md` so release status is visible without deep navigation.
+
+## 2026-03-22 17:18:12 UTC — Added release-ready badge and integrated into automation
+
+Implemented `src/release_ready_badge.py` -> `assets/badge_release_ready.svg`, displayed in README and integrated into full/RC pipelines.
