@@ -75,3 +75,7 @@ Implemented `src/changelog_from_git.py` to produce `docs/CHANGELOG_AUTO.md` for 
 ## 2026-03-22 14:34:04 UTC — Added feature ablation study pipeline
 
 Implemented band-level ablation evaluation (`src/ablation_eval.py`) and visualization (`src/plot_ablation.py`) to quantify feature-group contributions.
+
+## 2026-03-22 14:35:50 UTC — Added auto figure gallery generation
+
+Implemented `src/generate_figure_gallery.py` to auto-build `docs/FIGURE_GALLERY.md` from all assets for easier release packaging and review.

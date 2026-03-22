@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:34:04 UTC — Added feature ablation study pipeline
+- 2026-03-22 14:35:50 UTC — Added auto figure gallery generation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -289,3 +289,12 @@ python src/plot_ablation.py
 Outputs:
 - `outputs/ablation_results.json`
 - `assets/ablation_accuracy.svg`
+
+
+## Figure Gallery
+Generate a browsable gallery of all visual artifacts:
+```bash
+python src/generate_figure_gallery.py
+```
+Output:
+- `docs/FIGURE_GALLERY.md`
