@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:05:50 UTC — Added release-packet generator for fast external sharing
+- 2026-03-22 15:09:58 UTC — Added token-safe HF publish automation script
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -411,3 +411,11 @@ python src/release_packet.py
 ```
 Output:
 - `docs/RELEASE_PACKET.md`
+
+
+## HF Safe Publish Script
+Token-safe Space publish flow:
+```bash
+export HF_TOKEN=hf_xxx
+python src/hf_publish_safe.py
+```

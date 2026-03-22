@@ -143,3 +143,7 @@ Implemented `src/release_packet.py` to generate `docs/RELEASE_PACKET.md` with a 
 ## 2026-03-22 15:07:46 UTC — Integrated release packet into RC/full pipeline
 
 Updated `src/final_release_candidate.py` and `src/run_full_pipeline.py` so `docs/RELEASE_PACKET.md` is always regenerated and tracked in output coverage.
+
+## 2026-03-22 15:09:58 UTC — Added token-safe HF publish automation script
+
+Implemented `src/hf_publish_safe.py` for environment-token based Space publish, plus docs and security guidance.

@@ -23,3 +23,17 @@ Generated: 2026-03-22 15:01 UTC
 ## Notes
 - If model file is large, use a lightweight demo model for Space runtime.
 - Keep API keys out of repo and use Space Secrets when needed.
+
+
+## Safe Automated Publish (Token via ENV)
+```bash
+export HF_TOKEN=hf_xxx
+python src/hf_publish_safe.py
+```
+
+Outputs:
+- `docs/HF_PUBLISH_RESULT.md`
+
+Security:
+- Do not commit tokens.
+- Rotate/revoke tokens after use.
