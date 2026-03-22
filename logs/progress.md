@@ -187,3 +187,7 @@ Updated pipeline orchestrators to always run report consistency check, environme
 ## 2026-03-22 15:30:28 UTC — Added quality scorecard summarizer
 
 Implemented `src/quality_scorecard.py` to aggregate readiness and RC metrics into `docs/QUALITY_SCORECARD.md` with an overall quality index.
+
+## 2026-03-22 15:32:20 UTC — Added bilingual README support
+
+Created `README.zh-CN.md` and added language switch section in `README.md` to improve accessibility and external presentation quality.

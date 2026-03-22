@@ -10,6 +10,10 @@ pinned: false
 
 # BCI MVP
 
+## Language
+- English (this file)
+- 中文: `README.zh-CN.md`
+
 A lightweight EEG brain-computer interface MVP focused on:
 - preprocessing EEG (EDF)
 - relaxed vs focused classification
@@ -80,3 +84,10 @@ python src/space_smoke_test.py
 
 ## License
 MIT
+
+
+<!-- LATEST_PROGRESS_START -->
+## Latest Progress
+- 2026-03-22 15:32:20 UTC — Added bilingual README support
+- Full log: `logs/progress.md`
+<!-- LATEST_PROGRESS_END -->
