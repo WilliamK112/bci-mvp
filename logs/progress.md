@@ -83,3 +83,7 @@ Implemented `src/generate_figure_gallery.py` to auto-build `docs/FIGURE_GALLERY.
 ## 2026-03-22 14:37:57 UTC — Added docs bundle index + integrated full pipeline doc refresh
 
 Implemented `src/update_docs_bundle.py` and integrated it into `src/run_full_pipeline.py` with leaderboard/gallery/changelog refresh steps.
+
+## 2026-03-22 14:39:53 UTC — Added readiness status badges
+
+Implemented `src/generate_status_badges.py` to produce local SVG badges for release and HF Space readiness, embedded in README.
