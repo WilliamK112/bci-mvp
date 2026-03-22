@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:21:52 UTC — Improved QA: added inference fallback unit tests + CI test stage
+- 2026-03-22 15:22:20 UTC — Added environment compatibility guardrail
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -462,3 +462,12 @@ python src/space_smoke_test.py
 ```
 Output:
 - `docs/SPACE_SMOKE_TEST.md`
+
+
+## Environment Compatibility Check
+Validate runtime compatibility before full dependency install:
+```bash
+python src/env_compat_check.py
+```
+Output:
+- `docs/ENV_COMPAT.md`

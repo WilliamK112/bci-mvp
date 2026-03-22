@@ -167,3 +167,7 @@ Implemented `src/space_smoke_test.py` to verify both Hugging Face page URL and h
 ## 2026-03-22 15:21:52 UTC — Improved QA: added inference fallback unit tests + CI test stage
 
 Added `tests/test_infer_fallback_unittest.py` and extended CI workflow to run unit tests for streaming + inference fallback reliability.
+
+## 2026-03-22 15:22:20 UTC — Added environment compatibility guardrail
+
+Implemented `src/env_compat_check.py` to detect Python/scipy compatibility risks (e.g., py3.14 + Fortran build issues) and provide setup recommendations in `docs/ENV_COMPAT.md`.
