@@ -587,3 +587,7 @@ Implemented `src/cross_subject_significance.py` to compare LOSO winner vs challe
 ## 2026-03-22 21:58:56 UTC — Added streaming stability stress test with pass/fail gates
 
 Implemented `src/streaming_stability_test.py` across light/moderate/burst tiers, generating JSON+markdown evidence and integrating it into pipeline, RC checks, and technical reporting/docs indices.
+
+## 2026-03-22 22:00:09 UTC — Fixed reproducibility checker runtime import path
+
+Patched `src/repro_cross_subject_check.py` to enforce PYTHONPATH during subprocess benchmark runs, then regenerated report/docs/RC artifacts.
