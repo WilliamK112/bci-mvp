@@ -126,3 +126,10 @@ Outputs:
 - `outputs/permutation_importance_by_band.csv`
 - `outputs/permutation_importance_by_channel.csv`
 - `outputs/permutation_importance_summary.json`
+
+
+<!-- LATEST_PROGRESS_START -->
+## Latest Progress
+- 2026-03-22 13:59:14 UTC — Added continuous progress logging utility
+- Full log: `logs/progress.md`
+<!-- LATEST_PROGRESS_END -->
