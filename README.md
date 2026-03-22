@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:59:50 UTC — Added reproducibility snapshot generator
+- 2026-03-22 15:01:53 UTC — Added Hugging Face publish helper generator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -384,3 +384,12 @@ python src/repro_snapshot.py
 ```
 Output:
 - `docs/REPRO_SNAPSHOT.md`
+
+
+## HF Publish Helper
+Generate exact commands for Hugging Face Space publishing:
+```bash
+python src/hf_publish_helper.py
+```
+Output:
+- `docs/HF_PUBLISH_HELPER.md`

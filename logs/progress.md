@@ -127,3 +127,7 @@ Updated technical report and release readiness checks to include `outputs/bootst
 ## 2026-03-22 14:59:50 UTC — Added reproducibility snapshot generator
 
 Implemented `src/repro_snapshot.py` to capture Python/platform/git revision and SHA256 hashes into `docs/REPRO_SNAPSHOT.md`.
+
+## 2026-03-22 15:01:53 UTC — Added Hugging Face publish helper generator
+
+Implemented `src/hf_publish_helper.py` to generate exact Space creation/push commands in `docs/HF_PUBLISH_HELPER.md` for credential-safe handoff publishing.
