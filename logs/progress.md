@@ -791,3 +791,7 @@ Implemented `src/release_decision_badge.py` to generate `assets/badge_release_de
 ## 2026-03-22 23:46:53 UTC — Added release-decision badge regression test and CI coverage
 
 Created `tests/test_release_decision_badge_unittest.py` and integrated it into CI + quick regression suite to protect decision-badge generation integrity.
+
+## 2026-03-22 23:59:27 UTC — Added cross-subject seed-sensitivity analysis
+
+Implemented `src/cross_subject_seed_sensitivity.py` to quantify LOSO variance across seeds for RF/MLP, producing JSON+report and integrating into pipeline/RC/report/docs flows.
