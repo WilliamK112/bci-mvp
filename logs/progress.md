@@ -111,3 +111,7 @@ Implemented `src/executive_summary.py` to summarize readiness scores, RC coverag
 ## 2026-03-22 14:51:48 UTC — Integrated executive summary into pipeline and RC bundle
 
 Updated `src/run_full_pipeline.py`, `src/final_release_candidate.py`, and `src/update_docs_bundle.py` so executive summary is always generated and tracked in release artifacts.
+
+## 2026-03-22 14:53:55 UTC — Added next-milestones planner
+
+Implemented `src/next_milestones.py` to generate `docs/NEXT_MILESTONES.md` with priority milestones and immediate commands for final technical push.

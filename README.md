@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:49:54 UTC — Added executive summary generator
+- 2026-03-22 14:53:55 UTC — Added next-milestones planner
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -355,3 +355,12 @@ python src/executive_summary.py
 ```
 Output:
 - `docs/EXECUTIVE_SUMMARY.md`
+
+
+## Next Milestones
+Generate a focused next-step execution plan:
+```bash
+python src/next_milestones.py
+```
+Output:
+- `docs/NEXT_MILESTONES.md`
