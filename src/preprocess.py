@@ -16,7 +16,7 @@ def bandpower_1d(x, sfreq, bands=BANDS):
     feat = []
     for _, (fmin, fmax) in bands.items():
         idx = (freqs >= fmin) & (freqs < fmax)
-        bp = np.trapz(psd[idx], freqs[idx]) if np.any(idx) else 0.0
+        bp = np.trapezoid(psd[idx], freqs[idx]) if np.any(idx) else 0.0
         feat.append(bp)
     return np.array(feat, dtype=float)
 

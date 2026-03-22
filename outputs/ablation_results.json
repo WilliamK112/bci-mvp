@@ -1,0 +1,27 @@
+[
+  {
+    "setting": "all_features",
+    "accuracy": 0.8163265306122449,
+    "f1": 0.8732394366197183
+  },
+  {
+    "setting": "without_delta",
+    "accuracy": 0.8503401360544217,
+    "f1": 0.8932038834951457
+  },
+  {
+    "setting": "without_theta",
+    "accuracy": 0.8163265306122449,
+    "f1": 0.8732394366197183
+  },
+  {
+    "setting": "without_alpha",
+    "accuracy": 0.7619047619047619,
+    "f1": 0.8387096774193549
+  },
+  {
+    "setting": "without_beta",
+    "accuracy": 0.7891156462585034,
+    "f1": 0.8558139534883721
+  }
+]

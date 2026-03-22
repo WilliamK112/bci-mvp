@@ -1,20 +1,20 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 14:57 UTC
+Generated: 2026-03-22 16:41 UTC
 
 ## 1) Benchmark Summary
 
 | Model | Accuracy | F1 | AUC |
 |---|---:|---:|---:|
-| RF | 0.842 | 0.836 | 0.901 |
-| SVM | 0.818 | 0.812 | 0.874 |
+| SVM | 0.8435374149659864 | 0.8855721393034826 | 0.8928872053872055 |
+| RF | 0.8231292517006803 | 0.8773584905660378 | 0.8470117845117845 |
 
 ## 2) Unified Model Table
 
 | Model | Accuracy | F1 | AUC |
 |---|---:|---:|---:|
-| RF | 0.842 | 0.836 | 0.901 |
-| SVM | 0.818 | 0.812 | 0.874 |
+| SVM | 0.8435374149659864 | 0.8855721393034826 | 0.8928872053872055 |
+| RF | 0.8231292517006803 | 0.8773584905660378 | 0.8470117845117845 |
 
 ## 3) Cross-Dataset Generalization
 
@@ -34,11 +34,19 @@ No `outputs/permutation_importance_summary.json` found.
 
 ## 5) Probability Calibration
 
-No `outputs/calibration_results.json` found.
+- Brier score: 0.1400096513605442
+- Bins: 10
 
 ## 6) Robustness under Perturbations
 
-No `outputs/robustness_results.json` found.
+| Setting | Accuracy | F1 |
+|---|---:|---:|
+| clean | 0.8231292517006803 | 0.8773584905660378 |
+| noise_0.05 | 0.6802721088435374 | 0.8081632653061225 |
+| noise_0.10 | 0.6802721088435374 | 0.8081632653061225 |
+| dropout_0.05 | 0.8231292517006803 | 0.8773584905660378 |
+| dropout_0.10 | 0.8231292517006803 | 0.8773584905660378 |
+| mixed | 0.673469387755102 | 0.8032786885245902 |
 
 ## 7) Visual Artifacts
 

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "clean",
+    "noise_std": 0.0,
+    "dropout_rate": 0.0,
+    "accuracy": 0.8231292517006803,
+    "f1": 0.8773584905660378
+  },
+  {
+    "name": "noise_0.05",
+    "noise_std": 0.05,
+    "dropout_rate": 0.0,
+    "accuracy": 0.6802721088435374,
+    "f1": 0.8081632653061225
+  },
+  {
+    "name": "noise_0.10",
+    "noise_std": 0.1,
+    "dropout_rate": 0.0,
+    "accuracy": 0.6802721088435374,
+    "f1": 0.8081632653061225
+  },
+  {
+    "name": "dropout_0.05",
+    "noise_std": 0.0,
+    "dropout_rate": 0.05,
+    "accuracy": 0.8231292517006803,
+    "f1": 0.8773584905660378
+  },
+  {
+    "name": "dropout_0.10",
+    "noise_std": 0.0,
+    "dropout_rate": 0.1,
+    "accuracy": 0.8231292517006803,
+    "f1": 0.8773584905660378
+  },
+  {
+    "name": "mixed",
+    "noise_std": 0.05,
+    "dropout_rate": 0.05,
+    "accuracy": 0.673469387755102,
+    "f1": 0.8032786885245902
+  }
+]
