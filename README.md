@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:06:09 UTC — Added unified multi-model visualization
+- 2026-03-22 14:08:05 UTC — Prepared Hugging Face Space one-click deployment
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

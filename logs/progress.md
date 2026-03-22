@@ -19,3 +19,7 @@ Implemented `src/deep_baseline.py` (MLP) and `src/merge_results.py` to produce u
 ## 2026-03-22 14:06:09 UTC — Added unified multi-model visualization
 
 Implemented `src/plot_all_models.py` to render ACC/F1/AUC comparison chart from `outputs/all_model_results.csv` into `assets/all_model_comparison.svg`.
+
+## 2026-03-22 14:08:05 UTC — Prepared Hugging Face Space one-click deployment
+
+Added root app entrypoint and .streamlit config for Space runtime compatibility.
