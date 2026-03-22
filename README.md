@@ -10,6 +10,8 @@ pinned: false
 
 # 🧠 BCI MVP
 
+![BCI MVP Banner](assets/readme_banner.svg)
+
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
@@ -92,3 +94,10 @@ python src/space_smoke_test.py
 
 ## 📄 License
 MIT
+
+
+<!-- LATEST_PROGRESS_START -->
+## Latest Progress
+- 2026-03-22 16:04:10 UTC — Added branded README hero banner
+- Full log: `logs/progress.md`
+<!-- LATEST_PROGRESS_END -->

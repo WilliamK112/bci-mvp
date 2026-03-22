@@ -239,3 +239,7 @@ Added `docs/RESULTS.md` to docs bundle/release packet and wired `src/generate_re
 ## 2026-03-22 16:01:57 UTC — Added Space end-user guide for public demo clarity
 
 Implemented `src/space_user_guide_gen.py` to generate `docs/SPACE_USER_GUIDE.md` with access steps, mode explanation, runtime indicator meaning, and troubleshooting.
+
+## 2026-03-22 16:04:10 UTC — Added branded README hero banner
+
+Implemented `src/generate_readme_banner.py` and added `assets/readme_banner.svg` to README for stronger first-impression design quality.
