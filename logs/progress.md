@@ -7,3 +7,7 @@ Created `src/progress_log.py` to append UTC-stamped progress entries and sync la
 ## 2026-03-22 13:59:57 UTC — Generated unified technical report
 
 Added `src/build_report.py` to aggregate benchmark, cross-dataset, and explainability outputs into `docs/TECHNICAL_REPORT.md`.
+
+## 2026-03-22 14:02:11 UTC — Upgraded real-time streaming stability
+
+Added EMA+hysteresis streaming filter (`src/streaming.py`), integrated in `app/streaming_demo.py`, and added unit test `tests/test_streaming_unittest.py`.

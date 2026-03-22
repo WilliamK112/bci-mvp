@@ -130,6 +130,14 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 13:59:57 UTC — Generated unified technical report
+- 2026-03-22 14:02:11 UTC — Upgraded real-time streaming stability
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
+
+
+## Streaming Stability Upgrade
+Added `src/streaming.py`:
+- EMA smoothing for focused probability
+- Hysteresis thresholds for stable state transitions
+
+This reduces flicker in real-time prediction UIs.
