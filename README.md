@@ -117,7 +117,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:36:50 UTC — Added regression test for release-decision-gate visual artifacts
+- 2026-03-22 23:40:50 UTC — Added regression test for repro-run-proof visual artifacts
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

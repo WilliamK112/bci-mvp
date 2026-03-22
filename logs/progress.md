@@ -779,3 +779,7 @@ Created `tests/test_release_decision_gate_visual_unittest.py` and integrated it 
 ## 2026-03-22 23:39:14 UTC — Added repro-run-proof visualization
 
 Implemented `src/plot_repro_run_proof.py` to visualize repro proof artifact coverage as `assets/repro_run_proof.svg`, integrated into pipeline/RC/report/docs indexes.
+
+## 2026-03-22 23:40:50 UTC — Added regression test for repro-run-proof visual artifacts
+
+Created `tests/test_repro_run_proof_visual_unittest.py` and integrated it into CI + quick regression suite to protect repro-proof visual/doc linkage integrity.
