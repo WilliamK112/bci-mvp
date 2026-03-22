@@ -43,3 +43,7 @@ Implemented `src/generate_model_card.py` to create `docs/MODEL_CARD.md` and HF S
 ## 2026-03-22 14:17:54 UTC — Added artifact validation for release quality gate
 
 Implemented `src/validate_artifacts.py` to check critical outputs/docs and emit `outputs/artifact_validation_report.txt`.
+
+## 2026-03-22 14:19:52 UTC — Added one-command full pipeline orchestrator
+
+Implemented `src/run_full_pipeline.py` to chain benchmark/report/release/validation steps and emit `outputs/pipeline_manifest.json`.

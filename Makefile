@@ -26,3 +26,6 @@ explain:
 
 docker-build:
 	docker build -t bci-mvp:latest .
+
+full:
+	python src/run_full_pipeline.py

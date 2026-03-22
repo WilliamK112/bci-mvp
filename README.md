@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:17:54 UTC — Added artifact validation for release quality gate
+- 2026-03-22 14:19:52 UTC — Added one-command full pipeline orchestrator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -210,3 +210,14 @@ python src/validate_artifacts.py
 ```
 Output:
 - `outputs/artifact_validation_report.txt`
+
+
+## One-Command Full Pipeline
+Run the full reproducible workflow and generate a run manifest:
+```bash
+python src/run_full_pipeline.py
+# or
+make full
+```
+Output:
+- `outputs/pipeline_manifest.json`
