@@ -591,3 +591,7 @@ Implemented `src/streaming_stability_test.py` across light/moderate/burst tiers,
 ## 2026-03-22 22:00:09 UTC — Fixed reproducibility checker runtime import path
 
 Patched `src/repro_cross_subject_check.py` to enforce PYTHONPATH during subprocess benchmark runs, then regenerated report/docs/RC artifacts.
+
+## 2026-03-22 22:01:57 UTC — Added release-signature reproducibility verification
+
+Implemented `src/repro_release_signature.py` to run RC twice and compare normalized SHA256 signatures of key outputs; integrated into pipeline/RC/report/docs flows.
