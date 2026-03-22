@@ -51,3 +51,6 @@ MIT
 
 ## 结果简报
 - `docs/RESULTS_BRIEF_ZH.md`
+
+## 状态快照
+- `docs/STATUS_SNAPSHOT_ZH.md`

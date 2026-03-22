@@ -53,6 +53,7 @@ STEPS = [
     ["python3", "src/release_checklist.py"],
     ["python3", "src/release_dashboard.py"],
     ["python3", "src/status_snapshot.py"],
+    ["python3", "src/status_snapshot_zh.py"],
     ["python3", "src/launch_status.py"],
     ["python3", "src/release_ready_diagnose.py"],
 ]
@@ -104,6 +105,7 @@ OUTPUTS = [
     "docs/RELEASE_CHECKLIST.md",
     "docs/RELEASE_DASHBOARD.md",
     "docs/STATUS_SNAPSHOT.txt",
+    "docs/STATUS_SNAPSHOT_ZH.md",
     "docs/LAUNCH_STATUS.md",
     "docs/RELEASE_READY_DIAGNOSE.md",
     "docs/release/release_en.md",

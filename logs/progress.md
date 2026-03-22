@@ -395,3 +395,7 @@ Implemented `src/tag_dry_run_check.py` -> `docs/TAG_DRY_RUN.md` and integrated i
 ## 2026-03-22 17:26:11 UTC — Added one-line status snapshot for rapid ops updates
 
 Implemented `src/status_snapshot.py` -> `docs/STATUS_SNAPSHOT.txt` and integrated it into full/RC pipelines for concise health broadcasting.
+
+## 2026-03-22 17:28:13 UTC — Added Chinese status snapshot and integrated into automation
+
+Implemented `src/status_snapshot_zh.py` -> `docs/STATUS_SNAPSHOT_ZH.md`, integrated into full/RC pipelines, and linked from README.zh-CN.md for bilingual ops visibility.
