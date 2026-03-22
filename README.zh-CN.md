@@ -63,3 +63,6 @@ MIT
 
 ## 发布守卫报告
 - `docs/RELEASE_GUARD_REPORT.md`
+
+## 运维摘要
+- `docs/OPS_DIGEST_ZH.md`

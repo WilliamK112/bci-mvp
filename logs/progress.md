@@ -487,3 +487,7 @@ Implemented `src/governance_matrix.py` -> `docs/GOVERNANCE_MATRIX.md` mapping co
 ## 2026-03-22 18:18:15 UTC — Added operations digest and integrated into automation
 
 Implemented `src/ops_digest.py` -> `docs/OPS_DIGEST.md` for concise periodic operational status, integrated into docs home/bundle and RC/full pipelines.
+
+## 2026-03-22 18:20:20 UTC — Added Chinese ops digest and integrated into automation
+
+Implemented `src/ops_digest_zh.py` -> `docs/OPS_DIGEST_ZH.md`, integrated into RC/full pipelines and docs home; linked from README.zh-CN.md.

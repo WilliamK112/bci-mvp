@@ -22,6 +22,7 @@ SECTIONS = {
         'docs/LAUNCH_STATUS.md',
         'docs/OPERATOR_QUICKLINKS.md',
         'docs/OPS_DIGEST.md',
+        'docs/OPS_DIGEST_ZH.md',
         'docs/HANDOFF_PACKET.md',
         'docs/MILESTONE_STAMP.md',
         'docs/RELEASE_READY_SIGNAL.md',

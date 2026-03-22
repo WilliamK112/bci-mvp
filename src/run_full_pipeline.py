@@ -69,6 +69,7 @@ STEPS = [
     ["python3", "src/launch_status.py"],
     ["python3", "src/operator_quicklinks.py"],
     ["python3", "src/ops_digest.py"],
+    ["python3", "src/ops_digest_zh.py"],
     ["python3", "src/milestone_stamp.py"],
     ["python3", "src/milestone_badge.py"],
     ["python3", "src/release_ready_diagnose.py"],
