@@ -51,3 +51,7 @@ Implemented `src/run_full_pipeline.py` to chain benchmark/report/release/validat
 ## 2026-03-22 14:22:07 UTC — Added probability calibration evaluation
 
 Implemented calibration metrics (`brier_score`) and reliability visualization scripts (`src/calibration_eval.py`, `src/plot_calibration.py`).
+
+## 2026-03-22 14:24:08 UTC — Added robustness stress testing pipeline
+
+Implemented perturbation-based robustness evaluation (`src/robustness_eval.py`) and visualization (`src/plot_robustness.py`).

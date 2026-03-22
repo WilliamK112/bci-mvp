@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:22:07 UTC — Added probability calibration evaluation
+- 2026-03-22 14:24:08 UTC — Added robustness stress testing pipeline
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -232,3 +232,14 @@ python src/plot_calibration.py
 Outputs:
 - `outputs/calibration_results.json`
 - `assets/calibration_curve.svg`
+
+
+## Robustness Evaluation
+Stress-test model under synthetic perturbations (noise/dropout):
+```bash
+python src/robustness_eval.py
+python src/plot_robustness.py
+```
+Outputs:
+- `outputs/robustness_results.json`
+- `assets/robustness_accuracy.svg`
