@@ -275,3 +275,7 @@ Updated orchestrators to run `hf_space_status` and `space_smoke_test` every full
 ## 2026-03-22 16:20:17 UTC — Added secrets hygiene check and integrated into quality pipeline
 
 Implemented `src/secrets_hygiene_check.py` to scan for token-like strings and generate `docs/SECRETS_HYGIENE.md`; integrated into full pipeline and RC coverage.
+
+## 2026-03-22 16:22:17 UTC — Added compliance scorecard and integrated into release pipeline
+
+Implemented `src/compliance_scorecard.py` to summarize navigation/i18n/secrets/citation compliance and added it to full pipeline + final RC coverage.

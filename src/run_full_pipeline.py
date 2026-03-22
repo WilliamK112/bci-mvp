@@ -34,6 +34,7 @@ STEPS = [
     ["python3", "src/docs_freshness_check.py"],
     ["python3", "src/navigation_health_check.py"],
     ["python3", "src/secrets_hygiene_check.py"],
+    ["python3", "src/compliance_scorecard.py"],
     ["python3", "src/validate_artifacts.py"],
 ]
 
