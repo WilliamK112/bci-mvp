@@ -407,3 +407,7 @@ Implemented `src/status_message_template.py` -> `docs/STATUS_MESSAGE_TEMPLATES.m
 ## 2026-03-22 17:32:13 UTC — Added heartbeat-update artifact generator
 
 Implemented `src/heartbeat_update.py` -> `docs/HEARTBEAT_UPDATE.txt` and integrated into full/RC pipelines for concise periodic status broadcasting.
+
+## 2026-03-22 17:34:06 UTC — Surfaced heartbeat update artifact in docs home
+
+Integrated `docs/HEARTBEAT_UPDATE.txt` into docs home navigation and refreshed final RC outputs.
