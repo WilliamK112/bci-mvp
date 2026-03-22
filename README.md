@@ -94,3 +94,13 @@ Generates:
 - Dockerized API service (`Dockerfile`)
 - CI checks (`.github/workflows/ci.yml`)
 - Makefile commands for consistent local runs
+
+
+## Publication-Ready Visuals
+Generate benchmark figures for README/posts:
+```bash
+python src/plot_results.py
+```
+Outputs:
+- `outputs/benchmark_scores.png`
+- `outputs/cross_dataset_scores.png` (if cross-dataset json exists)
