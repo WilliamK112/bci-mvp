@@ -643,3 +643,7 @@ Created `tests/test_explainability_stability_unittest.py`, wired it into CI and 
 ## 2026-03-22 22:26:06 UTC — Added integrated streaming scorecard
 
 Implemented `src/streaming_scorecard.py` to aggregate latency/stability/drift gates into one pass/fail scorecard and integrated it into pipeline, RC checks, and reporting/docs indices.
+
+## 2026-03-22 22:27:50 UTC — Added streaming-scorecard regression test and CI coverage
+
+Created `tests/test_streaming_scorecard_unittest.py`, wired it into CI and `src/quick_regression_suite.py`, and validated full quick regression pass.

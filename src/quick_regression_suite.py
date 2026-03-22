@@ -5,6 +5,7 @@ TESTS = [
     'tests/test_infer_fallback_unittest.py',
     'tests/test_streaming_drift_and_bidirectional_unittest.py',
     'tests/test_explainability_stability_unittest.py',
+    'tests/test_streaming_scorecard_unittest.py',
 ]
 
 
