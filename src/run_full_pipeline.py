@@ -50,6 +50,7 @@ STEPS = [
     ["python3", "src/release_ready_signal.py"],
     ["python3", "src/release_guard.py"],
     ["python3", "src/release_guard_report.py"],
+    ["python3", "src/governance_matrix.py"],
     ["python3", "src/release_ready_badge.py"],
     ["python3", "src/v1_release_ready.py"],
     ["python3", "src/v1_release_notes_build.py"],

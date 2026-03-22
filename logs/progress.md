@@ -479,3 +479,7 @@ Added `docs/RELEASE_GUARD_REPORT.md` into docs bundle index and release packet, 
 ## 2026-03-22 18:12:02 UTC — Surfaced release guard report in bilingual top-level READMEs
 
 Added direct links to `docs/RELEASE_GUARD_REPORT.md` in README.md and README.zh-CN.md for immediate governance visibility.
+
+## 2026-03-22 18:16:21 UTC — Added governance matrix and integrated into release automation
+
+Implemented `src/governance_matrix.py` -> `docs/GOVERNANCE_MATRIX.md` mapping control areas to artifacts/generators; integrated across docs/release/RC/full pipelines.

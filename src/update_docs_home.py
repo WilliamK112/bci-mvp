@@ -25,6 +25,7 @@ SECTIONS = {
         'docs/MILESTONE_STAMP.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_GUARD_REPORT.md',
+        'docs/GOVERNANCE_MATRIX.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],
     'Technical Core': [
