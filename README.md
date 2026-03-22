@@ -86,6 +86,9 @@ python src/space_smoke_test.py
 - HF Space readiness: `docs/HF_SPACE_READINESS.md`
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
 
+## 🔥 Cross-Dataset Heatmap
+![Cross Dataset Matrix](assets/cross_dataset_matrix.svg)
+
 ## 📚 Documentation Index
 - Docs home: `docs/HOME.md`
 - One pager: `docs/ONE_PAGER.md`
@@ -104,6 +107,6 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:28:26 UTC — Added project-health badge from quality/compliance indexes
+- 2026-03-22 16:30:18 UTC — Added auto latest-release-notes generator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
