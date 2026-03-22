@@ -627,3 +627,7 @@ Implemented `src/streaming_drift_test.py` to measure probability-shift under gra
 ## 2026-03-22 22:18:41 UTC — Added regression tests for new streaming/cross-dataset artifacts
 
 Added `tests/test_streaming_drift_and_bidirectional_unittest.py` to validate schema + gate invariants for `streaming_drift.json` and `cross_dataset_bidirectional.json`, improving reproducibility guardrails.
+
+## 2026-03-22 22:20:31 UTC — Integrated new artifact regression tests into CI and quick suite
+
+Updated `.github/workflows/ci.yml` to run streaming-drift/bidirectional regression tests and added `src/quick_regression_suite.py` for fast local critical-test verification.
