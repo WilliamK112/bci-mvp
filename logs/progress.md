@@ -255,3 +255,7 @@ Wired `src/readme_i18n_consistency.py` into the automated quality pipeline and f
 ## 2026-03-22 16:10:10 UTC — Promoted Space user guide into release-critical artifact surfaces
 
 Integrated `docs/SPACE_USER_GUIDE.md` into docs bundle index, release packet, and final RC output coverage for better public usability handoff.
+
+## 2026-03-22 16:12:18 UTC — Added navigation health check and integrated into release automation
+
+Implemented `src/navigation_health_check.py` to enforce discoverability links across index docs; integrated into full pipeline and final RC coverage.
