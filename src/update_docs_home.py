@@ -14,6 +14,7 @@ SECTIONS = {
         'docs/RELEASE_TAG_PLAN.md',
         'docs/RELEASE_CHECKLIST.md',
         'docs/RELEASE_DASHBOARD.md',
+        'docs/LAUNCH_STATUS.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],

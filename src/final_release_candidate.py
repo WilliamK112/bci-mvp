@@ -51,6 +51,7 @@ STEPS = [
     ["python3", "src/release_tag_plan.py"],
     ["python3", "src/release_checklist.py"],
     ["python3", "src/release_dashboard.py"],
+    ["python3", "src/launch_status.py"],
     ["python3", "src/release_ready_diagnose.py"],
 ]
 
@@ -99,6 +100,7 @@ OUTPUTS = [
     "docs/RELEASE_TAG_PLAN.md",
     "docs/RELEASE_CHECKLIST.md",
     "docs/RELEASE_DASHBOARD.md",
+    "docs/LAUNCH_STATUS.md",
     "docs/RELEASE_READY_DIAGNOSE.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",

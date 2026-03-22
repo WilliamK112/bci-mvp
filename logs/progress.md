@@ -379,3 +379,7 @@ Added direct README link to `docs/RELEASE_DASHBOARD.md` so release status is vis
 ## 2026-03-22 17:18:12 UTC — Added release-ready badge and integrated into automation
 
 Implemented `src/release_ready_badge.py` -> `assets/badge_release_ready.svg`, displayed in README and integrated into full/RC pipelines.
+
+## 2026-03-22 17:20:19 UTC — Added launch status snapshot and integrated into automation
+
+Implemented `src/launch_status.py` -> `docs/LAUNCH_STATUS.md` to provide a compact GREEN/YELLOW launch-state view, integrated into docs/release/RC/full pipelines.

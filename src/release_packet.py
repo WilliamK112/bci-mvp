@@ -13,6 +13,7 @@ ITEMS = [
     ('docs/RELEASE_TAG_PLAN.md', 'Release tag plan'),
     ('docs/RELEASE_CHECKLIST.md', 'Release checklist'),
     ('docs/RELEASE_DASHBOARD.md', 'Release dashboard'),
+    ('docs/LAUNCH_STATUS.md', 'Launch status'),
     ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),
     ('docs/RELEASE_READY_DIAGNOSE.md', 'Release-ready diagnose'),
     ('docs/RELEASE_READINESS.md', 'Release readiness'),
