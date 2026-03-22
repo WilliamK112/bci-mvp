@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 18:32 UTC
+Generated: 2026-03-22 21:18 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -29,7 +29,7 @@ Generated: 2026-03-22 18:32 UTC
 - [OK] `python3 src/env_compat_check.py`
 - [OK] `python3 src/repro_snapshot.py`
 - [OK] `python3 src/artifact_hash_manifest.py`
-- [OK] `python3 src/readme_quality_check.py`
+- [FAIL(2)] `python3 src/readme_quality_check.py`
 - [OK] `python3 src/readme_i18n_consistency.py`
 - [OK] `python3 src/docs_freshness_check.py`
 - [OK] `python3 src/navigation_health_check.py`
@@ -141,5 +141,5 @@ Generated: 2026-03-22 18:32 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 66/66
+**Pipeline success:** 65/66
 **Output coverage:** 69/69

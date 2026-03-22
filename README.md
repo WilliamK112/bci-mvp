@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 21:14:34 UTC — Added cross-subject generalization evaluation (LOSO)
+- 2026-03-22 21:19:51 UTC — Added LOSO cross-subject visualization and pipeline integration
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -140,3 +140,11 @@ python src/cross_subject_eval.py
 ```
 Output:
 - `outputs/cross_subject_results.json`
+
+
+## 🧪 Cross-Subject LOSO Visual
+```bash
+python src/plot_cross_subject.py
+```
+Output:
+- `assets/cross_subject_loso.svg`

@@ -507,3 +507,7 @@ Implemented `src/quick_health_cli.py` returning ready/launch/guard in one line; 
 ## 2026-03-22 21:14:34 UTC — Added cross-subject generalization evaluation (LOSO)
 
 Implemented `src/cross_subject_eval.py` for leave-one-subject-out testing and documented usage in README; outputs `outputs/cross_subject_results.json`.
+
+## 2026-03-22 21:19:51 UTC — Added LOSO cross-subject visualization and pipeline integration
+
+Implemented `src/plot_cross_subject.py` to render `assets/cross_subject_loso.svg` from LOSO results and integrated it into RC/full pipelines.
