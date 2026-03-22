@@ -499,3 +499,7 @@ Added `docs/OPS_DIGEST_ZH.md` to docs bundle index and release packet surfaces, 
 ## 2026-03-22 18:32:01 UTC — Added rolling status history for trend tracking
 
 Implemented `src/status_history_append.py` -> `docs/STATUS_HISTORY.log` and integrated into RC/full pipelines for longitudinal ops visibility.
+
+## 2026-03-22 18:32:47 UTC — Added quick-health CLI for terminal-first status checks
+
+Implemented `src/quick_health_cli.py` returning ready/launch/guard in one line; integrated into RC/full pipeline and README core commands.

@@ -68,6 +68,7 @@ make full
 
 # Final release candidate summary
 python src/final_release_candidate.py
+python src/quick_health_cli.py
 
 # Space status + smoke test
 python src/hf_space_status.py --space williamKang112/bci-mvp-demo
@@ -115,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 18:12:02 UTC — Surfaced release guard report in bilingual top-level READMEs
+- 2026-03-22 18:32:47 UTC — Added quick-health CLI for terminal-first status checks
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
