@@ -12,7 +12,7 @@ def read_benchmark(path: Path):
         return []
     rows = []
     with path.open("r", encoding="utf-8") as f:
-        for i, r in enumerate(csv.DictReader(f)):
+        for r in csv.DictReader(f):
             rows.append(r)
     return rows
 
@@ -29,8 +29,11 @@ def main():
     docs.mkdir(exist_ok=True)
 
     bench = read_benchmark(out / "benchmark_results.csv")
+    all_models = read_benchmark(out / "all_model_results.csv")
     cross = read_json(out / "cross_dataset_results.json")
     explain = read_json(out / "permutation_importance_summary.json")
+    calib = read_json(out / "calibration_results.json")
+    robust = read_json(out / "robustness_results.json")
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [
@@ -48,7 +51,15 @@ def main():
     else:
         lines += ["", "No `outputs/benchmark_results.csv` found."]
 
-    lines += ["", "## 2) Cross-Dataset Generalization"]
+    lines += ["", "## 2) Unified Model Table"]
+    if all_models:
+        lines += ["", "| Model | Accuracy | F1 | AUC |", "|---|---:|---:|---:|"]
+        for r in all_models:
+            lines.append(f"| {r.get('model','-')} | {r.get('accuracy','-')} | {r.get('f1','-')} | {r.get('auc','-')} |")
+    else:
+        lines += ["", "No `outputs/all_model_results.csv` found."]
+
+    lines += ["", "## 3) Cross-Dataset Generalization"]
     if cross:
         lines += [
             "",
@@ -65,7 +76,7 @@ def main():
     else:
         lines += ["", "No `outputs/cross_dataset_results.json` found."]
 
-    lines += ["", "## 3) Explainability Summary"]
+    lines += ["", "## 4) Explainability Summary"]
     if explain:
         lines += [
             "",
@@ -77,12 +88,34 @@ def main():
     else:
         lines += ["", "No `outputs/permutation_importance_summary.json` found."]
 
+    lines += ["", "## 5) Probability Calibration"]
+    if calib:
+        lines += ["", f"- Brier score: {calib.get('brier_score')}", f"- Bins: {calib.get('n_bins')}"]
+    else:
+        lines += ["", "No `outputs/calibration_results.json` found."]
+
+    lines += ["", "## 6) Robustness under Perturbations"]
+    if robust:
+        lines += ["", "| Setting | Accuracy | F1 |", "|---|---:|---:|"]
+        for r in robust:
+            lines.append(f"| {r.get('name')} | {r.get('accuracy')} | {r.get('f1')} |")
+    else:
+        lines += ["", "No `outputs/robustness_results.json` found."]
+
     lines += [
         "",
-        "## 4) Visual Artifacts",
+        "## 7) Visual Artifacts",
         "",
-        "- ![Benchmark](../assets/benchmark_scores.svg)",
-        "- ![Cross Dataset](../assets/cross_dataset_scores.svg)",
+        "- ![All Model](../assets/all_model_comparison.svg)",
+        "- ![Cross Matrix](../assets/cross_dataset_matrix.svg)",
+        "- ![Calibration](../assets/calibration_curve.svg)",
+        "- ![Robustness](../assets/robustness_accuracy.svg)",
+        "",
+        "## 8) Release Readiness",
+        "",
+        "- Pipeline status: `docs/PIPELINE_STATUS.md`",
+        "- Artifact validation: `outputs/artifact_validation_report.txt`",
+        "- Model card: `docs/MODEL_CARD.md`",
     ]
 
     report = docs / "TECHNICAL_REPORT.md"

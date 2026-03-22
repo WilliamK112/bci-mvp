@@ -55,3 +55,7 @@ Implemented calibration metrics (`brier_score`) and reliability visualization sc
 ## 2026-03-22 14:24:08 UTC — Added robustness stress testing pipeline
 
 Implemented perturbation-based robustness evaluation (`src/robustness_eval.py`) and visualization (`src/plot_robustness.py`).
+
+## 2026-03-22 14:26:16 UTC — Upgraded technical report + added release readiness dashboard
+
+Extended `src/build_report.py` with calibration/robustness sections and added `src/release_readiness.py` to generate `docs/RELEASE_READINESS.md`.

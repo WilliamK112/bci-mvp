@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:24:08 UTC — Added robustness stress testing pipeline
+- 2026-03-22 14:26:16 UTC — Upgraded technical report + added release readiness dashboard
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -243,3 +243,12 @@ python src/plot_robustness.py
 Outputs:
 - `outputs/robustness_results.json`
 - `assets/robustness_accuracy.svg`
+
+
+## Release Readiness Dashboard
+Generate release readiness checklist:
+```bash
+python src/release_readiness.py
+```
+Output:
+- `docs/RELEASE_READINESS.md`
