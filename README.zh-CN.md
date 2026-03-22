@@ -57,3 +57,6 @@ MIT
 
 ## v1 发布说明
 - `docs/V1_RELEASE_NOTES.md`
+
+## 发布归档清单
+- `docs/RELEASE_ARCHIVE_MANIFEST.md`

@@ -455,3 +455,7 @@ Implemented `src/operator_quicklinks.py` -> `docs/OPERATOR_QUICKLINKS.md` for fa
 ## 2026-03-22 17:58:20 UTC — Added release archive manifest and integrated into automation
 
 Implemented `src/release_archive_manifest.py` -> `docs/RELEASE_ARCHIVE_MANIFEST.md` and integrated it into docs/release/RC/full pipelines for packaging readiness.
+
+## 2026-03-22 18:02:03 UTC — Surfaced release archive manifest in bilingual READMEs
+
+Added direct links to `docs/RELEASE_ARCHIVE_MANIFEST.md` in both README.md and README.zh-CN.md for immediate packaging guidance.
