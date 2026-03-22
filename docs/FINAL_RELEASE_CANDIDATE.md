@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 17:10 UTC
+Generated: 2026-03-22 17:12 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -44,6 +44,7 @@ Generated: 2026-03-22 17:10 UTC
 - [OK] `python3 src/release_ready_signal.py`
 - [OK] `python3 src/v1_release_ready.py`
 - [OK] `python3 src/release_tag_plan.py`
+- [OK] `python3 src/release_checklist.py`
 - [OK] `python3 src/release_ready_diagnose.py`
 
 ## Output Inventory
@@ -88,6 +89,7 @@ Generated: 2026-03-22 17:10 UTC
 - [x] `docs/RELEASE_READY_SIGNAL.md`
 - [x] `docs/V1_RELEASE_READY.md`
 - [x] `docs/RELEASE_TAG_PLAN.md`
+- [x] `docs/RELEASE_CHECKLIST.md`
 - [x] `docs/RELEASE_READY_DIAGNOSE.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
@@ -95,5 +97,5 @@ Generated: 2026-03-22 17:10 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 42/42
-**Output coverage:** 47/47
+**Pipeline success:** 43/43
+**Output coverage:** 48/48

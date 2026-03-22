@@ -11,6 +11,7 @@ ITEMS = [
     ('docs/FINAL_RELEASE_CANDIDATE.md', 'Final release candidate'),
     ('docs/V1_RELEASE_READY.md', 'v1 release readiness'),
     ('docs/RELEASE_TAG_PLAN.md', 'Release tag plan'),
+    ('docs/RELEASE_CHECKLIST.md', 'Release checklist'),
     ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),
     ('docs/RELEASE_READY_DIAGNOSE.md', 'Release-ready diagnose'),
     ('docs/RELEASE_READINESS.md', 'Release readiness'),
