@@ -1,3 +1,12 @@
+---
+title: BCI MVP Demo
+emoji: 🧠
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # BCI MVP (Low-Hardware Personal Project)
 
 A lightweight brain-computer interface MVP focused on EEG preprocessing, state classification (relaxed vs focused), API serving, and interactive visualization.
