@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:09:52 UTC — Added cross-dataset matrix evaluator
+- 2026-03-22 14:12:02 UTC — Added cross-dataset heatmap visualization
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -169,3 +169,13 @@ For multiple datasets, run all train→test pairs:
 python src/cross_dataset_matrix.py
 ```
 Output: `outputs/cross_dataset_matrix.json`
+
+
+### Cross-Dataset Matrix Heatmap
+![Cross Dataset Matrix](assets/cross_dataset_matrix.svg)
+
+Generate:
+```bash
+python src/cross_dataset_matrix.py
+python src/plot_cross_matrix.py
+```

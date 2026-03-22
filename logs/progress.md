@@ -27,3 +27,7 @@ Added root app entrypoint and .streamlit config for Space runtime compatibility.
 ## 2026-03-22 14:09:52 UTC — Added cross-dataset matrix evaluator
 
 Implemented `src/cross_dataset_matrix.py` to run all dataset pair evaluations and export `outputs/cross_dataset_matrix.json`.
+
+## 2026-03-22 14:12:02 UTC — Added cross-dataset heatmap visualization
+
+Implemented `src/plot_cross_matrix.py` and generated `assets/cross_dataset_matrix.svg` for matrix-style generalization reporting.
