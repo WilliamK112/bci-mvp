@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:53:55 UTC — Added next-milestones planner
+- 2026-03-22 14:55:55 UTC — Added bootstrap confidence-interval evaluation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -364,3 +364,12 @@ python src/next_milestones.py
 ```
 Output:
 - `docs/NEXT_MILESTONES.md`
+
+
+## Bootstrap Confidence Intervals
+Estimate uncertainty of key metrics:
+```bash
+python src/bootstrap_ci.py
+```
+Output:
+- `outputs/bootstrap_ci_results.json`

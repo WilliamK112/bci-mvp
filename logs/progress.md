@@ -115,3 +115,7 @@ Updated `src/run_full_pipeline.py`, `src/final_release_candidate.py`, and `src/u
 ## 2026-03-22 14:53:55 UTC — Added next-milestones planner
 
 Implemented `src/next_milestones.py` to generate `docs/NEXT_MILESTONES.md` with priority milestones and immediate commands for final technical push.
+
+## 2026-03-22 14:55:55 UTC — Added bootstrap confidence-interval evaluation
+
+Implemented `src/bootstrap_ci.py` to estimate CI95 for accuracy/F1/AUC via bootstrap resampling and save `outputs/bootstrap_ci_results.json`.
