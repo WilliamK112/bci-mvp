@@ -435,3 +435,7 @@ Implemented `src/milestone_badge.py` -> `assets/badge_milestone.svg`, linked in 
 ## 2026-03-22 17:46:15 UTC — Added machine-readable release summary JSON
 
 Implemented `src/release_summary_json.py` -> `docs/RELEASE_SUMMARY.json` and integrated into RC/full pipeline plus docs home navigation.
+
+## 2026-03-22 17:48:12 UTC — Added release-summary schema validation
+
+Implemented `src/release_summary_validate.py` -> `docs/RELEASE_SUMMARY_VALIDATION.md` and integrated it into RC/full pipelines for machine-readable contract stability.
