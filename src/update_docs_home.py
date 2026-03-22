@@ -16,6 +16,7 @@ SECTIONS = {
         'docs/TAG_DRY_RUN.md',
         'docs/RELEASE_CHECKLIST.md',
         'docs/RELEASE_ARCHIVE_MANIFEST.md',
+        'docs/RELEASE_BUNDLE_BUILD.md',
         'docs/RELEASE_DASHBOARD.md',
         'docs/RELEASE_SUMMARY.json',
         'docs/RELEASE_SUMMARY_VALIDATION.md',

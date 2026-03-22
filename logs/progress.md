@@ -535,3 +535,7 @@ Updated `src/release_summary_validate.py` to validate optional `cross_subject_lo
 ## 2026-03-22 21:28:55 UTC — Added status history trend tracking
 
 Implemented `src/status_history.py` to append READY/pipeline/coverage/quality snapshots to `docs/STATUS_HISTORY.csv`; integrated into RC/full pipeline and docs navigation.
+
+## 2026-03-22 21:30:54 UTC — Added release bundle builder and integrated into automation
+
+Implemented `src/build_release_bundle.py` to generate distributable zip bundles in `dist/` and report in `docs/RELEASE_BUNDLE_BUILD.md`; integrated into docs/release/RC/full pipelines.

@@ -58,6 +58,7 @@ STEPS = [
     ["python3", "src/tag_dry_run_check.py"],
     ["python3", "src/release_checklist.py"],
     ["python3", "src/release_archive_manifest.py"],
+    ["python3", "src/build_release_bundle.py"],
     ["python3", "src/release_dashboard.py"],
     ["python3", "src/handoff_packet.py"],
     ["python3", "src/release_summary_json.py"],
