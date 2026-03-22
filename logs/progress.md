@@ -259,3 +259,7 @@ Integrated `docs/SPACE_USER_GUIDE.md` into docs bundle index, release packet, an
 ## 2026-03-22 16:12:18 UTC — Added navigation health check and integrated into release automation
 
 Implemented `src/navigation_health_check.py` to enforce discoverability links across index docs; integrated into full pipeline and final RC coverage.
+
+## 2026-03-22 16:14:06 UTC — Added citation metadata for research-grade reuse
+
+Created `CITATION.cff` and linked citation guidance in README to improve academic/professional adoption quality.

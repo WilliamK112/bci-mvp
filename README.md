@@ -95,9 +95,12 @@ python src/space_smoke_test.py
 ## 📄 License
 MIT
 
+## 📚 Citation
+If this project helps your work, please cite using `CITATION.cff`.
+
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:04:10 UTC — Added branded README hero banner
+- 2026-03-22 16:14:06 UTC — Added citation metadata for research-grade reuse
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->

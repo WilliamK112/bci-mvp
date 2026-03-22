@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "BCI MVP"
+message: "If you use this project, please cite it as below."
+type: software
+authors:
+  - family-names: Kang
+    given-names: Ching Wei
+    alias: WilliamK112
+repository-code: "https://github.com/WilliamK112/bci-mvp"
+url: "https://github.com/WilliamK112/bci-mvp"
+license: MIT
+version: "0.1.0"
+date-released: "2026-03-22"
+abstract: >
+  Lightweight EEG BCI MVP with preprocessing, classification, streaming stabilization,
+  explainability, calibration, robustness evaluation, and reproducible release pipeline.
+keywords:
+  - eeg
+  - bci
+  - machine-learning
+  - streamlit
+  - reproducibility
