@@ -699,3 +699,7 @@ Created `tests/test_project_master_scorecard_unittest.py`, integrated it into CI
 ## 2026-03-22 22:54:12 UTC — Added project master scorecard visualization
 
 Implemented `src/plot_project_master_scorecard.py` to render top-level pillar status as `assets/project_master_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
+
+## 2026-03-22 22:54:37 UTC — Added regression test for project master scorecard visual artifacts
+
+Created `tests/test_project_master_scorecard_visual_unittest.py` and wired it into CI + quick regression suite to guard top-level visual/doc linkage integrity.
