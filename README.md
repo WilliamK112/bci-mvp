@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:15:55 UTC — Added model card generation for public trust and deployment
+- 2026-03-22 14:17:54 UTC — Added artifact validation for release quality gate
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -201,3 +201,12 @@ python src/generate_model_card.py
 Outputs:
 - `docs/MODEL_CARD.md`
 - `docs/HF_SPACE_README.md`
+
+
+## Artifact Validation (Repro Readiness)
+Run a quick consistency check before public release:
+```bash
+python src/validate_artifacts.py
+```
+Output:
+- `outputs/artifact_validation_report.txt`

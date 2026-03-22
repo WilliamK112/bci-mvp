@@ -39,3 +39,7 @@ Implemented `src/generate_release_pack.py` to create EN/ZH release notes and pla
 ## 2026-03-22 14:15:55 UTC — Added model card generation for public trust and deployment
 
 Implemented `src/generate_model_card.py` to create `docs/MODEL_CARD.md` and HF Space README metadata scaffold.
+
+## 2026-03-22 14:17:54 UTC — Added artifact validation for release quality gate
+
+Implemented `src/validate_artifacts.py` to check critical outputs/docs and emit `outputs/artifact_validation_report.txt`.
