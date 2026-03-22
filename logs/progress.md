@@ -195,3 +195,7 @@ Created `README.zh-CN.md` and added language switch section in `README.md` to im
 ## 2026-03-22 15:34:28 UTC — Added README quality guardrail and integrated it into release pipeline
 
 Implemented `src/readme_quality_check.py` to enforce concise/bilingual README standards and wired it into full pipeline + final RC coverage.
+
+## 2026-03-22 15:36:17 UTC — Added docs home landing page
+
+Created `docs/HOME.md` as a curated documentation entrypoint and linked it from README for faster navigation.

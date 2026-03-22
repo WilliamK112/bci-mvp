@@ -77,6 +77,7 @@ python src/space_smoke_test.py
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
 
 ## Documentation Index
+- Docs home: `docs/HOME.md`
 - Docs bundle index: `docs/DOCS_BUNDLE_INDEX.md`
 - Command center: `docs/COMMAND_CENTER.md`
 - Figure gallery: `docs/FIGURE_GALLERY.md`
@@ -88,6 +89,6 @@ MIT
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:32:20 UTC — Added bilingual README support
+- 2026-03-22 15:36:17 UTC — Added docs home landing page
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
