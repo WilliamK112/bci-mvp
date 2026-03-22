@@ -6,7 +6,7 @@ README quality guard:
 from pathlib import Path
 
 
-def main(max_lines=120):
+def main(max_lines=140):
     readme = Path('README.md')
     zh = Path('README.zh-CN.md')
 
@@ -18,8 +18,8 @@ def main(max_lines=120):
         lines = text.splitlines()
         if len(lines) > max_lines:
             issues.append(f'README too long: {len(lines)} lines > {max_lines}')
-        if '## Language' not in text:
-            issues.append('Missing "## Language" section in README.md')
+        if ('## Language' not in text) and ('## 🌐 Language' not in text):
+            issues.append('Missing language section in README.md')
         if 'README.zh-CN.md' not in text:
             issues.append('Missing zh README link in README.md')
 

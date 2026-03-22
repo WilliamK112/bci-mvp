@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 17:04 UTC
+Generated: 2026-03-22 17:07 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -23,17 +23,13 @@ Generated: 2026-03-22 17:04 UTC
 - [OK] `python3 src/risk_register.py`
 - [OK] `python3 src/executive_summary.py`
 - [OK] `python3 src/release_packet.py`
-- [FAIL(1)] `python3 src/hf_space_status.py --space williamKang112/bci-mvp-demo`
-  - stderr: `Traceback (most recent call last):
-  File "/Users/William/.openclaw/workspace/bci-mvp/src/hf_space_status.py", line 9, in <module>
-    from huggingface_hub import HfApi
-ModuleNotFoundError: No module named 'huggingface_h`
+- [OK] `python3 src/hf_space_status.py --space williamKang112/bci-mvp-demo`
 - [OK] `python3 src/space_smoke_test.py`
 - [OK] `python3 src/report_consistency_check.py`
 - [OK] `python3 src/env_compat_check.py`
 - [OK] `python3 src/repro_snapshot.py`
 - [OK] `python3 src/artifact_hash_manifest.py`
-- [FAIL(2)] `python3 src/readme_quality_check.py`
+- [OK] `python3 src/readme_quality_check.py`
 - [OK] `python3 src/readme_i18n_consistency.py`
 - [OK] `python3 src/docs_freshness_check.py`
 - [OK] `python3 src/navigation_health_check.py`
@@ -95,5 +91,5 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 38/40
+**Pipeline success:** 40/40
 **Output coverage:** 45/45
