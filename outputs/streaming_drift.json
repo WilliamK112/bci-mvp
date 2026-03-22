@@ -1,0 +1,9 @@
+{
+  "n_windows": 400,
+  "drift_scale_start": 1.0,
+  "drift_scale_end": 1.2,
+  "mean_abs_prob_shift": 0.10331249999999999,
+  "p95_abs_prob_shift": 0.2925,
+  "max_abs_prob_shift": 0.515,
+  "pass": true
+}
