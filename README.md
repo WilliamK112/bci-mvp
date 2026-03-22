@@ -104,3 +104,14 @@ python src/plot_results.py
 Outputs:
 - `outputs/benchmark_scores.png`
 - `outputs/cross_dataset_scores.png` (if cross-dataset json exists)
+
+
+## Result Figures
+
+### Benchmark Comparison
+![Benchmark Scores](assets/benchmark_scores.svg)
+
+### Cross-Dataset Generalization (Train A -> Test B)
+![Cross-Dataset Scores](assets/cross_dataset_scores.svg)
+
+> Note: current figures are demo placeholders. Replace with real experiment outputs after running full evaluations.

@@ -1,0 +1,3 @@
+model,accuracy,f1,auc,train_sec,infer_sec_per_sample
+RF,0.842,0.836,0.901,2.13,0.0009
+SVM,0.818,0.812,0.874,3.42,0.0018
