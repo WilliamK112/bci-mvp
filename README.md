@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 22:20:31 UTC — Integrated new artifact regression tests into CI and quick suite
+- 2026-03-22 22:23:45 UTC — Added explainability-stability regression test and CI coverage
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
