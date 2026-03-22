@@ -795,3 +795,7 @@ Created `tests/test_release_decision_badge_unittest.py` and integrated it into C
 ## 2026-03-22 23:59:27 UTC — Added cross-subject seed-sensitivity analysis
 
 Implemented `src/cross_subject_seed_sensitivity.py` to quantify LOSO variance across seeds for RF/MLP, producing JSON+report and integrating into pipeline/RC/report/docs flows.
+
+## 2026-03-22 23:59:57 UTC — Added seed-sensitivity regression test and CI coverage
+
+Created `tests/test_cross_subject_seed_sensitivity_unittest.py`, integrated it into CI and quick regression suite, and verified full critical regression pass.
