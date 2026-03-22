@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 21:18 UTC
+Generated: 2026-03-22 21:22 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -42,7 +42,8 @@ Generated: 2026-03-22 21:18 UTC
 - [OK] `python3 src/reviewer_pack.py`
 - [OK] `python3 src/release_notes_latest.py`
 - [OK] `python3 src/release_ready_signal.py`
-- [OK] `python3 src/release_guard.py`
+- [FAIL(1)] `python3 src/release_guard.py`
+  - stderr: `Release guard failed: signal is NOT_READY`
 - [OK] `python3 src/release_guard_report.py`
 - [OK] `python3 src/governance_matrix.py`
 - [OK] `python3 src/release_ready_badge.py`
@@ -141,5 +142,5 @@ Generated: 2026-03-22 21:18 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 65/66
+**Pipeline success:** 64/66
 **Output coverage:** 69/69

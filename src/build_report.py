@@ -104,9 +104,21 @@ def main():
     else:
         lines += ["", "No `outputs/robustness_results.json` found."]
 
+    lines += ["", "## 7) Cross-Subject Generalization (LOSO)"]
+    if loso:
+        lines += [
+            "",
+            f"- Subjects: {loso.get('subjects')}",
+            f"- Mean Accuracy: {loso.get('mean_accuracy')}",
+            f"- Mean F1: {loso.get('mean_f1')}",
+            f"- Mean AUC: {loso.get('mean_auc')}",
+        ]
+    else:
+        lines += ["", "No `outputs/cross_subject_results.json` found."]
+
     lines += [
         "",
-        "## 7) Visual Artifacts",
+        "## 8) Visual Artifacts",
         "",
         "- ![All Model](../assets/all_model_comparison.svg)",
         "- ![Cross Matrix](../assets/cross_dataset_matrix.svg)",
@@ -114,7 +126,7 @@ def main():
         "- ![Calibration](../assets/calibration_curve.svg)",
         "- ![Robustness](../assets/robustness_accuracy.svg)",
         "",
-        "## 10) Release Readiness",
+        "## 9) Release Readiness",
         "",
         "- Pipeline status: `docs/PIPELINE_STATUS.md`",
         "- Artifact validation: `outputs/artifact_validation_report.txt`",

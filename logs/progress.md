@@ -515,3 +515,7 @@ Implemented `src/plot_cross_subject.py` to render `assets/cross_subject_loso.svg
 ## 2026-03-22 21:21:39 UTC — Added subject-holdout evaluation and fixed technical-report generator syntax
 
 Implemented `src/subject_holdout_eval.py` for cross-subject generalization and fixed a string-literal bug in `src/build_report.py` to restore report generation reliability.
+
+## 2026-03-22 21:22:10 UTC — Fixed LOSO integration in technical reporting
+
+Repaired `src/build_report.py` section ordering and added explicit LOSO summary block (subjects/mean metrics) plus LOSO visual in technical report.

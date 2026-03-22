@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 16:41 UTC
+Generated: 2026-03-22 21:22 UTC
 
 ## 1) Benchmark Summary
 
@@ -48,10 +48,18 @@ No `outputs/permutation_importance_summary.json` found.
 | dropout_0.10 | 0.8231292517006803 | 0.8773584905660378 |
 | mixed | 0.673469387755102 | 0.8032786885245902 |
 
-## 7) Visual Artifacts
+## 7) Cross-Subject Generalization (LOSO)
+
+- Subjects: [1, 2]
+- Mean Accuracy: 0.6235517200191113
+- Mean F1: 0.6662368543622681
+- Mean AUC: 0.6873526463070685
+
+## 8) Visual Artifacts
 
 - ![All Model](../assets/all_model_comparison.svg)
 - ![Cross Matrix](../assets/cross_dataset_matrix.svg)
+- ![Cross Subject LOSO](../assets/cross_subject_loso.svg)
 - ![Calibration](../assets/calibration_curve.svg)
 - ![Robustness](../assets/robustness_accuracy.svg)
 
