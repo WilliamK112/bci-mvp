@@ -399,3 +399,7 @@ Implemented `src/status_snapshot.py` -> `docs/STATUS_SNAPSHOT.txt` and integrate
 ## 2026-03-22 17:28:13 UTC — Added Chinese status snapshot and integrated into automation
 
 Implemented `src/status_snapshot_zh.py` -> `docs/STATUS_SNAPSHOT_ZH.md`, integrated into full/RC pipelines, and linked from README.zh-CN.md for bilingual ops visibility.
+
+## 2026-03-22 17:30:13 UTC — Added bilingual status message templates for rapid sharing
+
+Implemented `src/status_message_template.py` -> `docs/STATUS_MESSAGE_TEMPLATES.md`, integrated into full/RC pipelines and docs home for quick comms handoff.

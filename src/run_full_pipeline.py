@@ -56,6 +56,7 @@ STEPS = [
     ["python3", "src/release_dashboard.py"],
     ["python3", "src/status_snapshot.py"],
     ["python3", "src/status_snapshot_zh.py"],
+    ["python3", "src/status_message_template.py"],
     ["python3", "src/launch_status.py"],
     ["python3", "src/release_ready_diagnose.py"],
     ["python3", "src/validate_artifacts.py"],
