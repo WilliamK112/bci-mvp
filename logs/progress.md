@@ -103,3 +103,7 @@ Implemented `src/final_release_candidate.py` to run all major doc/report generat
 ## 2026-03-22 14:47:47 UTC — Integrated risk governance into release readiness scoring
 
 Updated `src/release_readiness.py` to include `docs/RISK_REGISTER.md` in readiness checks and regenerated readiness/final RC reports.
+
+## 2026-03-22 14:49:54 UTC — Added executive summary generator
+
+Implemented `src/executive_summary.py` to summarize readiness scores, RC coverage, and high-impact deliverables in `docs/EXECUTIVE_SUMMARY.md`.

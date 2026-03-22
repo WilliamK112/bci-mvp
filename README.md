@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:47:47 UTC — Integrated risk governance into release readiness scoring
+- 2026-03-22 14:49:54 UTC — Added executive summary generator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -346,3 +346,12 @@ Output:
 - `docs/FINAL_RELEASE_CANDIDATE.md`
 
 - Release readiness now includes risk-register coverage (`docs/RISK_REGISTER.md`).
+
+
+## Executive Summary
+Generate a management-level snapshot:
+```bash
+python src/executive_summary.py
+```
+Output:
+- `docs/EXECUTIVE_SUMMARY.md`
