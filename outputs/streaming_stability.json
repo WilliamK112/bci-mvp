@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "tiers": [
+    {
+      "n_windows": 200,
+      "burst": 1,
+      "error_rate": 0.0,
+      "mean_ms": 83.19099189073313,
+      "p95_ms": 100.13838928134645,
+      "max_ms": 955.9050000098068,
+      "tier": "light"
+    },
+    {
+      "n_windows": 300,
+      "burst": 4,
+      "error_rate": 0.0,
+      "mean_ms": 84.44432248225591,
+      "p95_ms": 106.63077114732006,
+      "max_ms": 924.7040409827605,
+      "tier": "moderate"
+    },
+    {
+      "n_windows": 400,
+      "burst": 8,
+      "error_rate": 0.0,
+      "mean_ms": 79.28600677238137,
+      "p95_ms": 99.52048721315803,
+      "max_ms": 340.7544170040637,
+      "tier": "burst"
+    }
+  ]
+}
