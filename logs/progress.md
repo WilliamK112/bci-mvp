@@ -331,3 +331,7 @@ Implemented `src/limitations_report.py` -> `docs/LIMITATIONS.md` and integrated 
 ## 2026-03-22 16:54:04 UTC — Promoted limitations visibility in top-level communication docs
 
 Updated `src/one_pager.py` and README links so limitations are explicitly visible in external-facing summaries.
+
+## 2026-03-22 16:56:17 UTC — Added artifact hash manifest for integrity and auditability
+
+Implemented `src/artifact_hash_manifest.py` to generate `docs/ARTIFACT_HASH_MANIFEST.md` and integrated it into docs/release/RC/full pipeline surfaces.

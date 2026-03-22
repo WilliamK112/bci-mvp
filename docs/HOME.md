@@ -1,6 +1,6 @@
 # BCI MVP Docs Home
 
-Generated: 2026-03-22 16:52 UTC
+Generated: 2026-03-22 16:56 UTC
 
 ## Project Status
 
@@ -25,6 +25,7 @@ Generated: 2026-03-22 16:52 UTC
 - ✅ `REPORT_CONSISTENCY.md`
 - ✅ `ENV_COMPAT.md`
 - ✅ `REPRO_SNAPSHOT.md`
+- ✅ `ARTIFACT_HASH_MANIFEST.md`
 - ✅ `DOCS_FRESHNESS.md`
 
 ## Deployment

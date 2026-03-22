@@ -34,6 +34,7 @@ STEPS = [
     ["python3", "src/report_consistency_check.py"],
     ["python3", "src/env_compat_check.py"],
     ["python3", "src/repro_snapshot.py"],
+    ["python3", "src/artifact_hash_manifest.py"],
     ["python3", "src/readme_quality_check.py"],
     ["python3", "src/readme_i18n_consistency.py"],
     ["python3", "src/docs_freshness_check.py"],

@@ -25,6 +25,7 @@ SECTIONS = {
         'docs/REPORT_CONSISTENCY.md',
         'docs/ENV_COMPAT.md',
         'docs/REPRO_SNAPSHOT.md',
+        'docs/ARTIFACT_HASH_MANIFEST.md',
         'docs/DOCS_FRESHNESS.md',
     ],
     'Deployment': [

@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:54 UTC
+Generated: 2026-03-22 16:56 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -32,6 +32,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [OK] `python3 src/report_consistency_check.py`
 - [OK] `python3 src/env_compat_check.py`
 - [OK] `python3 src/repro_snapshot.py`
+- [OK] `python3 src/artifact_hash_manifest.py`
 - [FAIL(2)] `python3 src/readme_quality_check.py`
 - [OK] `python3 src/readme_i18n_consistency.py`
 - [OK] `python3 src/docs_freshness_check.py`
@@ -70,6 +71,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/REPORT_CONSISTENCY.md`
 - [x] `docs/ENV_COMPAT.md`
 - [x] `docs/REPRO_SNAPSHOT.md`
+- [x] `docs/ARTIFACT_HASH_MANIFEST.md`
 - [x] `docs/README_QUALITY.md`
 - [x] `docs/README_I18N_CONSISTENCY.md`
 - [x] `docs/DOCS_FRESHNESS.md`
@@ -87,5 +89,5 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 34/36
-**Output coverage:** 41/41
+**Pipeline success:** 35/37
+**Output coverage:** 42/42
