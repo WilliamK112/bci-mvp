@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540" y="34" text-anchor="middle" font-size="24" font-family="Arial">Release Decision Gate (GO)</text>
+<line x1="60" y1="360" x2="1020" y2="360" stroke="#111"/>
+<rect x="88.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="140.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">master_overall_pass</text>
+<text x="140.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="248.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="300.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">matrix_all_pass</text>
+<text x="300.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="408.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="460.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">matrix_all_present</text>
+<text x="460.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="568.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="620.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">overview_overall_pass</text>
+<text x="620.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="728.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="780.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">overview_sources_present</text>
+<text x="780.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+<rect x="888.0" y="60.0" width="104.0" height="300.0" fill="#16a34a"/>
+<text x="940.0" y="378" text-anchor="middle" font-size="10" font-family="Arial">matrix_avg_score_ge_0_90</text>
+<text x="940.0" y="52.0" text-anchor="middle" font-size="12" font-family="Arial">PASS</text>
+</svg>
