@@ -191,3 +191,7 @@ Implemented `src/quality_scorecard.py` to aggregate readiness and RC metrics int
 ## 2026-03-22 15:32:20 UTC — Added bilingual README support
 
 Created `README.zh-CN.md` and added language switch section in `README.md` to improve accessibility and external presentation quality.
+
+## 2026-03-22 15:34:28 UTC — Added README quality guardrail and integrated it into release pipeline
+
+Implemented `src/readme_quality_check.py` to enforce concise/bilingual README standards and wired it into full pipeline + final RC coverage.

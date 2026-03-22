@@ -23,6 +23,7 @@ STEPS = [
     ["python3", "src/report_consistency_check.py"],
     ["python3", "src/env_compat_check.py"],
     ["python3", "src/repro_snapshot.py"],
+    ["python3", "src/readme_quality_check.py"],
 ]
 
 OUTPUTS = [
@@ -40,6 +41,7 @@ OUTPUTS = [
     "docs/REPORT_CONSISTENCY.md",
     "docs/ENV_COMPAT.md",
     "docs/REPRO_SNAPSHOT.md",
+    "docs/README_QUALITY.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",
