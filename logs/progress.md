@@ -327,3 +327,7 @@ Implemented `src/data_provenance.py` -> `docs/DATA_PROVENANCE.md` with source/in
 ## 2026-03-22 16:52:18 UTC — Added limitations report and integrated it into release navigation
 
 Implemented `src/limitations_report.py` -> `docs/LIMITATIONS.md` and integrated limitations into docs home, docs bundle, release packet, and RC/full pipeline for balanced technical communication.
+
+## 2026-03-22 16:54:04 UTC — Promoted limitations visibility in top-level communication docs
+
+Updated `src/one_pager.py` and README links so limitations are explicitly visible in external-facing summaries.

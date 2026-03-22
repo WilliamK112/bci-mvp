@@ -52,6 +52,7 @@ def main():
         '- Demo: https://huggingface.co/spaces/williamKang112/bci-mvp-demo',
         '- Technical report: `docs/TECHNICAL_REPORT.md`',
         '- Release packet: `docs/RELEASE_PACKET.md`',
+        '- Limitations: `docs/LIMITATIONS.md`',
     ]
 
     out = Path('docs/ONE_PAGER.md')

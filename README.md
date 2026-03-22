@@ -74,6 +74,7 @@ python src/space_smoke_test.py
 
 ## 📐 Model & Math
 - Mathematical model: `docs/MATH_NOTATION.md`
+- Limitations: `docs/LIMITATIONS.md`
 - Methods (paper-style): `docs/METHODS.md`
 - Results summary: `docs/RESULTS.md`
 - Technical report: `docs/TECHNICAL_REPORT.md`
@@ -107,7 +108,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:44:15 UTC — Added English results brief and integrated into release automation
+- 2026-03-22 16:54:04 UTC — Promoted limitations visibility in top-level communication docs
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
