@@ -735,3 +735,7 @@ Implemented `src/release_readiness_matrix.py` to summarize presence/pass/score a
 ## 2026-03-22 23:16:52 UTC — Added release-readiness-matrix regression test and CI coverage
 
 Created `tests/test_release_readiness_matrix_unittest.py`, integrated it into CI and quick regression suite, and validated full critical-test stack pass.
+
+## 2026-03-22 23:19:18 UTC — Added release-readiness-matrix visualization
+
+Implemented `src/plot_release_readiness_matrix.py` to visualize readiness-matrix pillar scores as `assets/release_readiness_matrix.svg`; integrated into pipeline/RC/report/docs indexes.
