@@ -89,6 +89,15 @@ MIT
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:36:17 UTC — Added docs home landing page
+- 2026-03-22 15:47:24 UTC — Added docs freshness monitor
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
+
+
+## Docs Freshness Check
+Check whether key docs are recently updated:
+```bash
+python src/docs_freshness_check.py
+```
+Output:
+- `docs/DOCS_FRESHNESS.md`

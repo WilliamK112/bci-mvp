@@ -203,3 +203,7 @@ Created `docs/HOME.md` as a curated documentation entrypoint and linked it from 
 ## 2026-03-22 15:46:14 UTC — Added API contract tests and CI integration
 
 Implemented `tests/test_api_contract_unittest.py` for `/health` and `/predict` schema/validation checks, and wired it into CI unittest stage.
+
+## 2026-03-22 15:47:24 UTC — Added docs freshness monitor
+
+Implemented `src/docs_freshness_check.py` to track staleness of key docs and output `docs/DOCS_FRESHNESS.md` for maintenance quality.
