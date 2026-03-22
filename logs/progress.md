@@ -679,3 +679,7 @@ Implemented `src/reproducibility_scorecard.py` to aggregate reproducibility chec
 ## 2026-03-22 22:43:44 UTC — Added reproducibility-scorecard regression test and CI coverage
 
 Created `tests/test_reproducibility_scorecard_unittest.py`, integrated into CI and quick regression suite, and validated full critical test stack pass.
+
+## 2026-03-22 22:46:06 UTC — Added reproducibility scorecard visualization
+
+Implemented `src/plot_reproducibility_scorecard.py` to render gate-level reproducibility status as `assets/reproducibility_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
