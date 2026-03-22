@@ -771,3 +771,7 @@ Created `tests/test_repro_run_proof_unittest.py`, integrated it into CI and quic
 ## 2026-03-22 23:35:22 UTC — Added release-decision-gate visualization
 
 Implemented `src/plot_release_decision_gate.py` to render decision-gate checks as `assets/release_decision_gate.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
+
+## 2026-03-22 23:36:50 UTC — Added regression test for release-decision-gate visual artifacts
+
+Created `tests/test_release_decision_gate_visual_unittest.py` and integrated it into CI + quick regression suite to protect decision-gate visual/doc linkage integrity.
