@@ -531,3 +531,7 @@ Updated `src/release_summary_json.py` to include `cross_subject_loso` block and 
 ## 2026-03-22 21:26:42 UTC — Extended release-summary validation to cover LOSO schema
 
 Updated `src/release_summary_validate.py` to validate optional `cross_subject_loso` block fields, strengthening machine-readable contract checks.
+
+## 2026-03-22 21:28:55 UTC — Added status history trend tracking
+
+Implemented `src/status_history.py` to append READY/pipeline/coverage/quality snapshots to `docs/STATUS_HISTORY.csv`; integrated into RC/full pipeline and docs navigation.
