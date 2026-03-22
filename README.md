@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:41:57 UTC — Added command center documentation
+- 2026-03-22 14:43:49 UTC — Added release risk register
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -326,3 +326,12 @@ python src/command_center.py
 ```
 Output:
 - `docs/COMMAND_CENTER.md`
+
+
+## Risk Register
+Generate technical risk and mitigation table:
+```bash
+python src/risk_register.py
+```
+Output:
+- `docs/RISK_REGISTER.md`

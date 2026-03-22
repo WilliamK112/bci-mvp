@@ -91,3 +91,7 @@ Implemented `src/generate_status_badges.py` to produce local SVG badges for rele
 ## 2026-03-22 14:41:57 UTC — Added command center documentation
 
 Implemented `src/command_center.py` to generate `docs/COMMAND_CENTER.md` with categorized high-value commands for fast execution.
+
+## 2026-03-22 14:43:49 UTC — Added release risk register
+
+Implemented `src/risk_register.py` to generate `docs/RISK_REGISTER.md` with key technical risks, severity, and mitigation actions.
