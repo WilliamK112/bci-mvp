@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="512" y="34" text-anchor="middle" font-size="24" font-family="Arial">Release Readiness Trend</text>
+<line x1="70" y1="410" x2="954" y2="410" stroke="#111"/>
+<line x1="70" y1="70" x2="70" y2="410" stroke="#111"/>
+<text x="70.0" y="428" text-anchor="middle" font-size="10" font-family="Arial">1:28:51Z</text>
+<text x="291.0" y="428" text-anchor="middle" font-size="10" font-family="Arial">1:28:54Z</text>
+<text x="512.0" y="428" text-anchor="middle" font-size="10" font-family="Arial">1:30:54Z</text>
+<text x="733.0" y="428" text-anchor="middle" font-size="10" font-family="Arial">1:32:53Z</text>
+<text x="954.0" y="428" text-anchor="middle" font-size="10" font-family="Arial">1:40:08Z</text>
+<line x1="70" y1="410.0" x2="954" y2="410.0" stroke="#e5e7eb"/>
+<text x="60" y="414.0" text-anchor="end" font-size="10" font-family="Arial">0.00</text>
+<line x1="70" y1="325.0" x2="954" y2="325.0" stroke="#e5e7eb"/>
+<text x="60" y="329.0" text-anchor="end" font-size="10" font-family="Arial">0.25</text>
+<line x1="70" y1="240.0" x2="954" y2="240.0" stroke="#e5e7eb"/>
+<text x="60" y="244.0" text-anchor="end" font-size="10" font-family="Arial">0.50</text>
+<line x1="70" y1="155.0" x2="954" y2="155.0" stroke="#e5e7eb"/>
+<text x="60" y="159.0" text-anchor="end" font-size="10" font-family="Arial">0.75</text>
+<line x1="70" y1="70.0" x2="954" y2="70.0" stroke="#e5e7eb"/>
+<text x="60" y="74.0" text-anchor="end" font-size="10" font-family="Arial">1.00</text>
+<polyline points="70.0,91.08000000000004 291.0,91.08000000000004 512.0,91.08000000000004 733.0,91.08000000000004 954.0,91.08000000000004" fill="none" stroke="#2563eb" stroke-width="3"/>
+<text x="954" y="88" text-anchor="end" font-size="12" font-family="Arial" fill="#2563eb">quality</text>
+<polyline points="70.0,80.30303030303031 291.0,80.30303030303031 512.0,80.14925373134326 733.0,80.0 954.0,79.85507246376812" fill="none" stroke="#16a34a" stroke-width="3"/>
+<text x="954" y="104" text-anchor="end" font-size="12" font-family="Arial" fill="#16a34a">pipeline completion</text>
+<polyline points="70.0,70 291.0,70 512.0,70 733.0,70 954.0,70" fill="none" stroke="#dc2626" stroke-width="3"/>
+<text x="954" y="120" text-anchor="end" font-size="12" font-family="Arial" fill="#dc2626">coverage completion</text>
+</svg>
