@@ -14,6 +14,7 @@ ITEMS = [
     ('docs/RELEASE_TAG_PLAN.md', 'Release tag plan'),
     ('docs/TAG_DRY_RUN.md', 'Tag dry-run check'),
     ('docs/RELEASE_CHECKLIST.md', 'Release checklist'),
+    ('docs/RELEASE_ARCHIVE_MANIFEST.md', 'Release archive manifest'),
     ('docs/RELEASE_DASHBOARD.md', 'Release dashboard'),
     ('docs/LAUNCH_STATUS.md', 'Launch status'),
     ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),

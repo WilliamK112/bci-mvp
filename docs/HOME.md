@@ -1,6 +1,6 @@
 # BCI MVP Docs Home
 
-Generated: 2026-03-22 17:54 UTC
+Generated: 2026-03-22 17:58 UTC
 
 ## Project Status
 
@@ -13,6 +13,7 @@ Generated: 2026-03-22 17:54 UTC
 - ✅ `RELEASE_TAG_PLAN.md`
 - ✅ `TAG_DRY_RUN.md`
 - ✅ `RELEASE_CHECKLIST.md`
+- ✅ `RELEASE_ARCHIVE_MANIFEST.md`
 - ✅ `RELEASE_DASHBOARD.md`
 - ✅ `RELEASE_SUMMARY.json`
 - ✅ `RELEASE_SUMMARY_VALIDATION.md`

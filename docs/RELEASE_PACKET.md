@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 17:52 UTC
+Generated: 2026-03-22 17:58 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -12,6 +12,7 @@ Generated: 2026-03-22 17:52 UTC
 - ✅ Release tag plan: `docs/RELEASE_TAG_PLAN.md`
 - ✅ Tag dry-run check: `docs/TAG_DRY_RUN.md`
 - ✅ Release checklist: `docs/RELEASE_CHECKLIST.md`
+- ✅ Release archive manifest: `docs/RELEASE_ARCHIVE_MANIFEST.md`
 - ✅ Release dashboard: `docs/RELEASE_DASHBOARD.md`
 - ✅ Launch status: `docs/LAUNCH_STATUS.md`
 - ✅ Release-ready signal: `docs/RELEASE_READY_SIGNAL.md`

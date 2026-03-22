@@ -451,3 +451,7 @@ Updated `src/release_packet.py` so `docs/RELEASE_SUMMARY_VALIDATION.md` is inclu
 ## 2026-03-22 17:54:17 UTC — Added operator quick-links page and integrated into automation
 
 Implemented `src/operator_quicklinks.py` -> `docs/OPERATOR_QUICKLINKS.md` for fast day-2 ops navigation, integrated into docs home/bundle and RC/full pipelines.
+
+## 2026-03-22 17:58:20 UTC — Added release archive manifest and integrated into automation
+
+Implemented `src/release_archive_manifest.py` -> `docs/RELEASE_ARCHIVE_MANIFEST.md` and integrated it into docs/release/RC/full pipelines for packaging readiness.
