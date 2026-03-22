@@ -659,3 +659,7 @@ Created `tests/test_streaming_scorecard_visual_unittest.py` and wired it into CI
 ## 2026-03-22 22:34:07 UTC — Added integrated generalization scorecard
 
 Implemented `src/generalization_scorecard.py` to aggregate LOSO and bidirectional cross-dataset gates into one PASS/FAIL scorecard, integrated into pipeline/RC/report/docs indices.
+
+## 2026-03-22 22:35:48 UTC — Added generalization-scorecard regression test and CI coverage
+
+Created `tests/test_generalization_scorecard_unittest.py`, integrated it into CI and `src/quick_regression_suite.py`, and verified complete quick-regression pass.
