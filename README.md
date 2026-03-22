@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:01:53 UTC — Added Hugging Face publish helper generator
+- 2026-03-22 15:03:58 UTC — Added real-data gap report for final credibility push
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -393,3 +393,12 @@ python src/hf_publish_helper.py
 ```
 Output:
 - `docs/HF_PUBLISH_HELPER.md`
+
+
+## Real-Data Gap Report
+Track what still needs real-data reruns (vs placeholders):
+```bash
+python src/real_data_gap_report.py
+```
+Output:
+- `docs/REAL_DATA_GAP_REPORT.md`

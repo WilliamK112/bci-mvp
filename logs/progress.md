@@ -131,3 +131,7 @@ Implemented `src/repro_snapshot.py` to capture Python/platform/git revision and 
 ## 2026-03-22 15:01:53 UTC — Added Hugging Face publish helper generator
 
 Implemented `src/hf_publish_helper.py` to generate exact Space creation/push commands in `docs/HF_PUBLISH_HELPER.md` for credential-safe handoff publishing.
+
+## 2026-03-22 15:03:58 UTC — Added real-data gap report for final credibility push
+
+Implemented `src/real_data_gap_report.py` to quantify missing real-run artifacts and output `docs/REAL_DATA_GAP_REPORT.md` with action plan.
