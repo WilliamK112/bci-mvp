@@ -79,3 +79,18 @@ Results are saved to `outputs/cross_dataset_results.json`.
 ## Hugging Face Spaces (Public Demo)
 - App file: `app/hf_app.py`
 - Deployment notes: `app/README_SPACES.md`
+
+
+## Explainability
+```bash
+python src/explainability.py
+```
+Generates:
+- `outputs/feature_importance_detailed.csv`
+- `outputs/feature_importance_by_band.csv`
+- `outputs/feature_importance_by_channel.csv`
+
+## Reproducibility & Engineering
+- Dockerized API service (`Dockerfile`)
+- CI checks (`.github/workflows/ci.yml`)
+- Makefile commands for consistent local runs
