@@ -24,6 +24,7 @@ SECTIONS = {
         'docs/HANDOFF_PACKET.md',
         'docs/MILESTONE_STAMP.md',
         'docs/RELEASE_READY_SIGNAL.md',
+        'docs/RELEASE_GUARD_REPORT.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],
     'Technical Core': [
