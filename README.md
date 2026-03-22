@@ -86,6 +86,7 @@ python src/space_smoke_test.py
 - Release readiness: `docs/RELEASE_READINESS.md`
 - HF Space readiness: `docs/HF_SPACE_READINESS.md`
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
+- Release dashboard: `docs/RELEASE_DASHBOARD.md`
 
 ## 🔥 Cross-Dataset Heatmap
 ![Cross Dataset Matrix](assets/cross_dataset_matrix.svg)
@@ -108,7 +109,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:58:06 UTC — Removed legacy MNE pick_types usage to reduce warnings
+- 2026-03-22 17:16:02 UTC — Surfaced release dashboard in top-level README quality section
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

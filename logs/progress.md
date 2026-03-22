@@ -371,3 +371,7 @@ Implemented `src/release_checklist.py` -> `docs/RELEASE_CHECKLIST.md` and integr
 ## 2026-03-22 17:14:21 UTC — Added unified release dashboard and integrated into automation
 
 Implemented `src/release_dashboard.py` -> `docs/RELEASE_DASHBOARD.md` summarizing ready signal/diagnose/checklist, integrated across docs/release/RC/full pipelines.
+
+## 2026-03-22 17:16:02 UTC — Surfaced release dashboard in top-level README quality section
+
+Added direct README link to `docs/RELEASE_DASHBOARD.md` so release status is visible without deep navigation.
