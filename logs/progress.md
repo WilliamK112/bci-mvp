@@ -35,3 +35,7 @@ Implemented `src/plot_cross_matrix.py` and generated `assets/cross_dataset_matri
 ## 2026-03-22 14:13:58 UTC — Added auto-generated public release pack
 
 Implemented `src/generate_release_pack.py` to create EN/ZH release notes and platform post drafts under `docs/release/`.
+
+## 2026-03-22 14:15:55 UTC — Added model card generation for public trust and deployment
+
+Implemented `src/generate_model_card.py` to create `docs/MODEL_CARD.md` and HF Space README metadata scaffold.

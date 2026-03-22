@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:13:58 UTC — Added auto-generated public release pack
+- 2026-03-22 14:15:55 UTC — Added model card generation for public trust and deployment
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -191,3 +191,13 @@ Outputs:
 - `docs/release/release_zh.md`
 - `docs/release/reddit_post.md`
 - `docs/release/bilibili_post.md`
+
+
+## Model Card & HF Space Metadata
+Generate public-facing model docs:
+```bash
+python src/generate_model_card.py
+```
+Outputs:
+- `docs/MODEL_CARD.md`
+- `docs/HF_SPACE_README.md`
