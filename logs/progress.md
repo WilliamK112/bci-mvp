@@ -367,3 +367,7 @@ Implemented `src/release_tag_plan.py` -> `docs/RELEASE_TAG_PLAN.md` and integrat
 ## 2026-03-22 17:12:21 UTC — Added actionable release checklist and integrated into automation
 
 Implemented `src/release_checklist.py` -> `docs/RELEASE_CHECKLIST.md` and integrated it into docs/release/RC/full pipelines for final launch execution.
+
+## 2026-03-22 17:14:21 UTC — Added unified release dashboard and integrated into automation
+
+Implemented `src/release_dashboard.py` -> `docs/RELEASE_DASHBOARD.md` summarizing ready signal/diagnose/checklist, integrated across docs/release/RC/full pipelines.

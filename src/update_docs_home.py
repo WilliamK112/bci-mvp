@@ -13,6 +13,7 @@ SECTIONS = {
         'docs/V1_RELEASE_READY.md',
         'docs/RELEASE_TAG_PLAN.md',
         'docs/RELEASE_CHECKLIST.md',
+        'docs/RELEASE_DASHBOARD.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],
