@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:12:02 UTC — Added cross-dataset heatmap visualization
+- 2026-03-22 14:13:58 UTC — Added auto-generated public release pack
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -179,3 +179,15 @@ Generate:
 python src/cross_dataset_matrix.py
 python src/plot_cross_matrix.py
 ```
+
+
+## Release Pack (Auto-generated)
+Generate platform-ready announcement drafts:
+```bash
+python src/generate_release_pack.py
+```
+Outputs:
+- `docs/release/release_en.md`
+- `docs/release/release_zh.md`
+- `docs/release/reddit_post.md`
+- `docs/release/bilibili_post.md`

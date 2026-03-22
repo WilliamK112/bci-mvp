@@ -31,3 +31,7 @@ Implemented `src/cross_dataset_matrix.py` to run all dataset pair evaluations an
 ## 2026-03-22 14:12:02 UTC — Added cross-dataset heatmap visualization
 
 Implemented `src/plot_cross_matrix.py` and generated `assets/cross_dataset_matrix.svg` for matrix-style generalization reporting.
+
+## 2026-03-22 14:13:58 UTC — Added auto-generated public release pack
+
+Implemented `src/generate_release_pack.py` to create EN/ZH release notes and platform post drafts under `docs/release/`.
