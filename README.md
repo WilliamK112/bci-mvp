@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:43:49 UTC — Added release risk register
+- 2026-03-22 14:45:56 UTC — Added final release-candidate orchestrator
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -335,3 +335,12 @@ python src/risk_register.py
 ```
 Output:
 - `docs/RISK_REGISTER.md`
+
+
+## Final Release Candidate
+Generate one-shot release bundle summary:
+```bash
+python src/final_release_candidate.py
+```
+Output:
+- `docs/FINAL_RELEASE_CANDIDATE.md`
