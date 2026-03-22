@@ -19,6 +19,7 @@ TESTS = [
     'tests/test_repro_one_command_entrypoint_unittest.py',
     'tests/test_release_readiness_matrix_unittest.py',
     'tests/test_release_readiness_matrix_visual_unittest.py',
+    'tests/test_release_matrix_badge_unittest.py',
 ]
 
 

@@ -747,3 +747,7 @@ Created `tests/test_release_readiness_matrix_visual_unittest.py` and integrated 
 ## 2026-03-22 23:22:02 UTC — Added release-readiness matrix badge
 
 Implemented `src/release_matrix_badge.py` to publish `assets/badge_release_matrix.svg` from matrix pass/score and integrated it into README plus pipeline/RC/docs indexes.
+
+## 2026-03-22 23:23:47 UTC — Added release-matrix badge regression test and CI coverage
+
+Created `tests/test_release_matrix_badge_unittest.py` and integrated it into CI + quick regression suite to protect release-matrix badge generation integrity.
