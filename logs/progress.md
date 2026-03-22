@@ -47,3 +47,7 @@ Implemented `src/validate_artifacts.py` to check critical outputs/docs and emit 
 ## 2026-03-22 14:19:52 UTC — Added one-command full pipeline orchestrator
 
 Implemented `src/run_full_pipeline.py` to chain benchmark/report/release/validation steps and emit `outputs/pipeline_manifest.json`.
+
+## 2026-03-22 14:22:07 UTC — Added probability calibration evaluation
+
+Implemented calibration metrics (`brier_score`) and reliability visualization scripts (`src/calibration_eval.py`, `src/plot_calibration.py`).

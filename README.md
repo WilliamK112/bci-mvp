@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:19:52 UTC — Added one-command full pipeline orchestrator
+- 2026-03-22 14:22:07 UTC — Added probability calibration evaluation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -221,3 +221,14 @@ make full
 ```
 Output:
 - `outputs/pipeline_manifest.json`
+
+
+## Probability Calibration
+Evaluate reliability of predicted probabilities:
+```bash
+python src/calibration_eval.py
+python src/plot_calibration.py
+```
+Outputs:
+- `outputs/calibration_results.json`
+- `assets/calibration_curve.svg`
