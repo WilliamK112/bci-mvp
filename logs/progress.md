@@ -147,3 +147,7 @@ Updated `src/final_release_candidate.py` and `src/run_full_pipeline.py` so `docs
 ## 2026-03-22 15:09:58 UTC — Added token-safe HF publish automation script
 
 Implemented `src/hf_publish_safe.py` for environment-token based Space publish, plus docs and security guidance.
+
+## 2026-03-22 15:11:51 UTC — Added HF Space status checker
+
+Implemented `src/hf_space_status.py` to fetch runtime/build status for Space deployment and persist `docs/HF_SPACE_STATUS.md`.

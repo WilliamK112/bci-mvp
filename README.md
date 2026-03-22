@@ -139,7 +139,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:09:58 UTC — Added token-safe HF publish automation script
+- 2026-03-22 15:11:51 UTC — Added HF Space status checker
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -428,3 +428,12 @@ Token-safe Space publish flow:
 export HF_TOKEN=hf_xxx
 python src/hf_publish_safe.py
 ```
+
+
+## HF Space Status Check
+Fetch and persist current Space status:
+```bash
+python src/hf_space_status.py --space williamKang112/bci-mvp-demo
+```
+Output:
+- `docs/HF_SPACE_STATUS.md`
