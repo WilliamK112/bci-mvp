@@ -739,3 +739,7 @@ Created `tests/test_release_readiness_matrix_unittest.py`, integrated it into CI
 ## 2026-03-22 23:19:18 UTC — Added release-readiness-matrix visualization
 
 Implemented `src/plot_release_readiness_matrix.py` to visualize readiness-matrix pillar scores as `assets/release_readiness_matrix.svg`; integrated into pipeline/RC/report/docs indexes.
+
+## 2026-03-22 23:19:49 UTC — Added regression test for release-readiness-matrix visual artifacts
+
+Created `tests/test_release_readiness_matrix_visual_unittest.py` and integrated it into CI + quick regression suite to protect matrix visual/doc linkage integrity.

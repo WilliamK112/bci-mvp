@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:16:52 UTC — Added release-readiness-matrix regression test and CI coverage
+- 2026-03-22 23:19:49 UTC — Added regression test for release-readiness-matrix visual artifacts
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
