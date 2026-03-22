@@ -599,3 +599,7 @@ Implemented `src/repro_release_signature.py` to run RC twice and compare normali
 ## 2026-03-22 22:03:33 UTC — Added determinism hygiene audit to reproducibility stack
 
 Implemented `src/determinism_audit.py` to statically verify explicit seed/random_state signals across core training/eval scripts; integrated into RC/full pipelines and reporting/docs indices.
+
+## 2026-03-22 22:04:59 UTC — Added cross-subject model benchmark visual
+
+Implemented `src/plot_cross_subject_benchmark.py` to generate grouped-bar comparison (`assets/cross_subject_benchmark.svg`) and integrated visual into technical report, docs index, and RC/full pipelines.

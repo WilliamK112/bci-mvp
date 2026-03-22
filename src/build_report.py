@@ -119,7 +119,7 @@ def main():
         lines += ["", "No `outputs/cross_subject_results.json` found."]
 
     if cs_bench:
-        lines += ["", "### Cross-Subject Model Benchmark", "", "| Model | Mean Accuracy | Mean F1 | Mean AUC |", "|---|---:|---:|---:|"]
+        lines += ["", "### Cross-Subject Model Benchmark", "", "| Model | Mean Accuracy | Mean F1 | Mean AUC |", "|---|---:|---:|---:|", "", "- ![Cross-Subject Benchmark](../assets/cross_subject_benchmark.svg)"]
         for r in (cs_bench.get('ranking') or []):
             lines.append(f"| {r.get('model')} | {r.get('mean_accuracy')} | {r.get('mean_f1')} | {r.get('mean_auc')} |")
 

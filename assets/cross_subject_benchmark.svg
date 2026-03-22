@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="550" y="34" text-anchor="middle" font-size="24" font-family="Arial">Cross-Subject Model Benchmark (LOSO)</text>
+<line x1="70" y1="450" x2="1030" y2="450" stroke="#111"/>
+<line x1="70" y1="70" x2="70" y2="450" stroke="#111"/>
+<line x1="70" y1="450.0" x2="1030" y2="450.0" stroke="#e5e7eb"/>
+<text x="62" y="454.0" text-anchor="end" font-size="10" font-family="Arial">0.00</text>
+<line x1="70" y1="355.0" x2="1030" y2="355.0" stroke="#e5e7eb"/>
+<text x="62" y="359.0" text-anchor="end" font-size="10" font-family="Arial">0.25</text>
+<line x1="70" y1="260.0" x2="1030" y2="260.0" stroke="#e5e7eb"/>
+<text x="62" y="264.0" text-anchor="end" font-size="10" font-family="Arial">0.50</text>
+<line x1="70" y1="165.0" x2="1030" y2="165.0" stroke="#e5e7eb"/>
+<text x="62" y="169.0" text-anchor="end" font-size="10" font-family="Arial">0.75</text>
+<line x1="70" y1="70.0" x2="1030" y2="70.0" stroke="#e5e7eb"/>
+<text x="62" y="74.0" text-anchor="end" font-size="10" font-family="Arial">1.00</text>
+<rect x="124.39999999999999" y="213.0503463927377" width="66.4" height="236.9496536072623" fill="#2563eb"/>
+<text x="157.6" y="206.0503463927377" text-anchor="middle" font-size="10" font-family="Arial">0.624</text>
+<rect x="194.8" y="196.82999534233812" width="66.4" height="253.17000465766188" fill="#16a34a"/>
+<text x="228.0" y="189.82999534233812" text-anchor="middle" font-size="10" font-family="Arial">0.666</text>
+<rect x="265.2" y="188.80599440331395" width="66.4" height="261.19400559668605" fill="#f59e0b"/>
+<text x="298.4" y="181.80599440331395" text-anchor="middle" font-size="10" font-family="Arial">0.687</text>
+<text x="230.0" y="468" text-anchor="middle" font-size="12" font-family="Arial">rf</text>
+<rect x="444.4" y="280.5613951266125" width="66.4" height="169.43860487338748" fill="#2563eb"/>
+<text x="477.59999999999997" y="273.5613951266125" text-anchor="middle" font-size="10" font-family="Arial">0.446</text>
+<rect x="514.8" y="331.5291322830708" width="66.4" height="118.4708677169292" fill="#16a34a"/>
+<text x="548.0" y="324.5291322830708" text-anchor="middle" font-size="10" font-family="Arial">0.312</text>
+<rect x="585.2" y="198.74662325929845" width="66.4" height="251.25337674070155" fill="#f59e0b"/>
+<text x="618.4000000000001" y="191.74662325929845" text-anchor="middle" font-size="10" font-family="Arial">0.661</text>
+<text x="550.0" y="468" text-anchor="middle" font-size="12" font-family="Arial">logreg</text>
+<rect x="764.4" y="317.08850931677017" width="66.4" height="132.91149068322983" fill="#2563eb"/>
+<text x="797.6" y="310.08850931677017" text-anchor="middle" font-size="10" font-family="Arial">0.350</text>
+<rect x="834.8" y="407.5238095238095" width="66.4" height="42.47619047619048" fill="#16a34a"/>
+<text x="868.0" y="400.5238095238095" text-anchor="middle" font-size="10" font-family="Arial">0.112</text>
+<rect x="905.2" y="229.39565705975676" width="66.4" height="220.60434294024324" fill="#f59e0b"/>
+<text x="938.4000000000001" y="222.39565705975676" text-anchor="middle" font-size="10" font-family="Arial">0.581</text>
+<text x="870.0" y="468" text-anchor="middle" font-size="12" font-family="Arial">svm_rbf</text>
+<rect x="760" y="52" width="12" height="12" fill="#2563eb"/>
+<text x="778" y="62" font-size="11" font-family="Arial">mean accuracy</text>
+<rect x="900" y="52" width="12" height="12" fill="#16a34a"/>
+<text x="918" y="62" font-size="11" font-family="Arial">mean f1</text>
+<rect x="990" y="52" width="12" height="12" fill="#f59e0b"/>
+<text x="1008" y="62" font-size="11" font-family="Arial">mean auc</text>
+</svg>
