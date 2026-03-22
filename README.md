@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:15:55 UTC — Added demo reliability fallback for Space uptime
+- 2026-03-22 15:17:43 UTC — Added Space smoke-test diagnostics
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -453,3 +453,12 @@ Output:
 Space demo now supports model fallback mode:
 - If `outputs/model_rf_real.joblib` is missing, inference returns deterministic mock probabilities.
 - Response includes `mode` = `mock_fallback` or `real_model`.
+
+
+## Space Smoke Test
+Quickly verify deployed Space reachability:
+```bash
+python src/space_smoke_test.py
+```
+Output:
+- `docs/SPACE_SMOKE_TEST.md`

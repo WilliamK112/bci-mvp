@@ -159,3 +159,7 @@ Implemented `src/deployment_diagnose.py` to generate `docs/DEPLOYMENT_DIAGNOSE.m
 ## 2026-03-22 15:15:55 UTC — Added demo reliability fallback for Space uptime
 
 Implemented `src/model_fallback.py` and updated inference to gracefully use deterministic mock predictions when trained model is missing; app now surfaces fallback behavior.
+
+## 2026-03-22 15:17:43 UTC — Added Space smoke-test diagnostics
+
+Implemented `src/space_smoke_test.py` to verify both Hugging Face page URL and hf.space direct URL, with tracked output `docs/SPACE_SMOKE_TEST.md`.
