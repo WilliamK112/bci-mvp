@@ -567,3 +567,7 @@ Implemented `src/validate_streaming_latency.py` with explicit latency/throughput
 ## 2026-03-22 21:48:47 UTC — Integrated LOSO multi-model benchmark into report and release flows
 
 Wired cross-subject RF/SVM/LogReg benchmark outputs into technical report, RC required outputs, and docs indices for stronger comparative generalization evidence.
+
+## 2026-03-22 21:50:26 UTC — Added bootstrap confidence intervals for cross-subject model benchmark
+
+Implemented `src/cross_subject_ci.py` to compute model-wise LOSO bootstrap CIs (Accuracy/F1/AUC), with JSON + markdown outputs integrated into RC/full pipelines and docs indices.
