@@ -647,3 +647,7 @@ Implemented `src/streaming_scorecard.py` to aggregate latency/stability/drift ga
 ## 2026-03-22 22:27:50 UTC — Added streaming-scorecard regression test and CI coverage
 
 Created `tests/test_streaming_scorecard_unittest.py`, wired it into CI and `src/quick_regression_suite.py`, and validated full quick regression pass.
+
+## 2026-03-22 22:30:01 UTC — Added streaming scorecard visualization
+
+Implemented `src/plot_streaming_scorecard.py` to render gate-level streaming status as `assets/streaming_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs indexes.
