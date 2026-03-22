@@ -44,3 +44,21 @@ Use public datasets such as:
 - Live demo: Hugging Face Spaces (Streamlit)
 - Video demo: Bilibili / YouTube
 - Community posts: Reddit / Zhihu
+
+
+## Impressive Upgrades (In Progress)
+- ✅ Multi-model benchmarking (`src/benchmark.py`)
+- ✅ Simulated real-time streaming demo (`app/streaming_demo.py`)
+- ⏳ Cross-dataset evaluation
+- ⏳ Explainability (SHAP)
+- ⏳ Hugging Face Spaces deployment
+
+## Benchmark Run
+```bash
+python src/benchmark.py
+```
+
+## Streaming Demo Run
+```bash
+streamlit run app/streaming_demo.py
+```
