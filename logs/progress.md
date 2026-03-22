@@ -707,3 +707,7 @@ Created `tests/test_project_master_scorecard_visual_unittest.py` and wired it in
 ## 2026-03-22 23:02:57 UTC — Added unified scorecards overview layer
 
 Implemented `src/scorecards_overview.py` to aggregate Streaming/Generalization/Reproducibility/Master scorecards into one compact overview and integrated it into pipeline/RC/report/docs index flows.
+
+## 2026-03-22 23:04:45 UTC — Added scorecards-overview regression test and CI coverage
+
+Created `tests/test_scorecards_overview_unittest.py`, integrated it into CI and quick regression suite, and validated full critical-test pass.

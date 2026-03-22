@@ -13,6 +13,7 @@ TESTS = [
     'tests/test_reproducibility_scorecard_visual_unittest.py',
     'tests/test_project_master_scorecard_unittest.py',
     'tests/test_project_master_scorecard_visual_unittest.py',
+    'tests/test_scorecards_overview_unittest.py',
 ]
 
 
