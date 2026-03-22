@@ -136,7 +136,7 @@ def main():
         "- ![Calibration](../assets/calibration_curve.svg)",
         "- ![Robustness](../assets/robustness_accuracy.svg)",
         "",
-        "## 10) Release Readiness",
+        "## 11) Release Readiness",
         "",
         "- Pipeline status: `docs/PIPELINE_STATUS.md`",
         "- Artifact validation: `outputs/artifact_validation_report.txt`",

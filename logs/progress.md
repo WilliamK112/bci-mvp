@@ -687,3 +687,7 @@ Implemented `src/plot_reproducibility_scorecard.py` to render gate-level reprodu
 ## 2026-03-22 22:47:43 UTC — Added regression test for reproducibility scorecard visual artifacts
 
 Created `tests/test_reproducibility_scorecard_visual_unittest.py` and wired it into CI + quick regression suite to guard reproducibility visual/doc linkage integrity.
+
+## 2026-03-22 22:50:05 UTC — Added project master scorecard across core pillars
+
+Implemented `src/project_master_scorecard.py` to aggregate Streaming, Generalization, and Reproducibility scorecards into a top-level PASS/score artifact integrated into pipeline/RC/report/docs indices.

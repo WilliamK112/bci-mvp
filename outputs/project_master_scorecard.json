@@ -1,0 +1,14 @@
+{
+  "overall_pass": true,
+  "overall_score": 1.0,
+  "pillars": {
+    "streaming": true,
+    "generalization": true,
+    "reproducibility": true
+  },
+  "pillar_scores": {
+    "streaming": 1.0,
+    "generalization": 1.0,
+    "reproducibility": 1.0
+  }
+}
