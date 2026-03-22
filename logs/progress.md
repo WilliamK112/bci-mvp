@@ -183,3 +183,7 @@ Implemented `src/report_consistency_check.py` to validate required sections acro
 ## 2026-03-22 15:28:26 UTC — Integrated consistency/env/repro checks into RC and full pipeline
 
 Updated pipeline orchestrators to always run report consistency check, environment compatibility check, and reproducibility snapshot; RC coverage now tracks these artifacts.
+
+## 2026-03-22 15:30:28 UTC — Added quality scorecard summarizer
+
+Implemented `src/quality_scorecard.py` to aggregate readiness and RC metrics into `docs/QUALITY_SCORECARD.md` with an overall quality index.

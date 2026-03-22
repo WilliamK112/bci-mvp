@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:26:25 UTC — Added report consistency checker for documentation quality
+- 2026-03-22 15:30:28 UTC — Added quality scorecard summarizer
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -580,3 +580,12 @@ python src/report_consistency_check.py
 ```
 Output:
 - `docs/REPORT_CONSISTENCY.md`
+
+
+## Quality Scorecard
+Generate a compact quality index from readiness + RC reports:
+```bash
+python src/quality_scorecard.py
+```
+Output:
+- `docs/QUALITY_SCORECARD.md`
