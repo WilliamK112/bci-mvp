@@ -323,3 +323,7 @@ Implemented `src/metrics_registry.py` -> `docs/METRICS_REGISTRY.md` and wired it
 ## 2026-03-22 16:50:26 UTC — Added data provenance registry and integrated into release surfaces
 
 Implemented `src/data_provenance.py` -> `docs/DATA_PROVENANCE.md` with source/inventory/labeling notes, and integrated into docs home, bundle, release packet, and RC/full pipeline.
+
+## 2026-03-22 16:52:18 UTC — Added limitations report and integrated it into release navigation
+
+Implemented `src/limitations_report.py` -> `docs/LIMITATIONS.md` and integrated limitations into docs home, docs bundle, release packet, and RC/full pipeline for balanced technical communication.

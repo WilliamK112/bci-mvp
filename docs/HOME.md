@@ -1,6 +1,6 @@
 # BCI MVP Docs Home
 
-Generated: 2026-03-22 16:50 UTC
+Generated: 2026-03-22 16:52 UTC
 
 ## Project Status
 
@@ -12,6 +12,7 @@ Generated: 2026-03-22 16:50 UTC
 ## Technical Core
 
 - ✅ `TECHNICAL_REPORT.md`
+- ✅ `LIMITATIONS.md`
 - ✅ `MODEL_CARD.md`
 - ✅ `MATH_NOTATION.md`
 - ✅ `METHODS.md`

@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 
 DOCS = [
     ('docs/TECHNICAL_REPORT.md', 'Technical report'),
+    ('docs/LIMITATIONS.md', 'Limitations report'),
     ('docs/RELEASE_READINESS.md', 'Release readiness dashboard'),
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),
     ('docs/SPACE_USER_GUIDE.md', 'Space user guide'),

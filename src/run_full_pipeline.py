@@ -14,6 +14,7 @@ STEPS = [
     ["python3", "src/plot_all_models.py"],
     ["python3", "src/plot_results.py"],
     ["python3", "src/build_report.py"],
+    ["python3", "src/limitations_report.py"],
     ["python3", "src/generate_results_md.py"],
     ["python3", "src/metrics_registry.py"],
     ["python3", "src/data_provenance.py"],

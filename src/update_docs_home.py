@@ -13,6 +13,7 @@ SECTIONS = {
     ],
     'Technical Core': [
         'docs/TECHNICAL_REPORT.md',
+        'docs/LIMITATIONS.md',
         'docs/MODEL_CARD.md',
         'docs/MATH_NOTATION.md',
         'docs/METHODS.md',

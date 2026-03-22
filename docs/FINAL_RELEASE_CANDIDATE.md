@@ -1,9 +1,10 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:50 UTC
+Generated: 2026-03-22 16:52 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
+- [OK] `python3 src/limitations_report.py`
 - [OK] `python3 src/generate_results_md.py`
 - [OK] `python3 src/metrics_registry.py`
 - [OK] `python3 src/data_provenance.py`
@@ -45,6 +46,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 
 ## Output Inventory
 - [x] `docs/TECHNICAL_REPORT.md`
+- [x] `docs/LIMITATIONS.md`
 - [x] `docs/RELEASE_READINESS.md`
 - [x] `docs/HF_SPACE_READINESS.md`
 - [x] `docs/HF_SPACE_STATUS.md`
@@ -85,5 +87,5 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 33/35
-**Output coverage:** 40/40
+**Pipeline success:** 34/36
+**Output coverage:** 41/41

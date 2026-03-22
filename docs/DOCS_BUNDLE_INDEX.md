@@ -1,9 +1,10 @@
 # Documentation Bundle Index
 
-Generated: 2026-03-22 16:50 UTC
+Generated: 2026-03-22 16:52 UTC
 
 ## Core
 - ✅ [Technical report](TECHNICAL_REPORT.md) — `docs/TECHNICAL_REPORT.md`
+- ✅ [Limitations report](LIMITATIONS.md) — `docs/LIMITATIONS.md`
 - ✅ [Release readiness dashboard](RELEASE_READINESS.md) — `docs/RELEASE_READINESS.md`
 - ✅ [HF Space readiness](HF_SPACE_READINESS.md) — `docs/HF_SPACE_READINESS.md`
 - ✅ [Space user guide](SPACE_USER_GUIDE.md) — `docs/SPACE_USER_GUIDE.md`
