@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:39:53 UTC — Added readiness status badges
+- 2026-03-22 14:41:57 UTC — Added command center documentation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -317,3 +317,12 @@ Refresh badges:
 ```bash
 python src/generate_status_badges.py
 ```
+
+
+## Command Center
+Generate a single command reference page:
+```bash
+python src/command_center.py
+```
+Output:
+- `docs/COMMAND_CENTER.md`

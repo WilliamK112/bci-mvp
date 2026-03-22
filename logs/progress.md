@@ -87,3 +87,7 @@ Implemented `src/update_docs_bundle.py` and integrated it into `src/run_full_pip
 ## 2026-03-22 14:39:53 UTC — Added readiness status badges
 
 Implemented `src/generate_status_badges.py` to produce local SVG badges for release and HF Space readiness, embedded in README.
+
+## 2026-03-22 14:41:57 UTC — Added command center documentation
+
+Implemented `src/command_center.py` to generate `docs/COMMAND_CENTER.md` with categorized high-value commands for fast execution.
