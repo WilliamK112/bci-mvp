@@ -751,3 +751,7 @@ Implemented `src/release_matrix_badge.py` to publish `assets/badge_release_matri
 ## 2026-03-22 23:23:47 UTC — Added release-matrix badge regression test and CI coverage
 
 Created `tests/test_release_matrix_badge_unittest.py` and integrated it into CI + quick regression suite to protect release-matrix badge generation integrity.
+
+## 2026-03-22 23:28:07 UTC — Added release decision gate for professional publish readiness
+
+Implemented `src/release_decision_gate.py` to produce GO/HOLD decision + suggested tag from master/matrix/overview checks; integrated into pipeline, RC checks, and report/docs indices.

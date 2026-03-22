@@ -1,0 +1,13 @@
+{
+  "decision": "GO",
+  "suggested_tag": "v1.0.0",
+  "checks": {
+    "master_overall_pass": true,
+    "matrix_all_pass": true,
+    "matrix_all_present": true,
+    "overview_overall_pass": true,
+    "overview_sources_present": true,
+    "matrix_avg_score_ge_0_90": true
+  },
+  "matrix_avg_score": 1.0
+}
