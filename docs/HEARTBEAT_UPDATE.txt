@@ -1,0 +1,1 @@
+[2026-03-22 17:32 UTC] heartbeat_update ready=READY | [2026-03-22 17:32 UTC] ready=READY pipeline=50/50 coverage=55/55 quality=0.938

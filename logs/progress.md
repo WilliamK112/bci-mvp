@@ -403,3 +403,7 @@ Implemented `src/status_snapshot_zh.py` -> `docs/STATUS_SNAPSHOT_ZH.md`, integra
 ## 2026-03-22 17:30:13 UTC — Added bilingual status message templates for rapid sharing
 
 Implemented `src/status_message_template.py` -> `docs/STATUS_MESSAGE_TEMPLATES.md`, integrated into full/RC pipelines and docs home for quick comms handoff.
+
+## 2026-03-22 17:32:13 UTC — Added heartbeat-update artifact generator
+
+Implemented `src/heartbeat_update.py` -> `docs/HEARTBEAT_UPDATE.txt` and integrated into full/RC pipelines for concise periodic status broadcasting.

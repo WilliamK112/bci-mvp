@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 17:30 UTC
+Generated: 2026-03-22 17:32 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -51,6 +51,7 @@ Generated: 2026-03-22 17:30 UTC
 - [OK] `python3 src/status_snapshot.py`
 - [OK] `python3 src/status_snapshot_zh.py`
 - [OK] `python3 src/status_message_template.py`
+- [OK] `python3 src/heartbeat_update.py`
 - [OK] `python3 src/launch_status.py`
 - [OK] `python3 src/release_ready_diagnose.py`
 
@@ -103,6 +104,7 @@ Generated: 2026-03-22 17:30 UTC
 - [x] `docs/STATUS_SNAPSHOT.txt`
 - [x] `docs/STATUS_SNAPSHOT_ZH.md`
 - [x] `docs/STATUS_MESSAGE_TEMPLATES.md`
+- [x] `docs/HEARTBEAT_UPDATE.txt`
 - [x] `docs/LAUNCH_STATUS.md`
 - [x] `docs/RELEASE_READY_DIAGNOSE.md`
 - [x] `docs/release/release_en.md`
@@ -111,5 +113,5 @@ Generated: 2026-03-22 17:30 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 50/50
-**Output coverage:** 55/55
+**Pipeline success:** 51/51
+**Output coverage:** 56/56
