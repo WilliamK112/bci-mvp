@@ -703,3 +703,7 @@ Implemented `src/plot_project_master_scorecard.py` to render top-level pillar st
 ## 2026-03-22 22:54:37 UTC — Added regression test for project master scorecard visual artifacts
 
 Created `tests/test_project_master_scorecard_visual_unittest.py` and wired it into CI + quick regression suite to guard top-level visual/doc linkage integrity.
+
+## 2026-03-22 23:02:57 UTC — Added unified scorecards overview layer
+
+Implemented `src/scorecards_overview.py` to aggregate Streaming/Generalization/Reproducibility/Master scorecards into one compact overview and integrated it into pipeline/RC/report/docs index flows.

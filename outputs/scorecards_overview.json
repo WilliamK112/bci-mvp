@@ -1,0 +1,31 @@
+{
+  "overall_pass": true,
+  "all_sources_present": true,
+  "average_score": 1.0,
+  "rows": [
+    {
+      "name": "streaming",
+      "pass": true,
+      "score": 1.0,
+      "source_exists": true
+    },
+    {
+      "name": "generalization",
+      "pass": true,
+      "score": 1.0,
+      "source_exists": true
+    },
+    {
+      "name": "reproducibility",
+      "pass": true,
+      "score": 1.0,
+      "source_exists": true
+    },
+    {
+      "name": "master",
+      "pass": true,
+      "score": 1.0,
+      "source_exists": true
+    }
+  ]
+}
