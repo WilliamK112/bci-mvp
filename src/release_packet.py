@@ -9,6 +9,7 @@ ITEMS = [
     ('docs/TECHNICAL_REPORT.md', 'Technical report'),
     ('docs/LIMITATIONS.md', 'Limitations report'),
     ('docs/FINAL_RELEASE_CANDIDATE.md', 'Final release candidate'),
+    ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),
     ('docs/RELEASE_READINESS.md', 'Release readiness'),
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),
     ('docs/SPACE_USER_GUIDE.md', 'Space user guide'),

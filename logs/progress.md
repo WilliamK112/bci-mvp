@@ -343,3 +343,7 @@ Updated EEG scripts to use modern `raw.pick(...)` API in fetch/preprocess/data-c
 ## 2026-03-22 17:00:18 UTC — Added reviewer pack and integrated into release automation
 
 Implemented `src/reviewer_pack.py` -> `docs/REVIEWER_PACK.md` (3 docs + 3 visuals) and integrated into docs home/bundle/release packet and RC/full pipeline.
+
+## 2026-03-22 17:02:22 UTC — Added binary release-ready signal and integrated into automation
+
+Implemented `src/release_ready_signal.py` -> `docs/RELEASE_READY_SIGNAL.md` and integrated into docs home/bundle/release packet plus RC/full pipeline.
