@@ -2,6 +2,8 @@
 
 ![BCI MVP Banner](assets/readme_banner.svg)
 
+这是一个轻量级脑机接口（BCI）MVP 项目，用 EEG 数据实现放松/专注状态识别，并提供可复现评估、可解释分析与在线演示。
+
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)

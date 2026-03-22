@@ -299,3 +299,7 @@ Implemented `src/release_notes_latest.py` -> `docs/RELEASE_NOTES_LATEST.md` and 
 ## 2026-03-22 16:32:39 UTC — Added visuals presence guardrail for README quality
 
 Implemented `src/visuals_presence_check.py` to verify banner/heatmap/health badge assets and integrated it into full pipeline + RC coverage.
+
+## 2026-03-22 16:34:39 UTC — Added Chinese one-sentence tagline guardrail
+
+Implemented `src/tagline_check.py` to enforce a concise Chinese project one-liner in `README.zh-CN.md` and integrated it into full pipeline + RC coverage.
