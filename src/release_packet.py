@@ -18,6 +18,7 @@ ITEMS = [
     ('docs/RELEASE_DASHBOARD.md', 'Release dashboard'),
     ('docs/LAUNCH_STATUS.md', 'Launch status'),
     ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),
+    ('docs/RELEASE_GUARD_REPORT.md', 'Release guard report'),
     ('docs/RELEASE_READY_DIAGNOSE.md', 'Release-ready diagnose'),
     ('docs/RELEASE_READINESS.md', 'Release readiness'),
     ('docs/HF_SPACE_READINESS.md', 'HF Space readiness'),

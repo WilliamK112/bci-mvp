@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 18:04 UTC
+Generated: 2026-03-22 18:10 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -16,6 +16,7 @@ Generated: 2026-03-22 18:04 UTC
 - ✅ Release dashboard: `docs/RELEASE_DASHBOARD.md`
 - ✅ Launch status: `docs/LAUNCH_STATUS.md`
 - ✅ Release-ready signal: `docs/RELEASE_READY_SIGNAL.md`
+- ✅ Release guard report: `docs/RELEASE_GUARD_REPORT.md`
 - ✅ Release-ready diagnose: `docs/RELEASE_READY_DIAGNOSE.md`
 - ✅ Release readiness: `docs/RELEASE_READINESS.md`
 - ✅ HF Space readiness: `docs/HF_SPACE_READINESS.md`
