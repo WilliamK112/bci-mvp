@@ -17,6 +17,7 @@ pinned: false
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
 ![Project Health](assets/badge_project_health.svg)
 ![Release Ready](assets/badge_release_ready.svg)
+![Milestone](assets/badge_milestone.svg)
 
 ## 🌐 Language
 - English (this file)
@@ -112,7 +113,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 17:38:00 UTC — Surfaced v1 release notes in top-level bilingual READMEs
+- 2026-03-22 17:44:12 UTC — Added milestone badge and integrated into automation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

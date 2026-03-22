@@ -427,3 +427,7 @@ Enhanced `src/status_message_template.py` so EN/ZH quick-share messages include 
 ## 2026-03-22 17:42:10 UTC — Added milestone stamp artifact for release maturity signaling
 
 Implemented `src/milestone_stamp.py` -> `docs/MILESTONE_STAMP.md` and integrated into docs home plus RC/full pipelines.
+
+## 2026-03-22 17:44:12 UTC — Added milestone badge and integrated into automation
+
+Implemented `src/milestone_badge.py` -> `assets/badge_milestone.svg`, linked in README and integrated into RC/full pipelines.
