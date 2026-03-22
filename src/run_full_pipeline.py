@@ -24,6 +24,8 @@ STEPS = [
     ["python3", "src/update_docs_home.py"],
     ["python3", "src/executive_summary.py"],
     ["python3", "src/release_packet.py"],
+    ["python3", "src/hf_space_status.py", "--space", "williamKang112/bci-mvp-demo"],
+    ["python3", "src/space_smoke_test.py"],
     ["python3", "src/report_consistency_check.py"],
     ["python3", "src/env_compat_check.py"],
     ["python3", "src/repro_snapshot.py"],

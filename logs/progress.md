@@ -267,3 +267,7 @@ Created `CITATION.cff` and linked citation guidance in README to improve academi
 ## 2026-03-22 16:16:32 UTC — Integrated citation metadata into release-critical coverage
 
 Promoted `CITATION.cff` into docs bundle/release packet/final RC output inventory for stronger research-grade release completeness.
+
+## 2026-03-22 16:18:09 UTC — Integrated live Space status/smoke checks into RC/full pipeline
+
+Updated orchestrators to run `hf_space_status` and `space_smoke_test` every full/RC cycle; RC output inventory now tracks deployment live-health artifacts.

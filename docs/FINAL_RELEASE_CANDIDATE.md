@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:16 UTC
+Generated: 2026-03-22 16:18 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -18,6 +18,12 @@ Generated: 2026-03-22 16:16 UTC
 - [OK] `python3 src/risk_register.py`
 - [OK] `python3 src/executive_summary.py`
 - [OK] `python3 src/release_packet.py`
+- [FAIL(1)] `python3 src/hf_space_status.py --space williamKang112/bci-mvp-demo`
+  - stderr: `Traceback (most recent call last):
+  File "/Users/William/.openclaw/workspace/bci-mvp/src/hf_space_status.py", line 9, in <module>
+    from huggingface_hub import HfApi
+ModuleNotFoundError: No module named 'huggingface_h`
+- [OK] `python3 src/space_smoke_test.py`
 - [OK] `python3 src/report_consistency_check.py`
 - [OK] `python3 src/env_compat_check.py`
 - [OK] `python3 src/repro_snapshot.py`
@@ -30,6 +36,8 @@ Generated: 2026-03-22 16:16 UTC
 - [x] `docs/TECHNICAL_REPORT.md`
 - [x] `docs/RELEASE_READINESS.md`
 - [x] `docs/HF_SPACE_READINESS.md`
+- [x] `docs/HF_SPACE_STATUS.md`
+- [x] `docs/SPACE_SMOKE_TEST.md`
 - [x] `docs/SPACE_USER_GUIDE.md`
 - [x] `docs/MODEL_LEADERBOARD.md`
 - [x] `docs/FIGURE_GALLERY.md`
@@ -55,5 +63,5 @@ Generated: 2026-03-22 16:16 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 21/22
-**Output coverage:** 27/27
+**Pipeline success:** 22/24
+**Output coverage:** 29/29
