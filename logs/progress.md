@@ -639,3 +639,7 @@ Implemented `src/explainability_stability.py` to compare top-feature overlap and
 ## 2026-03-22 22:23:45 UTC — Added explainability-stability regression test and CI coverage
 
 Created `tests/test_explainability_stability_unittest.py`, wired it into CI and `src/quick_regression_suite.py`, and validated local pass for regression stack.
+
+## 2026-03-22 22:26:06 UTC — Added integrated streaming scorecard
+
+Implemented `src/streaming_scorecard.py` to aggregate latency/stability/drift gates into one pass/fail scorecard and integrated it into pipeline, RC checks, and reporting/docs indices.

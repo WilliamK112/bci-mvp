@@ -1,0 +1,16 @@
+{
+  "overall_pass": true,
+  "score": 1.0,
+  "metrics": {
+    "latency_p95_ms": 99.9905819131527,
+    "throughput_windows_per_sec": 12.716479923084803,
+    "stability_pass": true,
+    "drift_p95_abs_prob_shift": 0.2925
+  },
+  "gates": {
+    "latency_p95_le_120ms": true,
+    "throughput_ge_8": true,
+    "stability_pass": true,
+    "drift_p95_le_0_30": true
+  }
+}
