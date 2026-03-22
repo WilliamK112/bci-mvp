@@ -755,3 +755,7 @@ Created `tests/test_release_matrix_badge_unittest.py` and integrated it into CI 
 ## 2026-03-22 23:28:07 UTC — Added release decision gate for professional publish readiness
 
 Implemented `src/release_decision_gate.py` to produce GO/HOLD decision + suggested tag from master/matrix/overview checks; integrated into pipeline, RC checks, and report/docs indices.
+
+## 2026-03-22 23:29:52 UTC — Added release-decision-gate regression test and CI coverage
+
+Created `tests/test_release_decision_gate_unittest.py`, integrated it into CI and quick regression suite, and validated full critical test stack pass.
