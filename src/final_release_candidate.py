@@ -35,6 +35,7 @@ STEPS = [
     ["python3", "src/compliance_scorecard.py"],
     ["python3", "src/project_health_badge.py"],
     ["python3", "src/one_pager.py"],
+    ["python3", "src/release_notes_latest.py"],
 ]
 
 OUTPUTS = [
@@ -66,6 +67,7 @@ OUTPUTS = [
     "docs/COMPLIANCE_SCORECARD.md",
     "assets/badge_project_health.svg",
     "docs/ONE_PAGER.md",
+    "docs/RELEASE_NOTES_LATEST.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",

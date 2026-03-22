@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:28 UTC
+Generated: 2026-03-22 16:30 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -35,6 +35,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [OK] `python3 src/compliance_scorecard.py`
 - [OK] `python3 src/project_health_badge.py`
 - [OK] `python3 src/one_pager.py`
+- [OK] `python3 src/release_notes_latest.py`
 
 ## Output Inventory
 - [x] `docs/TECHNICAL_REPORT.md`
@@ -65,11 +66,12 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/COMPLIANCE_SCORECARD.md`
 - [x] `assets/badge_project_health.svg`
 - [x] `docs/ONE_PAGER.md`
+- [x] `docs/RELEASE_NOTES_LATEST.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 26/28
-**Output coverage:** 33/33
+**Pipeline success:** 27/29
+**Output coverage:** 34/34
