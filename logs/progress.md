@@ -727,3 +727,7 @@ Implemented `src/real_data_evidence.py` -> `docs/REAL_DATA_EVIDENCE.md` and `src
 ## 2026-03-22 23:12:43 UTC — Added regression tests for real-data evidence and repro entrypoint
 
 Created tests for `docs/REAL_DATA_EVIDENCE.md` and `src/repro_one_command.py`, then integrated both into CI and quick regression suite with local PASS verification.
+
+## 2026-03-22 23:14:57 UTC — Added release readiness matrix across all scorecard layers
+
+Implemented `src/release_readiness_matrix.py` to summarize presence/pass/score across streaming/generalization/reproducibility/master/overview; integrated into pipeline, RC checks, and report/docs indexes.

@@ -1,0 +1,37 @@
+{
+  "all_present": true,
+  "all_pass": true,
+  "avg_score": 1.0,
+  "rows": [
+    {
+      "name": "streaming",
+      "present": true,
+      "pass": true,
+      "score": 1.0
+    },
+    {
+      "name": "generalization",
+      "present": true,
+      "pass": true,
+      "score": 1.0
+    },
+    {
+      "name": "reproducibility",
+      "present": true,
+      "pass": true,
+      "score": 1.0
+    },
+    {
+      "name": "master",
+      "present": true,
+      "pass": true,
+      "score": 1.0
+    },
+    {
+      "name": "overview",
+      "present": true,
+      "pass": true,
+      "score": 1.0
+    }
+  ]
+}
