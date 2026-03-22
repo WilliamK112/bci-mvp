@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="28" role="img" aria-label="release-decision: GO v1.0.0">
+<linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".1" stop-opacity=".1"/><stop offset=".9" stop-opacity=".3"/><stop offset="1" stop-opacity=".5"/></linearGradient>
+<clipPath id="r"><rect width="380" height="28" rx="4" fill="#fff"/></clipPath>
+<g clip-path="url(#r)"><rect width="180" height="28" fill="#555"/><rect x="180" width="200" height="28" fill="#16a34a"/><rect width="380" height="28" fill="url(#s)"/></g>
+<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="12">
+<text x="90" y="19">release-decision</text><text x="280" y="19">GO v1.0.0</text></g></svg>

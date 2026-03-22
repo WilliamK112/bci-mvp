@@ -783,3 +783,7 @@ Implemented `src/plot_repro_run_proof.py` to visualize repro proof artifact cove
 ## 2026-03-22 23:40:50 UTC — Added regression test for repro-run-proof visual artifacts
 
 Created `tests/test_repro_run_proof_visual_unittest.py` and integrated it into CI + quick regression suite to protect repro-proof visual/doc linkage integrity.
+
+## 2026-03-22 23:45:03 UTC — Added release decision badge for public-facing GO/HOLD signal
+
+Implemented `src/release_decision_badge.py` to generate `assets/badge_release_decision.svg` from decision gate output and integrated into README/pipeline/RC/docs indexes.
