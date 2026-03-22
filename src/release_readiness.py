@@ -13,6 +13,7 @@ CHECKS = [
     ('docs/release/release_en.md', 'Release EN'),
     ('docs/release/release_zh.md', 'Release ZH'),
     ('docs/RISK_REGISTER.md', 'Risk register'),
+    ('outputs/bootstrap_ci_results.json', 'Bootstrap CI results'),
 ]
 
 

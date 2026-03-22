@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 14:26 UTC
+Generated: 2026-03-22 14:57 UTC
 
 ## 1) Benchmark Summary
 
@@ -47,7 +47,7 @@ No `outputs/robustness_results.json` found.
 - ![Calibration](../assets/calibration_curve.svg)
 - ![Robustness](../assets/robustness_accuracy.svg)
 
-## 8) Release Readiness
+## 9) Release Readiness
 
 - Pipeline status: `docs/PIPELINE_STATUS.md`
 - Artifact validation: `outputs/artifact_validation_report.txt`

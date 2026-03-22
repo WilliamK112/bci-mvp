@@ -119,3 +119,7 @@ Implemented `src/next_milestones.py` to generate `docs/NEXT_MILESTONES.md` with 
 ## 2026-03-22 14:55:55 UTC — Added bootstrap confidence-interval evaluation
 
 Implemented `src/bootstrap_ci.py` to estimate CI95 for accuracy/F1/AUC via bootstrap resampling and save `outputs/bootstrap_ci_results.json`.
+
+## 2026-03-22 14:57:50 UTC — Integrated bootstrap uncertainty into reporting and readiness
+
+Updated technical report and release readiness checks to include `outputs/bootstrap_ci_results.json`; regenerated readiness + final RC docs.

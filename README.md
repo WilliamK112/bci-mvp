@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:55:55 UTC — Added bootstrap confidence-interval evaluation
+- 2026-03-22 14:57:50 UTC — Integrated bootstrap uncertainty into reporting and readiness
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -373,3 +373,5 @@ python src/bootstrap_ci.py
 ```
 Output:
 - `outputs/bootstrap_ci_results.json`
+
+- Release readiness now includes bootstrap CI artifact coverage (`outputs/bootstrap_ci_results.json`).

@@ -34,6 +34,7 @@ def main():
     explain = read_json(out / "permutation_importance_summary.json")
     calib = read_json(out / "calibration_results.json")
     robust = read_json(out / "robustness_results.json")
+    boot = read_json(out / "bootstrap_ci_results.json")
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [
@@ -111,7 +112,7 @@ def main():
         "- ![Calibration](../assets/calibration_curve.svg)",
         "- ![Robustness](../assets/robustness_accuracy.svg)",
         "",
-        "## 8) Release Readiness",
+        "## 9) Release Readiness",
         "",
         "- Pipeline status: `docs/PIPELINE_STATUS.md`",
         "- Artifact validation: `outputs/artifact_validation_report.txt`",
