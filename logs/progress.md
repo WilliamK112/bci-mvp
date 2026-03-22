@@ -475,3 +475,7 @@ Implemented `src/release_guard_report.py` -> `docs/RELEASE_GUARD_REPORT.md` and 
 ## 2026-03-22 18:10:08 UTC — Surfaced release guard report in bundle and packet
 
 Added `docs/RELEASE_GUARD_REPORT.md` into docs bundle index and release packet, then refreshed RC outputs.
+
+## 2026-03-22 18:12:02 UTC — Surfaced release guard report in bilingual top-level READMEs
+
+Added direct links to `docs/RELEASE_GUARD_REPORT.md` in README.md and README.zh-CN.md for immediate governance visibility.

@@ -60,3 +60,6 @@ MIT
 
 ## 发布归档清单
 - `docs/RELEASE_ARCHIVE_MANIFEST.md`
+
+## 发布守卫报告
+- `docs/RELEASE_GUARD_REPORT.md`

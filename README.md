@@ -90,6 +90,7 @@ python src/space_smoke_test.py
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
 - Release dashboard: `docs/RELEASE_DASHBOARD.md`
 - Launch status: `docs/LAUNCH_STATUS.md`
+- Release guard report: `docs/RELEASE_GUARD_REPORT.md`
 - v1 release notes: `docs/V1_RELEASE_NOTES.md`
 - release archive manifest: `docs/RELEASE_ARCHIVE_MANIFEST.md`
 
@@ -114,7 +115,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 18:02:03 UTC — Surfaced release archive manifest in bilingual READMEs
+- 2026-03-22 18:12:02 UTC — Surfaced release guard report in bilingual top-level READMEs
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
