@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:26:16 UTC — Upgraded technical report + added release readiness dashboard
+- 2026-03-22 14:27:49 UTC — Added HF Space readiness checker
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -252,3 +252,11 @@ python src/release_readiness.py
 ```
 Output:
 - `docs/RELEASE_READINESS.md`
+
+
+## HF Space Readiness Check
+```bash
+python src/hf_space_readiness.py
+```
+Output:
+- `docs/HF_SPACE_READINESS.md`

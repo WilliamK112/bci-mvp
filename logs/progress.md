@@ -59,3 +59,7 @@ Implemented perturbation-based robustness evaluation (`src/robustness_eval.py`) 
 ## 2026-03-22 14:26:16 UTC — Upgraded technical report + added release readiness dashboard
 
 Extended `src/build_report.py` with calibration/robustness sections and added `src/release_readiness.py` to generate `docs/RELEASE_READINESS.md`.
+
+## 2026-03-22 14:27:49 UTC — Added HF Space readiness checker
+
+Implemented `src/hf_space_readiness.py` to generate `docs/HF_SPACE_READINESS.md` with deployment checklist and score.
