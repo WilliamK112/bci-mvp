@@ -431,3 +431,7 @@ Implemented `src/milestone_stamp.py` -> `docs/MILESTONE_STAMP.md` and integrated
 ## 2026-03-22 17:44:12 UTC — Added milestone badge and integrated into automation
 
 Implemented `src/milestone_badge.py` -> `assets/badge_milestone.svg`, linked in README and integrated into RC/full pipelines.
+
+## 2026-03-22 17:46:15 UTC — Added machine-readable release summary JSON
+
+Implemented `src/release_summary_json.py` -> `docs/RELEASE_SUMMARY.json` and integrated into RC/full pipeline plus docs home navigation.
