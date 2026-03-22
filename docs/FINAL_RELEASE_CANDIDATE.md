@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:26 UTC
+Generated: 2026-03-22 16:28 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -33,6 +33,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [OK] `python3 src/navigation_health_check.py`
 - [OK] `python3 src/secrets_hygiene_check.py`
 - [OK] `python3 src/compliance_scorecard.py`
+- [OK] `python3 src/project_health_badge.py`
 - [OK] `python3 src/one_pager.py`
 
 ## Output Inventory
@@ -62,6 +63,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/NAVIGATION_HEALTH.md`
 - [x] `docs/SECRETS_HYGIENE.md`
 - [x] `docs/COMPLIANCE_SCORECARD.md`
+- [x] `assets/badge_project_health.svg`
 - [x] `docs/ONE_PAGER.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
@@ -69,5 +71,5 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 25/27
-**Output coverage:** 32/32
+**Pipeline success:** 26/28
+**Output coverage:** 33/33

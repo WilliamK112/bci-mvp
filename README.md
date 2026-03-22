@@ -15,6 +15,7 @@ pinned: false
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
+![Project Health](assets/badge_project_health.svg)
 
 ## 🌐 Language
 - English (this file)
@@ -103,6 +104,6 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:26:24 UTC — Added one-page external brief and integrated into RC pipeline
+- 2026-03-22 16:28:26 UTC — Added project-health badge from quality/compliance indexes
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->

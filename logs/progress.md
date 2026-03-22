@@ -287,3 +287,7 @@ Linked `docs/COMPLIANCE_SCORECARD.md` in README and docs home generator; refresh
 ## 2026-03-22 16:26:24 UTC — Added one-page external brief and integrated into RC pipeline
 
 Implemented `src/one_pager.py` generating `docs/ONE_PAGER.md` and integrated it into full pipeline/final RC coverage for concise external communication.
+
+## 2026-03-22 16:28:26 UTC — Added project-health badge from quality/compliance indexes
+
+Implemented `src/project_health_badge.py` to generate `assets/badge_project_health.svg`, displayed in README and integrated into RC/full pipeline.
