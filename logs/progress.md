@@ -199,3 +199,7 @@ Implemented `src/readme_quality_check.py` to enforce concise/bilingual README st
 ## 2026-03-22 15:36:17 UTC — Added docs home landing page
 
 Created `docs/HOME.md` as a curated documentation entrypoint and linked it from README for faster navigation.
+
+## 2026-03-22 15:46:14 UTC — Added API contract tests and CI integration
+
+Implemented `tests/test_api_contract_unittest.py` for `/health` and `/predict` schema/validation checks, and wired it into CI unittest stage.

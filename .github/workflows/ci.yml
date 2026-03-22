@@ -28,4 +28,4 @@ jobs:
           PY
       - name: Unit tests
         run: |
-          python -m unittest -q tests/test_streaming_unittest.py tests/test_infer_fallback_unittest.py
+          python -m unittest -q tests/test_streaming_unittest.py tests/test_infer_fallback_unittest.py tests/test_api_contract_unittest.py
