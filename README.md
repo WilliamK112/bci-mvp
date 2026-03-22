@@ -17,6 +17,7 @@ pinned: false
 ![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
 ![Project Health](assets/badge_project_health.svg)
 ![Release Ready](assets/badge_release_ready.svg)
+![Release Matrix](assets/badge_release_matrix.svg)
 ![Milestone](assets/badge_milestone.svg)
 
 ## 🌐 Language
@@ -116,7 +117,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:19:49 UTC — Added regression test for release-readiness-matrix visual artifacts
+- 2026-03-22 23:22:02 UTC — Added release-readiness matrix badge
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
