@@ -80,6 +80,7 @@ python src/space_smoke_test.py
 
 ## ✅ Quality & Readiness
 - Quality scorecard: `docs/QUALITY_SCORECARD.md`
+- Compliance scorecard: `docs/COMPLIANCE_SCORECARD.md`
 - Release readiness: `docs/RELEASE_READINESS.md`
 - HF Space readiness: `docs/HF_SPACE_READINESS.md`
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
@@ -101,6 +102,6 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 16:14:06 UTC — Added citation metadata for research-grade reuse
+- 2026-03-22 16:24:07 UTC — Promoted compliance scorecard visibility in primary entrypoints
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->

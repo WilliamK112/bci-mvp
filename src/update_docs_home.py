@@ -8,6 +8,7 @@ SECTIONS = {
     'Project Status': [
         'docs/EXECUTIVE_SUMMARY.md',
         'docs/QUALITY_SCORECARD.md',
+        'docs/COMPLIANCE_SCORECARD.md',
         'docs/FINAL_RELEASE_CANDIDATE.md',
     ],
     'Technical Core': [

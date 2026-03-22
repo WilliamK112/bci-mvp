@@ -279,3 +279,7 @@ Implemented `src/secrets_hygiene_check.py` to scan for token-like strings and ge
 ## 2026-03-22 16:22:17 UTC — Added compliance scorecard and integrated into release pipeline
 
 Implemented `src/compliance_scorecard.py` to summarize navigation/i18n/secrets/citation compliance and added it to full pipeline + final RC coverage.
+
+## 2026-03-22 16:24:07 UTC — Promoted compliance scorecard visibility in primary entrypoints
+
+Linked `docs/COMPLIANCE_SCORECARD.md` in README and docs home generator; refreshed HOME and final RC outputs.
