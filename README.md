@@ -115,3 +115,14 @@ Outputs:
 ![Cross-Dataset Scores](assets/cross_dataset_scores.svg)
 
 > Note: current figures are demo placeholders. Replace with real experiment outputs after running full evaluations.
+
+
+## Model-Agnostic Explainability (Permutation Importance)
+```bash
+python src/permutation_explain.py
+```
+Outputs:
+- `outputs/permutation_importance_detailed.csv`
+- `outputs/permutation_importance_by_band.csv`
+- `outputs/permutation_importance_by_channel.csv`
+- `outputs/permutation_importance_summary.json`
