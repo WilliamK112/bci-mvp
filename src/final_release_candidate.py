@@ -26,6 +26,7 @@ STEPS = [
     ["python3", "src/env_compat_check.py"],
     ["python3", "src/repro_snapshot.py"],
     ["python3", "src/readme_quality_check.py"],
+    ["python3", "src/readme_i18n_consistency.py"],
     ["python3", "src/docs_freshness_check.py"],
 ]
 
@@ -48,6 +49,7 @@ OUTPUTS = [
     "docs/ENV_COMPAT.md",
     "docs/REPRO_SNAPSHOT.md",
     "docs/README_QUALITY.md",
+    "docs/README_I18N_CONSISTENCY.md",
     "docs/DOCS_FRESHNESS.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",

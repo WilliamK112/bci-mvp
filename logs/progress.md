@@ -247,3 +247,7 @@ Implemented `src/generate_readme_banner.py` and added `assets/readme_banner.svg`
 ## 2026-03-22 16:06:15 UTC — Enhanced bilingual README parity + i18n consistency check
 
 Updated `README.zh-CN.md` with banner/badges parity and added `src/readme_i18n_consistency.py` producing `docs/README_I18N_CONSISTENCY.md`.
+
+## 2026-03-22 16:08:08 UTC — Integrated README i18n consistency into RC/full pipeline
+
+Wired `src/readme_i18n_consistency.py` into the automated quality pipeline and final RC output inventory for bilingual release hygiene.
