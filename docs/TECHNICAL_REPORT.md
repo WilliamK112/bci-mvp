@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 21:48 UTC
+Generated: 2026-03-22 21:52 UTC
 
 ## 1) Benchmark Summary
 
@@ -30,7 +30,12 @@ Generated: 2026-03-22 21:48 UTC
 
 ## 4) Explainability Summary
 
-No `outputs/permutation_importance_summary.json` found.
+- Base test accuracy: 0.8231292517006803
+- Num features: 32
+- Top band: [{'band': 'alpha', 'importance_mean': 0.0693877551020409}]
+- Top channel: [{'channel': 4, 'importance_mean': 0.03401360544217691}]
+
+- ![Explainability Heatmap](../assets/explainability_heatmap.svg)
 
 ## 5) Probability Calibration
 

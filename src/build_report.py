@@ -88,6 +88,7 @@ def main():
             f"- Top band: {explain.get('top_band')}",
             f"- Top channel: {explain.get('top_channel')}",
         ]
+        lines += ["", "- ![Explainability Heatmap](../assets/explainability_heatmap.svg)"]
     else:
         lines += ["", "No `outputs/permutation_importance_summary.json` found."]
 

@@ -571,3 +571,7 @@ Wired cross-subject RF/SVM/LogReg benchmark outputs into technical report, RC re
 ## 2026-03-22 21:50:26 UTC — Added bootstrap confidence intervals for cross-subject model benchmark
 
 Implemented `src/cross_subject_ci.py` to compute model-wise LOSO bootstrap CIs (Accuracy/F1/AUC), with JSON + markdown outputs integrated into RC/full pipelines and docs indices.
+
+## 2026-03-22 21:52:20 UTC — Added explainability heatmap visualization
+
+Implemented `src/plot_explainability_heatmap.py` to render channel×band permutation-importance heatmap (`assets/explainability_heatmap.svg`) with dedicated docs page and full pipeline/RC/report integration.

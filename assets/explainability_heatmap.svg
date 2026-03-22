@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="458">
+<rect width="100%" height="100%" fill="white"/>
+<text x="50%" y="34" text-anchor="middle" font-size="24" font-family="Arial">Explainability Heatmap (Permutation Importance)</text>
+<text x="167.5" y="64" text-anchor="middle" font-size="13" font-family="Arial">delta</text>
+<text x="262.5" y="64" text-anchor="middle" font-size="13" font-family="Arial">theta</text>
+<text x="357.5" y="64" text-anchor="middle" font-size="13" font-family="Arial">alpha</text>
+<text x="452.5" y="64" text-anchor="middle" font-size="13" font-family="Arial">beta</text>
+<text x="110" y="104" text-anchor="end" font-size="12" font-family="Arial">ch0</text>
+<rect x="120" y="80" width="93" height="34" fill="#82956d"/>
+<text x="167.5" y="103" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.005</text>
+<rect x="215" y="80" width="93" height="34" fill="#66817f"/>
+<text x="262.5" y="103" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.002</text>
+<rect x="310" y="80" width="93" height="34" fill="#446995"/>
+<text x="357.5" y="103" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">-0.001</text>
+<rect x="405" y="80" width="93" height="34" fill="#dcd634"/>
+<text x="452.5" y="103" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.014</text>
+<text x="110" y="140" text-anchor="end" font-size="12" font-family="Arial">ch1</text>
+<rect x="120" y="116" width="93" height="34" fill="#b2b84e"/>
+<text x="167.5" y="139" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.010</text>
+<rect x="215" y="116" width="93" height="34" fill="#52728c"/>
+<text x="262.5" y="139" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.000</text>
+<rect x="310" y="116" width="93" height="34" fill="#909f64"/>
+<text x="357.5" y="139" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.006</text>
+<rect x="405" y="116" width="93" height="34" fill="#2854a6"/>
+<text x="452.5" y="139" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">-0.004</text>
+<text x="110" y="176" text-anchor="end" font-size="12" font-family="Arial">ch2</text>
+<rect x="120" y="152" width="93" height="34" fill="#909f64"/>
+<text x="167.5" y="175" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.006</text>
+<rect x="215" y="152" width="93" height="34" fill="#97a460"/>
+<text x="262.5" y="175" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.007</text>
+<rect x="310" y="152" width="93" height="34" fill="#9ea95b"/>
+<text x="357.5" y="175" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.007</text>
+<rect x="405" y="152" width="93" height="34" fill="#365f9d"/>
+<text x="452.5" y="175" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">-0.003</text>
+<text x="110" y="212" text-anchor="end" font-size="12" font-family="Arial">ch3</text>
+<rect x="120" y="188" width="93" height="34" fill="#97a460"/>
+<text x="167.5" y="211" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.007</text>
+<rect x="215" y="188" width="93" height="34" fill="#909f64"/>
+<text x="262.5" y="211" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.006</text>
+<rect x="310" y="188" width="93" height="34" fill="#97a460"/>
+<text x="357.5" y="211" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.007</text>
+<rect x="405" y="188" width="93" height="34" fill="#748b76"/>
+<text x="452.5" y="211" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.003</text>
+<text x="110" y="248" text-anchor="end" font-size="12" font-family="Arial">ch4</text>
+<rect x="120" y="224" width="93" height="34" fill="#6d867a"/>
+<text x="167.5" y="247" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.003</text>
+<rect x="215" y="224" width="93" height="34" fill="#909f64"/>
+<text x="262.5" y="247" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.006</text>
+<rect x="310" y="224" width="93" height="34" fill="#eae12b"/>
+<text x="357.5" y="247" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.015</text>
+<rect x="405" y="224" width="93" height="34" fill="#b9bd4a"/>
+<text x="452.5" y="247" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.010</text>
+<text x="110" y="284" text-anchor="end" font-size="12" font-family="Arial">ch5</text>
+<rect x="120" y="260" width="93" height="34" fill="#52728c"/>
+<text x="167.5" y="283" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.000</text>
+<rect x="215" y="260" width="93" height="34" fill="#7b9071"/>
+<text x="262.5" y="283" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.004</text>
+<rect x="310" y="260" width="93" height="34" fill="#fff01e"/>
+<text x="357.5" y="283" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.017</text>
+<rect x="405" y="260" width="93" height="34" fill="#899b69"/>
+<text x="452.5" y="283" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.005</text>
+<text x="110" y="320" text-anchor="end" font-size="12" font-family="Arial">ch6</text>
+<rect x="120" y="296" width="93" height="34" fill="#1446b4"/>
+<text x="167.5" y="319" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">-0.006</text>
+<rect x="215" y="296" width="93" height="34" fill="#66817f"/>
+<text x="262.5" y="319" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.002</text>
+<rect x="310" y="296" width="93" height="34" fill="#82956d"/>
+<text x="357.5" y="319" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.005</text>
+<rect x="405" y="296" width="93" height="34" fill="#66817f"/>
+<text x="452.5" y="319" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.002</text>
+<text x="110" y="356" text-anchor="end" font-size="12" font-family="Arial">ch7</text>
+<rect x="120" y="332" width="93" height="34" fill="#6d867a"/>
+<text x="167.5" y="355" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.003</text>
+<rect x="215" y="332" width="93" height="34" fill="#597787"/>
+<text x="262.5" y="355" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.001</text>
+<rect x="310" y="332" width="93" height="34" fill="#dcd634"/>
+<text x="357.5" y="355" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.014</text>
+<rect x="405" y="332" width="93" height="34" fill="#b2b84e"/>
+<text x="452.5" y="355" text-anchor="middle" font-size="10" font-family="Arial" fill="#111">0.010</text>
+<text x="120" y="434" font-size="12" font-family="Arial" fill="#444">min=-0.0061 max=0.0170</text>
+</svg>
