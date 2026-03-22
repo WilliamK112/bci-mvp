@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:31:47 UTC — Added auto changelog generation from git history
+- 2026-03-22 14:34:04 UTC — Added feature ablation study pipeline
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -278,3 +278,14 @@ python src/changelog_from_git.py
 ```
 Output:
 - `docs/CHANGELOG_AUTO.md`
+
+
+## Ablation Study
+Quantify contribution of each EEG band by zeroing it out:
+```bash
+python src/ablation_eval.py
+python src/plot_ablation.py
+```
+Outputs:
+- `outputs/ablation_results.json`
+- `assets/ablation_accuracy.svg`

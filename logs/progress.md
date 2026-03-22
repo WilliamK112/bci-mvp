@@ -71,3 +71,7 @@ Implemented `src/leaderboard.py` to rank models by accuracy/AUC and generate `do
 ## 2026-03-22 14:31:47 UTC — Added auto changelog generation from git history
 
 Implemented `src/changelog_from_git.py` to produce `docs/CHANGELOG_AUTO.md` for transparent project evolution tracking.
+
+## 2026-03-22 14:34:04 UTC — Added feature ablation study pipeline
+
+Implemented band-level ablation evaluation (`src/ablation_eval.py`) and visualization (`src/plot_ablation.py`) to quantify feature-group contributions.
