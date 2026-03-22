@@ -539,3 +539,7 @@ Implemented `src/status_history.py` to append READY/pipeline/coverage/quality sn
 ## 2026-03-22 21:30:54 UTC — Added release bundle builder and integrated into automation
 
 Implemented `src/build_release_bundle.py` to generate distributable zip bundles in `dist/` and report in `docs/RELEASE_BUNDLE_BUILD.md`; integrated into docs/release/RC/full pipelines.
+
+## 2026-03-22 21:32:54 UTC — Added release bundle verification with checksum
+
+Implemented `src/release_bundle_verify.py` to verify latest dist bundle and emit SHA256 in `docs/RELEASE_BUNDLE_VERIFY.md`; integrated across docs/release/RC/full pipelines.

@@ -16,6 +16,7 @@ ITEMS = [
     ('docs/RELEASE_CHECKLIST.md', 'Release checklist'),
     ('docs/RELEASE_ARCHIVE_MANIFEST.md', 'Release archive manifest'),
     ('docs/RELEASE_BUNDLE_BUILD.md', 'Release bundle build report'),
+    ('docs/RELEASE_BUNDLE_VERIFY.md', 'Release bundle verify report'),
     ('docs/RELEASE_DASHBOARD.md', 'Release dashboard'),
     ('docs/LAUNCH_STATUS.md', 'Launch status'),
     ('docs/RELEASE_READY_SIGNAL.md', 'Release-ready signal'),
