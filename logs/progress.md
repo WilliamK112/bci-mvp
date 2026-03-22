@@ -411,3 +411,7 @@ Implemented `src/heartbeat_update.py` -> `docs/HEARTBEAT_UPDATE.txt` and integra
 ## 2026-03-22 17:34:06 UTC — Surfaced heartbeat update artifact in docs home
 
 Integrated `docs/HEARTBEAT_UPDATE.txt` into docs home navigation and refreshed final RC outputs.
+
+## 2026-03-22 17:36:21 UTC — Added v1 release notes draft generator and integrated into automation
+
+Implemented `src/v1_release_notes_build.py` -> `docs/V1_RELEASE_NOTES.md` and integrated it into docs/release/RC/full pipelines for clean v1 launch comms.

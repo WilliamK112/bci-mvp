@@ -11,6 +11,7 @@ SECTIONS = {
         'docs/COMPLIANCE_SCORECARD.md',
         'docs/FINAL_RELEASE_CANDIDATE.md',
         'docs/V1_RELEASE_READY.md',
+        'docs/V1_RELEASE_NOTES.md',
         'docs/RELEASE_TAG_PLAN.md',
         'docs/TAG_DRY_RUN.md',
         'docs/RELEASE_CHECKLIST.md',

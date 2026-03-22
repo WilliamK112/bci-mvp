@@ -10,6 +10,7 @@ ITEMS = [
     ('docs/LIMITATIONS.md', 'Limitations report'),
     ('docs/FINAL_RELEASE_CANDIDATE.md', 'Final release candidate'),
     ('docs/V1_RELEASE_READY.md', 'v1 release readiness'),
+    ('docs/V1_RELEASE_NOTES.md', 'v1 release notes draft'),
     ('docs/RELEASE_TAG_PLAN.md', 'Release tag plan'),
     ('docs/TAG_DRY_RUN.md', 'Tag dry-run check'),
     ('docs/RELEASE_CHECKLIST.md', 'Release checklist'),
