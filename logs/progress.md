@@ -611,3 +611,7 @@ Implemented `src/cross_dataset_bidirectional.py` to report A->B and B->A transfe
 ## 2026-03-22 22:08:51 UTC — Added bidirectional cross-dataset visualization
 
 Implemented `src/plot_cross_dataset_bidirectional.py` to visualize A↔B RF metrics and integrated visual docs/artifacts into RC/full/report/docs index flows.
+
+## 2026-03-22 22:11:21 UTC — Added bidirectional cross-dataset quality-gate validation
+
+Implemented `src/validate_cross_dataset_bidirectional.py` with transfer/symmetry gates and integrated validation into RC/full/report/docs index flows.
