@@ -15,6 +15,8 @@ TESTS = [
     'tests/test_project_master_scorecard_visual_unittest.py',
     'tests/test_scorecards_overview_unittest.py',
     'tests/test_scorecards_overview_visual_unittest.py',
+    'tests/test_real_data_evidence_unittest.py',
+    'tests/test_repro_one_command_entrypoint_unittest.py',
 ]
 
 

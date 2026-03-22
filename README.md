@@ -116,7 +116,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 23:10:56 UTC — Added real-data evidence report and one-command reproducibility entrypoint
+- 2026-03-22 23:12:43 UTC — Added regression tests for real-data evidence and repro entrypoint
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 

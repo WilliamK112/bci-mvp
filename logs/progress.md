@@ -723,3 +723,7 @@ Created `tests/test_scorecards_overview_visual_unittest.py` and integrated it in
 ## 2026-03-22 23:10:56 UTC — Added real-data evidence report and one-command reproducibility entrypoint
 
 Implemented `src/real_data_evidence.py` -> `docs/REAL_DATA_EVIDENCE.md` and `src/repro_one_command.py` for full repro flow; integrated docs navigation and README quick-start entry.
+
+## 2026-03-22 23:12:43 UTC — Added regression tests for real-data evidence and repro entrypoint
+
+Created tests for `docs/REAL_DATA_EVIDENCE.md` and `src/repro_one_command.py`, then integrated both into CI and quick regression suite with local PASS verification.
