@@ -667,3 +667,7 @@ Created `tests/test_generalization_scorecard_unittest.py`, integrated it into CI
 ## 2026-03-22 22:38:00 UTC — Added generalization scorecard visualization
 
 Implemented `src/plot_generalization_scorecard.py` to render gate-level generalization status as `assets/generalization_scorecard.svg` and integrated visual docs into pipeline/RC/report/docs index flows.
+
+## 2026-03-22 22:39:44 UTC — Added regression test for generalization scorecard visual artifacts
+
+Created `tests/test_generalization_scorecard_visual_unittest.py` and wired it into CI + quick regression suite to guard generalization visual/doc linkage.
