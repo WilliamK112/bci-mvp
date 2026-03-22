@@ -13,6 +13,7 @@ ROWS = [
     ('Ablation Delta', 'Performance change when dropping band groups', 'outputs/ablation_results.json'),
     ('Bootstrap CI95', 'Empirical uncertainty interval from resampling', 'outputs/bootstrap_ci_results.json'),
     ('Cross-dataset score', 'Generalization from train dataset A to test dataset B', 'outputs/cross_dataset_results.json; outputs/cross_dataset_matrix.json'),
+    ('LOSO Mean Accuracy', 'Cross-subject leave-one-subject-out mean accuracy', 'outputs/cross_subject_results.json'),
 ]
 
 

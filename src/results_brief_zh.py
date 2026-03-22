@@ -24,6 +24,7 @@ def main():
     bench=read_csv('outputs/benchmark_results.csv')
     calib=read_json('outputs/calibration_results.json')
     boot=read_json('outputs/bootstrap_ci_results.json')
+    loso=read_json('outputs/cross_subject_results.json')
 
     top='n/a'
     if bench:

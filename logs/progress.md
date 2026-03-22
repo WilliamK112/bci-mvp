@@ -519,3 +519,7 @@ Implemented `src/subject_holdout_eval.py` for cross-subject generalization and f
 ## 2026-03-22 21:22:10 UTC — Fixed LOSO integration in technical reporting
 
 Repaired `src/build_report.py` section ordering and added explicit LOSO summary block (subjects/mean metrics) plus LOSO visual in technical report.
+
+## 2026-03-22 21:22:47 UTC — Promoted LOSO metrics in registry and bilingual result briefs
+
+Updated `src/metrics_registry.py` with LOSO metric definition and enhanced EN/ZH results briefs to include LOSO mean accuracy when available.

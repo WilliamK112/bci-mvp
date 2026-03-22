@@ -1,6 +1,6 @@
 # Metrics Registry
 
-Generated: 2026-03-22 16:48 UTC
+Generated: 2026-03-22 21:22 UTC
 
 | Metric | Definition | Source Artifact(s) |
 |---|---|---|
@@ -12,3 +12,4 @@ Generated: 2026-03-22 16:48 UTC
 | Ablation Delta | Performance change when dropping band groups | `outputs/ablation_results.json` |
 | Bootstrap CI95 | Empirical uncertainty interval from resampling | `outputs/bootstrap_ci_results.json` |
 | Cross-dataset score | Generalization from train dataset A to test dataset B | `outputs/cross_dataset_results.json; outputs/cross_dataset_matrix.json` |
+| LOSO Mean Accuracy | Cross-subject leave-one-subject-out mean accuracy | `outputs/cross_subject_results.json` |
