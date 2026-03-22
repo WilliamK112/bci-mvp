@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 14:27:49 UTC — Added HF Space readiness checker
+- 2026-03-22 14:29:53 UTC — Added model leaderboard generation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -260,3 +260,12 @@ python src/hf_space_readiness.py
 ```
 Output:
 - `docs/HF_SPACE_READINESS.md`
+
+
+## Model Leaderboard
+Generate ranked comparison table:
+```bash
+python src/leaderboard.py
+```
+Output:
+- `docs/MODEL_LEADERBOARD.md`

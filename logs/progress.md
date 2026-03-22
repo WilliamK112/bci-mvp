@@ -63,3 +63,7 @@ Extended `src/build_report.py` with calibration/robustness sections and added `s
 ## 2026-03-22 14:27:49 UTC — Added HF Space readiness checker
 
 Implemented `src/hf_space_readiness.py` to generate `docs/HF_SPACE_READINESS.md` with deployment checklist and score.
+
+## 2026-03-22 14:29:53 UTC — Added model leaderboard generation
+
+Implemented `src/leaderboard.py` to rank models by accuracy/AUC and generate `docs/MODEL_LEADERBOARD.md`.
