@@ -62,3 +62,20 @@ python src/benchmark.py
 ```bash
 streamlit run app/streaming_demo.py
 ```
+
+
+## Cross-Dataset Evaluation (Train A -> Test B)
+```bash
+python src/cross_dataset_eval.py --train dataset_a --test dataset_b
+```
+Expected layout:
+```text
+data/
+  dataset_a/{relaxed,focused}/*.edf
+  dataset_b/{relaxed,focused}/*.edf
+```
+Results are saved to `outputs/cross_dataset_results.json`.
+
+## Hugging Face Spaces (Public Demo)
+- App file: `app/hf_app.py`
+- Deployment notes: `app/README_SPACES.md`
