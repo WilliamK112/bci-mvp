@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 17:52 UTC
+Generated: 2026-03-22 17:54 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -56,6 +56,7 @@ Generated: 2026-03-22 17:52 UTC
 - [OK] `python3 src/status_message_template.py`
 - [OK] `python3 src/heartbeat_update.py`
 - [OK] `python3 src/launch_status.py`
+- [OK] `python3 src/operator_quicklinks.py`
 - [OK] `python3 src/milestone_stamp.py`
 - [OK] `python3 src/milestone_badge.py`
 - [OK] `python3 src/release_ready_diagnose.py`
@@ -114,6 +115,7 @@ Generated: 2026-03-22 17:52 UTC
 - [x] `docs/STATUS_MESSAGE_TEMPLATES.md`
 - [x] `docs/HEARTBEAT_UPDATE.txt`
 - [x] `docs/LAUNCH_STATUS.md`
+- [x] `docs/OPERATOR_QUICKLINKS.md`
 - [x] `docs/MILESTONE_STAMP.md`
 - [x] `assets/badge_milestone.svg`
 - [x] `docs/RELEASE_READY_DIAGNOSE.md`
@@ -123,5 +125,5 @@ Generated: 2026-03-22 17:52 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 56/56
-**Output coverage:** 61/61
+**Pipeline success:** 57/57
+**Output coverage:** 62/62

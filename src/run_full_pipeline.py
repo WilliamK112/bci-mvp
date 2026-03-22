@@ -62,6 +62,7 @@ STEPS = [
     ["python3", "src/status_message_template.py"],
     ["python3", "src/heartbeat_update.py"],
     ["python3", "src/launch_status.py"],
+    ["python3", "src/operator_quicklinks.py"],
     ["python3", "src/milestone_stamp.py"],
     ["python3", "src/milestone_badge.py"],
     ["python3", "src/release_ready_diagnose.py"],

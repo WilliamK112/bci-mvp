@@ -447,3 +447,7 @@ Added `docs/RELEASE_SUMMARY_VALIDATION.md` to docs home and docs bundle index; r
 ## 2026-03-22 17:52:05 UTC — Added release-summary validation to release packet surface
 
 Updated `src/release_packet.py` so `docs/RELEASE_SUMMARY_VALIDATION.md` is included in share-ready release artifact index.
+
+## 2026-03-22 17:54:17 UTC — Added operator quick-links page and integrated into automation
+
+Implemented `src/operator_quicklinks.py` -> `docs/OPERATOR_QUICKLINKS.md` for fast day-2 ops navigation, integrated into docs home/bundle and RC/full pipelines.
