@@ -443,3 +443,7 @@ Implemented `src/release_summary_validate.py` -> `docs/RELEASE_SUMMARY_VALIDATIO
 ## 2026-03-22 17:50:10 UTC — Surfaced release-summary validation in core doc navigation
 
 Added `docs/RELEASE_SUMMARY_VALIDATION.md` to docs home and docs bundle index; refreshed RC outputs for contract visibility.
+
+## 2026-03-22 17:52:05 UTC — Added release-summary validation to release packet surface
+
+Updated `src/release_packet.py` so `docs/RELEASE_SUMMARY_VALIDATION.md` is included in share-ready release artifact index.
