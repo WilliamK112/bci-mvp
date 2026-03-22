@@ -1,0 +1,17 @@
+{
+  "overall_pass": true,
+  "score": 1.0,
+  "winner_model_loso": "rf",
+  "metrics": {
+    "cross_subject_best_mean_accuracy": 0.6235517200191113,
+    "cross_dataset_A_to_B_rf_accuracy": 0.7335164835164835,
+    "cross_dataset_B_to_A_rf_accuracy": 0.5135869565217391,
+    "cross_dataset_symmetry_gap_accuracy": 0.21992952699474433
+  },
+  "gates": {
+    "cross_subject_best_acc_ge_0_60": true,
+    "cross_dataset_A_to_B_acc_ge_0_50": true,
+    "cross_dataset_B_to_A_acc_ge_0_50": true,
+    "cross_dataset_symmetry_gap_acc_le_0_25": true
+  }
+}

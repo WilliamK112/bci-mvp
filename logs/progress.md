@@ -655,3 +655,7 @@ Implemented `src/plot_streaming_scorecard.py` to render gate-level streaming sta
 ## 2026-03-22 22:31:46 UTC — Added regression test for streaming scorecard visual artifacts
 
 Created `tests/test_streaming_scorecard_visual_unittest.py` and wired it into CI plus quick regression suite to guard visualization/document linkage integrity.
+
+## 2026-03-22 22:34:07 UTC — Added integrated generalization scorecard
+
+Implemented `src/generalization_scorecard.py` to aggregate LOSO and bidirectional cross-dataset gates into one PASS/FAIL scorecard, integrated into pipeline/RC/report/docs indices.
