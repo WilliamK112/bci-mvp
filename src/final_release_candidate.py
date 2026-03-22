@@ -58,6 +58,7 @@ STEPS = [
     ["python3", "src/status_message_template.py"],
     ["python3", "src/heartbeat_update.py"],
     ["python3", "src/launch_status.py"],
+    ["python3", "src/milestone_stamp.py"],
     ["python3", "src/release_ready_diagnose.py"],
 ]
 
@@ -113,6 +114,7 @@ OUTPUTS = [
     "docs/STATUS_MESSAGE_TEMPLATES.md",
     "docs/HEARTBEAT_UPDATE.txt",
     "docs/LAUNCH_STATUS.md",
+    "docs/MILESTONE_STAMP.md",
     "docs/RELEASE_READY_DIAGNOSE.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",

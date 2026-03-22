@@ -17,6 +17,7 @@ SECTIONS = {
         'docs/RELEASE_CHECKLIST.md',
         'docs/RELEASE_DASHBOARD.md',
         'docs/LAUNCH_STATUS.md',
+        'docs/MILESTONE_STAMP.md',
         'docs/RELEASE_READY_SIGNAL.md',
         'docs/RELEASE_READY_DIAGNOSE.md',
     ],
