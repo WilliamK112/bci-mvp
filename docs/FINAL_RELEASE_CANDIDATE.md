@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 14:47 UTC
+Generated: 2026-03-22 14:51 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -14,6 +14,7 @@ Generated: 2026-03-22 14:47 UTC
 - [OK] `python3 src/update_docs_bundle.py`
 - [OK] `python3 src/generate_status_badges.py`
 - [OK] `python3 src/risk_register.py`
+- [OK] `python3 src/executive_summary.py`
 
 ## Output Inventory
 - [x] `docs/TECHNICAL_REPORT.md`
@@ -25,10 +26,11 @@ Generated: 2026-03-22 14:47 UTC
 - [x] `docs/MODEL_CARD.md`
 - [x] `docs/DOCS_BUNDLE_INDEX.md`
 - [x] `docs/RISK_REGISTER.md`
+- [x] `docs/EXECUTIVE_SUMMARY.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 
-**Pipeline success:** 11/11
-**Output coverage:** 13/13
+**Pipeline success:** 12/12
+**Output coverage:** 14/14

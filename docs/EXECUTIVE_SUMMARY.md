@@ -1,6 +1,6 @@
 # Executive Summary
 
-Generated: 2026-03-22 14:49 UTC
+Generated: 2026-03-22 14:51 UTC
 
 ## Topline Status
 - Release readiness score: **9/11**

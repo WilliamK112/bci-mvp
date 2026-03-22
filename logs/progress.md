@@ -107,3 +107,7 @@ Updated `src/release_readiness.py` to include `docs/RISK_REGISTER.md` in readine
 ## 2026-03-22 14:49:54 UTC — Added executive summary generator
 
 Implemented `src/executive_summary.py` to summarize readiness scores, RC coverage, and high-impact deliverables in `docs/EXECUTIVE_SUMMARY.md`.
+
+## 2026-03-22 14:51:48 UTC — Integrated executive summary into pipeline and RC bundle
+
+Updated `src/run_full_pipeline.py`, `src/final_release_candidate.py`, and `src/update_docs_bundle.py` so executive summary is always generated and tracked in release artifacts.
