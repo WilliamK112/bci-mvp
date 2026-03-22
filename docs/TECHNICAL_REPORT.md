@@ -1,6 +1,6 @@
 # BCI MVP Technical Report
 
-Generated: 2026-03-22 21:22 UTC
+Generated: 2026-03-22 21:44 UTC
 
 ## 1) Benchmark Summary
 
@@ -63,7 +63,7 @@ No `outputs/permutation_importance_summary.json` found.
 - ![Calibration](../assets/calibration_curve.svg)
 - ![Robustness](../assets/robustness_accuracy.svg)
 
-## 9) Release Readiness
+## 10) Release Readiness
 
 - Pipeline status: `docs/PIPELINE_STATUS.md`
 - Artifact validation: `outputs/artifact_validation_report.txt`

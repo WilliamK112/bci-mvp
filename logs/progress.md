@@ -555,3 +555,7 @@ Implemented `src/streaming_latency_benchmark.py` with p50/p95/p99/max latency an
 ## 2026-03-22 21:43:15 UTC — Fixed and finalized streaming latency benchmark runtime path
 
 Adjusted benchmark to use existing preprocessing/inference interfaces (`build_dataset_from_folder` + `predict_state`) and regenerated streaming latency outputs/docs.
+
+## 2026-03-22 21:44:06 UTC — Added streaming latency visualization and report integration
+
+Implemented `src/plot_streaming_latency.py` to generate `assets/streaming_latency.svg`, and integrated streaming-latency visual/report into RC/full pipeline and technical-report/docs index flows.
