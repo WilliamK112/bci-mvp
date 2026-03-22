@@ -243,3 +243,7 @@ Implemented `src/space_user_guide_gen.py` to generate `docs/SPACE_USER_GUIDE.md`
 ## 2026-03-22 16:04:10 UTC — Added branded README hero banner
 
 Implemented `src/generate_readme_banner.py` and added `assets/readme_banner.svg` to README for stronger first-impression design quality.
+
+## 2026-03-22 16:06:15 UTC — Enhanced bilingual README parity + i18n consistency check
+
+Updated `README.zh-CN.md` with banner/badges parity and added `src/readme_i18n_consistency.py` producing `docs/README_I18N_CONSISTENCY.md`.

@@ -1,5 +1,11 @@
 # BCI MVP（中文说明）
 
+![BCI MVP Banner](assets/readme_banner.svg)
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Space](https://img.shields.io/badge/HuggingFace-Space-yellow)
+
 一个轻量级 EEG 脑机接口 MVP，核心能力：
 - EEG 预处理（EDF）
 - relaxed / focused 二分类
