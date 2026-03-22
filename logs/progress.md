@@ -175,3 +175,7 @@ Implemented `src/env_compat_check.py` to detect Python/scipy compatibility risks
 ## 2026-03-22 15:24:21 UTC — Enhanced mathematical rigor documentation
 
 Added `docs/MATH_NOTATION.md` with symbol table, assumptions, and complexity notes; linked from README mathematical section.
+
+## 2026-03-22 15:26:25 UTC — Added report consistency checker for documentation quality
+
+Implemented `src/report_consistency_check.py` to validate required sections across key docs and produce `docs/REPORT_CONSISTENCY.md`.

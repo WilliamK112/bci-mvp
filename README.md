@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:24:21 UTC — Enhanced mathematical rigor documentation
+- 2026-03-22 15:26:25 UTC — Added report consistency checker for documentation quality
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -571,3 +571,12 @@ If needed, this section can be expanded into a paper-style "Methods" chapter wit
 For a concise symbol table, assumptions, and complexity notes, see:
 - `docs/MATH_NOTATION.md`
 
+
+
+## Report Consistency Check
+Validate key generated docs for required sections:
+```bash
+python src/report_consistency_check.py
+```
+Output:
+- `docs/REPORT_CONSISTENCY.md`
