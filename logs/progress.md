@@ -171,3 +171,7 @@ Added `tests/test_infer_fallback_unittest.py` and extended CI workflow to run un
 ## 2026-03-22 15:22:20 UTC — Added environment compatibility guardrail
 
 Implemented `src/env_compat_check.py` to detect Python/scipy compatibility risks (e.g., py3.14 + Fortran build issues) and provide setup recommendations in `docs/ENV_COMPAT.md`.
+
+## 2026-03-22 15:24:21 UTC — Enhanced mathematical rigor documentation
+
+Added `docs/MATH_NOTATION.md` with symbol table, assumptions, and complexity notes; linked from README mathematical section.

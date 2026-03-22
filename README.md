@@ -140,7 +140,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:22:20 UTC — Added environment compatibility guardrail
+- 2026-03-22 15:24:21 UTC — Enhanced mathematical rigor documentation
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -566,3 +566,8 @@ For metric \(M\), bootstrap \(B\) resamples produce \(\{M^{(b)}\}_{b=1}^{B}\).
 ---
 
 If needed, this section can be expanded into a paper-style "Methods" chapter with notation table and assumptions.
+
+### Notation & Assumptions
+For a concise symbol table, assumptions, and complexity notes, see:
+- `docs/MATH_NOTATION.md`
+
