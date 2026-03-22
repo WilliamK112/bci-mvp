@@ -303,3 +303,7 @@ Implemented `src/visuals_presence_check.py` to verify banner/heatmap/health badg
 ## 2026-03-22 16:34:39 UTC — Added Chinese one-sentence tagline guardrail
 
 Implemented `src/tagline_check.py` to enforce a concise Chinese project one-liner in `README.zh-CN.md` and integrated it into full pipeline + RC coverage.
+
+## 2026-03-22 16:42:15 UTC — Added Chinese results brief and integrated into release automation
+
+Implemented `src/results_brief_zh.py` generating `docs/RESULTS_BRIEF_ZH.md`, linked from zh README, and integrated into full pipeline + RC coverage.

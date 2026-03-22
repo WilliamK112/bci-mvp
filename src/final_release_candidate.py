@@ -9,6 +9,7 @@ import subprocess
 STEPS = [
     ["python3", "src/build_report.py"],
     ["python3", "src/generate_results_md.py"],
+    ["python3", "src/results_brief_zh.py"],
     ["python3", "src/release_readiness.py"],
     ["python3", "src/hf_space_readiness.py"],
     ["python3", "src/leaderboard.py"],
@@ -54,6 +55,7 @@ OUTPUTS = [
     "docs/MATH_NOTATION.md",
     "docs/METHODS.md",
     "docs/RESULTS.md",
+    "docs/RESULTS_BRIEF_ZH.md",
     "docs/DOCS_BUNDLE_INDEX.md",
     "docs/RISK_REGISTER.md",
     "docs/EXECUTIVE_SUMMARY.md",

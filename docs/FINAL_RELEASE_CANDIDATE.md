@@ -1,10 +1,11 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:41 UTC
+Generated: 2026-03-22 16:42 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
 - [OK] `python3 src/generate_results_md.py`
+- [OK] `python3 src/results_brief_zh.py`
 - [OK] `python3 src/release_readiness.py`
 - [OK] `python3 src/hf_space_readiness.py`
 - [OK] `python3 src/leaderboard.py`
@@ -18,7 +19,11 @@ Generated: 2026-03-22 16:41 UTC
 - [OK] `python3 src/risk_register.py`
 - [OK] `python3 src/executive_summary.py`
 - [OK] `python3 src/release_packet.py`
-- [OK] `python3 src/hf_space_status.py --space williamKang112/bci-mvp-demo`
+- [FAIL(1)] `python3 src/hf_space_status.py --space williamKang112/bci-mvp-demo`
+  - stderr: `Traceback (most recent call last):
+  File "/Users/William/.openclaw/workspace/bci-mvp/src/hf_space_status.py", line 9, in <module>
+    from huggingface_hub import HfApi
+ModuleNotFoundError: No module named 'huggingface_h`
 - [OK] `python3 src/space_smoke_test.py`
 - [OK] `python3 src/report_consistency_check.py`
 - [OK] `python3 src/env_compat_check.py`
@@ -49,6 +54,7 @@ Generated: 2026-03-22 16:41 UTC
 - [x] `docs/MATH_NOTATION.md`
 - [x] `docs/METHODS.md`
 - [x] `docs/RESULTS.md`
+- [x] `docs/RESULTS_BRIEF_ZH.md`
 - [x] `docs/DOCS_BUNDLE_INDEX.md`
 - [x] `docs/RISK_REGISTER.md`
 - [x] `docs/EXECUTIVE_SUMMARY.md`
@@ -73,5 +79,5 @@ Generated: 2026-03-22 16:41 UTC
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 30/31
-**Output coverage:** 36/36
+**Pipeline success:** 30/32
+**Output coverage:** 37/37

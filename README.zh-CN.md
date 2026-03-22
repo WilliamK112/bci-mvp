@@ -48,3 +48,6 @@ python src/space_smoke_test.py
 
 ## 许可证
 MIT
+
+## 结果简报
+- `docs/RESULTS_BRIEF_ZH.md`
