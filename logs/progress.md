@@ -263,3 +263,7 @@ Implemented `src/navigation_health_check.py` to enforce discoverability links ac
 ## 2026-03-22 16:14:06 UTC — Added citation metadata for research-grade reuse
 
 Created `CITATION.cff` and linked citation guidance in README to improve academic/professional adoption quality.
+
+## 2026-03-22 16:16:32 UTC — Integrated citation metadata into release-critical coverage
+
+Promoted `CITATION.cff` into docs bundle/release packet/final RC output inventory for stronger research-grade release completeness.

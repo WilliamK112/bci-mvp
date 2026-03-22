@@ -58,6 +58,7 @@ OUTPUTS = [
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",
     "docs/release/bilibili_post.md",
+    "CITATION.cff",
 ]
 
 

@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:12 UTC
+Generated: 2026-03-22 16:16 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -53,6 +53,7 @@ Generated: 2026-03-22 16:12 UTC
 - [x] `docs/release/release_zh.md`
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
+- [x] `CITATION.cff`
 
 **Pipeline success:** 21/22
-**Output coverage:** 26/26
+**Output coverage:** 27/27

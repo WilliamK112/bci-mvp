@@ -34,6 +34,8 @@ def main():
 
     lines += [
         '',
+        '- ✅ [Citation metadata](../CITATION.cff) — `CITATION.cff`',
+        '',
         '## One-command refresh sequence',
         '```bash',
         'python src/build_report.py',

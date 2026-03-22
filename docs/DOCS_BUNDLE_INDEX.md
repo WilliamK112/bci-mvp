@@ -1,6 +1,6 @@
 # Documentation Bundle Index
 
-Generated: 2026-03-22 16:10 UTC
+Generated: 2026-03-22 16:16 UTC
 
 ## Core
 - ✅ [Technical report](TECHNICAL_REPORT.md) — `docs/TECHNICAL_REPORT.md`
@@ -18,6 +18,8 @@ Generated: 2026-03-22 16:10 UTC
 - ✅ [Release pack ZH](docs/release/release_zh.md) — `docs/release/release_zh.md`
 - ✅ [Reddit post draft](docs/release/reddit_post.md) — `docs/release/reddit_post.md`
 - ✅ [Bilibili post draft](docs/release/bilibili_post.md) — `docs/release/bilibili_post.md`
+
+- ✅ [Citation metadata](../CITATION.cff) — `CITATION.cff`
 
 ## One-command refresh sequence
 ```bash

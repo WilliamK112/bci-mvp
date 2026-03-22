@@ -20,6 +20,7 @@ ITEMS = [
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/release/release_en.md', 'Release post (EN)'),
     ('docs/release/release_zh.md', 'Release post (ZH)'),
+    ('CITATION.cff', 'Citation metadata'),
 ]
 
 

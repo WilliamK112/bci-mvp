@@ -1,6 +1,6 @@
 # Release Packet
 
-Generated: 2026-03-22 16:10 UTC
+Generated: 2026-03-22 16:16 UTC
 
 ## Share this packet
 - ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
@@ -18,6 +18,7 @@ Generated: 2026-03-22 16:10 UTC
 - ✅ Figure gallery: `docs/FIGURE_GALLERY.md`
 - ✅ Release post (EN): `docs/release/release_en.md`
 - ✅ Release post (ZH): `docs/release/release_zh.md`
+- ✅ Citation metadata: `CITATION.cff`
 
 ## Quick Refresh
 ```bash
