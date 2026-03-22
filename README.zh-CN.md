@@ -54,3 +54,6 @@ MIT
 
 ## 状态快照
 - `docs/STATUS_SNAPSHOT_ZH.md`
+
+## v1 发布说明
+- `docs/V1_RELEASE_NOTES.md`

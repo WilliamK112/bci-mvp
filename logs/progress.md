@@ -415,3 +415,7 @@ Integrated `docs/HEARTBEAT_UPDATE.txt` into docs home navigation and refreshed f
 ## 2026-03-22 17:36:21 UTC — Added v1 release notes draft generator and integrated into automation
 
 Implemented `src/v1_release_notes_build.py` -> `docs/V1_RELEASE_NOTES.md` and integrated it into docs/release/RC/full pipelines for clean v1 launch comms.
+
+## 2026-03-22 17:38:00 UTC — Surfaced v1 release notes in top-level bilingual READMEs
+
+Added direct links to `docs/V1_RELEASE_NOTES.md` in both README.md and README.zh-CN.md for immediate launch-communication access.

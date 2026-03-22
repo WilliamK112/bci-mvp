@@ -89,6 +89,7 @@ python src/space_smoke_test.py
 - Final RC summary: `docs/FINAL_RELEASE_CANDIDATE.md`
 - Release dashboard: `docs/RELEASE_DASHBOARD.md`
 - Launch status: `docs/LAUNCH_STATUS.md`
+- v1 release notes: `docs/V1_RELEASE_NOTES.md`
 
 ## 🔥 Cross-Dataset Heatmap
 ![Cross Dataset Matrix](assets/cross_dataset_matrix.svg)
@@ -111,7 +112,7 @@ If this project helps your work, please cite using `CITATION.cff`.
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 17:22:01 UTC — Surfaced launch status in top-level README
+- 2026-03-22 17:38:00 UTC — Surfaced v1 release notes in top-level bilingual READMEs
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
