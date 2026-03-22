@@ -1,0 +1,27 @@
+{
+  "run1": {
+    "tag": "run1",
+    "top5": [
+      22,
+      18,
+      30,
+      3,
+      19
+    ],
+    "top_band": "alpha"
+  },
+  "run2": {
+    "tag": "run2",
+    "top5": [
+      22,
+      18,
+      30,
+      3,
+      19
+    ],
+    "top_band": "alpha"
+  },
+  "top5_jaccard": 1.0,
+  "top_band_consistent": true,
+  "pass": true
+}

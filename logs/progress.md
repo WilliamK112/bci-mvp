@@ -631,3 +631,7 @@ Added `tests/test_streaming_drift_and_bidirectional_unittest.py` to validate sch
 ## 2026-03-22 22:20:31 UTC — Integrated new artifact regression tests into CI and quick suite
 
 Updated `.github/workflows/ci.yml` to run streaming-drift/bidirectional regression tests and added `src/quick_regression_suite.py` for fast local critical-test verification.
+
+## 2026-03-22 22:23:13 UTC — Added explainability stability check across repeated runs
+
+Implemented `src/explainability_stability.py` to compare top-feature overlap and top-band consistency across repeated permutation runs; integrated into RC/full/report/docs flows.
