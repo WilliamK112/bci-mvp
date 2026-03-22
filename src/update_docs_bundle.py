@@ -13,6 +13,7 @@ DOCS = [
     ('docs/MATH_NOTATION.md', 'Mathematical model'),
     ('docs/METHODS.md', 'Methods (paper-style)'),
     ('docs/RESULTS.md', 'Results summary'),
+    ('docs/METRICS_REGISTRY.md', 'Metrics registry'),
     ('docs/RESULTS_BRIEF_EN.md', 'Results brief (EN)'),
     ('docs/RESULTS_BRIEF_ZH.md', 'Results brief (ZH)'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),

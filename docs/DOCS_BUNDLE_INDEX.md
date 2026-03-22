@@ -1,6 +1,6 @@
 # Documentation Bundle Index
 
-Generated: 2026-03-22 16:46 UTC
+Generated: 2026-03-22 16:48 UTC
 
 ## Core
 - ✅ [Technical report](TECHNICAL_REPORT.md) — `docs/TECHNICAL_REPORT.md`
@@ -11,6 +11,7 @@ Generated: 2026-03-22 16:46 UTC
 - ✅ [Mathematical model](MATH_NOTATION.md) — `docs/MATH_NOTATION.md`
 - ✅ [Methods (paper-style)](METHODS.md) — `docs/METHODS.md`
 - ✅ [Results summary](RESULTS.md) — `docs/RESULTS.md`
+- ✅ [Metrics registry](METRICS_REGISTRY.md) — `docs/METRICS_REGISTRY.md`
 - ✅ [Results brief (EN)](RESULTS_BRIEF_EN.md) — `docs/RESULTS_BRIEF_EN.md`
 - ✅ [Results brief (ZH)](RESULTS_BRIEF_ZH.md) — `docs/RESULTS_BRIEF_ZH.md`
 - ✅ [Model leaderboard](MODEL_LEADERBOARD.md) — `docs/MODEL_LEADERBOARD.md`

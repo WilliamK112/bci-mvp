@@ -315,3 +315,7 @@ Implemented `src/results_brief_en.py` generating `docs/RESULTS_BRIEF_EN.md`, lin
 ## 2026-03-22 16:46:10 UTC — Promoted EN/ZH results briefs across core navigation surfaces
 
 Integrated `docs/RESULTS_BRIEF_EN.md` and `docs/RESULTS_BRIEF_ZH.md` into docs home, docs bundle index, and release packet; refreshed final RC outputs.
+
+## 2026-03-22 16:48:18 UTC — Added metrics registry and integrated into core release navigation
+
+Implemented `src/metrics_registry.py` -> `docs/METRICS_REGISTRY.md` and wired it into docs home, docs bundle, release packet, and RC/full pipeline.
