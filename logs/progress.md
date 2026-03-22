@@ -359,3 +359,7 @@ Updated README quality check to accept emoji language header format and regenera
 ## 2026-03-22 17:08:19 UTC — Added v1 release readiness doc and integrated into automation
 
 Implemented `src/v1_release_ready.py` -> `docs/V1_RELEASE_READY.md` and integrated it across docs/release/RC/full pipeline surfaces.
+
+## 2026-03-22 17:10:17 UTC — Added release tag plan and integrated into release automation
+
+Implemented `src/release_tag_plan.py` -> `docs/RELEASE_TAG_PLAN.md` and integrated it across docs/release/RC/full pipeline surfaces for clean v1.0.0 tagging workflow.

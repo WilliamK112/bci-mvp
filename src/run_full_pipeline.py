@@ -49,6 +49,7 @@ STEPS = [
     ["python3", "src/release_notes_latest.py"],
     ["python3", "src/release_ready_signal.py"],
     ["python3", "src/v1_release_ready.py"],
+    ["python3", "src/release_tag_plan.py"],
     ["python3", "src/release_ready_diagnose.py"],
     ["python3", "src/validate_artifacts.py"],
 ]

@@ -47,6 +47,7 @@ STEPS = [
     ["python3", "src/release_notes_latest.py"],
     ["python3", "src/release_ready_signal.py"],
     ["python3", "src/v1_release_ready.py"],
+    ["python3", "src/release_tag_plan.py"],
     ["python3", "src/release_ready_diagnose.py"],
 ]
 
@@ -91,6 +92,7 @@ OUTPUTS = [
     "docs/RELEASE_NOTES_LATEST.md",
     "docs/RELEASE_READY_SIGNAL.md",
     "docs/V1_RELEASE_READY.md",
+    "docs/RELEASE_TAG_PLAN.md",
     "docs/RELEASE_READY_DIAGNOSE.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
