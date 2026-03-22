@@ -471,3 +471,98 @@ python src/env_compat_check.py
 ```
 Output:
 - `docs/ENV_COMPAT.md`
+
+
+## Mathematical Model (明确的数学公式章节)
+
+This section formalizes the core mathematical components used in this BCI MVP.
+
+### 1) Bandpower Feature Extraction (Welch PSD)
+For each EEG channel signal \(x_c(t)\), we estimate power spectral density (PSD) via Welch:
+
+\[
+P_c(f) = 	ext{Welch}(x_c(t))
+\]
+
+For each frequency band \(b=[f_1,f_2]\), bandpower is:
+
+\[
+	ext{BP}_{c,b} = \int_{f_1}^{f_2} P_c(f)\,df
+\]
+
+Bands used:
+- delta: \([1,4)\) Hz
+- theta: \([4,8)\) Hz
+- alpha: \([8,13)\) Hz
+- beta: \([13,30)\) Hz
+
+Feature vector (for \(C\) channels):
+
+\[
+\mathbf{z} = [	ext{BP}_{1,\delta},	ext{BP}_{1,	heta},	ext{BP}_{1,lpha},	ext{BP}_{1,eta},\dots,	ext{BP}_{C,eta}] \in \mathbb{R}^{4C}
+\]
+
+### 2) Classification Objective
+Given feature vector \(\mathbf{z}\), predict binary label \(y\in\{0,1\}\):
+- \(0\): relaxed
+- \(1\): focused
+
+Model outputs posterior probability:
+
+\[
+\hat{p} = P(y=1\mid \mathbf{z})
+\]
+
+Decision rule:
+
+\[
+\hat{y} = \mathbb{1}[\hat{p} \ge 0.5]
+\]
+
+### 3) Streaming Stability (EMA + Hysteresis)
+For real-time smoothing of focused probability \(p_t\):
+
+\[
+	ilde{p}_t = lpha p_t + (1-lpha)	ilde{p}_{t-1}, \quad lpha\in(0,1]
+\]
+
+Hysteresis state transition:
+- if current state is relaxed and \(	ilde{p}_t \ge 	au_h\), switch to focused
+- if current state is focused and \(	ilde{p}_t \le 	au_l\), switch to relaxed
+- with \(	au_l < 	au_h\)
+
+This reduces state flicker in streaming predictions.
+
+### 4) Calibration Metric
+Reliability of predicted probabilities is measured by Brier score:
+
+\[
+	ext{Brier} = rac{1}{N}\sum_{i=1}^{N}(\hat{p}_i - y_i)^2
+\]
+
+Lower is better.
+
+### 5) Robustness Perturbation Model
+We test robustness by synthetic perturbation:
+
+\[
+\mathbf{z}' = (\mathbf{z} + \epsilon) \odot \mathbf{m}
+\]
+
+where:
+- \(\epsilon \sim \mathcal{N}(0,\sigma^2 I)\) is Gaussian noise
+- \(\mathbf{m}\in\{0,1\}^{d}\) is dropout mask with dropout rate \(r\)
+
+Then evaluate metrics on \(\mathbf{z}'\).
+
+### 6) Bootstrap Confidence Intervals
+For metric \(M\), bootstrap \(B\) resamples produce \(\{M^{(b)}\}_{b=1}^{B}\).
+95% CI is estimated via empirical quantiles:
+
+\[
+	ext{CI}_{95\%} = [Q_{0.025}(M^{(b)}),\ Q_{0.975}(M^{(b)})]
+\]
+
+---
+
+If needed, this section can be expanded into a paper-style "Methods" chapter with notation table and assumptions.
