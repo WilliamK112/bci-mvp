@@ -223,3 +223,7 @@ Created `docs/METHODS.md` (paper-style method section) and extended `docs/MATH_N
 ## 2026-03-22 15:53:58 UTC — Promoted METHODS doc into release-critical surfaces
 
 Integrated `docs/METHODS.md` into docs bundle index, release packet, and final RC output inventory for stronger research-style presentation.
+
+## 2026-03-22 15:56:01 UTC — Added auto-refresh for docs home and integrated into pipeline
+
+Implemented `src/update_docs_home.py` and wired it into RC/full pipeline so `docs/HOME.md` stays synchronized with evolving artifacts.

@@ -1,33 +1,40 @@
 # BCI MVP Docs Home
 
-Start here for the most important outputs.
+Generated: 2026-03-22 15:56 UTC
 
-## 1) Project Status
-- Executive summary: `EXECUTIVE_SUMMARY.md`
-- Quality scorecard: `QUALITY_SCORECARD.md`
-- Final release candidate: `FINAL_RELEASE_CANDIDATE.md`
+## Project Status
 
-## 2) Technical Depth
-- Technical report: `TECHNICAL_REPORT.md`
-- Model card: `MODEL_CARD.md`
-- Math notation: `MATH_NOTATION.md`
+- ✅ `EXECUTIVE_SUMMARY.md`
+- ✅ `QUALITY_SCORECARD.md`
+- ✅ `FINAL_RELEASE_CANDIDATE.md`
 
-## 3) Readiness & Reliability
-- Release readiness: `RELEASE_READINESS.md`
-- HF Space readiness: `HF_SPACE_READINESS.md`
-- README quality: `README_QUALITY.md`
-- Report consistency: `REPORT_CONSISTENCY.md`
-- Environment compatibility: `ENV_COMPAT.md`
-- Reproducibility snapshot: `REPRO_SNAPSHOT.md`
+## Technical Core
 
-## 4) Deployment & Space
-- HF publish helper: `HF_PUBLISH_HELPER.md`
-- HF space status: `HF_SPACE_STATUS.md`
-- Space smoke test: `SPACE_SMOKE_TEST.md`
-- Deployment diagnose: `DEPLOYMENT_DIAGNOSE.md`
+- ✅ `TECHNICAL_REPORT.md`
+- ✅ `MODEL_CARD.md`
+- ✅ `MATH_NOTATION.md`
+- ✅ `METHODS.md`
 
-## 5) Release Materials
-- Release packet: `RELEASE_PACKET.md`
-- Release drafts: `release/release_en.md`, `release/release_zh.md`
-- Social drafts: `release/reddit_post.md`, `release/bilibili_post.md`
-- Figure gallery: `FIGURE_GALLERY.md`
+## Readiness & Reliability
+
+- ✅ `RELEASE_READINESS.md`
+- ✅ `HF_SPACE_READINESS.md`
+- ✅ `README_QUALITY.md`
+- ✅ `REPORT_CONSISTENCY.md`
+- ✅ `ENV_COMPAT.md`
+- ✅ `REPRO_SNAPSHOT.md`
+- ✅ `DOCS_FRESHNESS.md`
+
+## Deployment
+
+- ✅ `HF_PUBLISH_HELPER.md`
+- ✅ `HF_SPACE_STATUS.md`
+- ✅ `SPACE_SMOKE_TEST.md`
+- ✅ `DEPLOYMENT_DIAGNOSE.md`
+
+## Release Assets
+
+- ✅ `RELEASE_PACKET.md`
+- ✅ `FIGURE_GALLERY.md`
+- ✅ `release/release_en.md`
+- ✅ `release/release_zh.md`

@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 15:53 UTC
+Generated: 2026-03-22 15:56 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -12,6 +12,7 @@ Generated: 2026-03-22 15:53 UTC
 - [OK] `python3 src/generate_release_pack.py`
 - [OK] `python3 src/generate_model_card.py`
 - [OK] `python3 src/update_docs_bundle.py`
+- [OK] `python3 src/update_docs_home.py`
 - [OK] `python3 src/generate_status_badges.py`
 - [OK] `python3 src/risk_register.py`
 - [OK] `python3 src/executive_summary.py`
@@ -46,5 +47,5 @@ Generated: 2026-03-22 15:53 UTC
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 
-**Pipeline success:** 18/18
+**Pipeline success:** 19/19
 **Output coverage:** 22/22
