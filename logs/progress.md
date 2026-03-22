@@ -139,3 +139,7 @@ Implemented `src/real_data_gap_report.py` to quantify missing real-run artifacts
 ## 2026-03-22 15:05:50 UTC — Added release-packet generator for fast external sharing
 
 Implemented `src/release_packet.py` to generate `docs/RELEASE_PACKET.md` with a compact checklist of all high-value release artifacts.
+
+## 2026-03-22 15:07:46 UTC — Integrated release packet into RC/full pipeline
+
+Updated `src/final_release_candidate.py` and `src/run_full_pipeline.py` so `docs/RELEASE_PACKET.md` is always regenerated and tracked in output coverage.

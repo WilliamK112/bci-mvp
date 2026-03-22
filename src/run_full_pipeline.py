@@ -21,6 +21,7 @@ STEPS = [
     ["python3", "src/changelog_from_git.py"],
     ["python3", "src/update_docs_bundle.py"],
     ["python3", "src/executive_summary.py"],
+    ["python3", "src/release_packet.py"],
     ["python3", "src/validate_artifacts.py"],
 ]
 

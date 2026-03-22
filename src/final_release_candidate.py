@@ -19,6 +19,7 @@ STEPS = [
     ["python3", "src/generate_status_badges.py"],
     ["python3", "src/risk_register.py"],
     ["python3", "src/executive_summary.py"],
+    ["python3", "src/release_packet.py"],
 ]
 
 OUTPUTS = [
@@ -32,6 +33,7 @@ OUTPUTS = [
     "docs/DOCS_BUNDLE_INDEX.md",
     "docs/RISK_REGISTER.md",
     "docs/EXECUTIVE_SUMMARY.md",
+    "docs/RELEASE_PACKET.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",
