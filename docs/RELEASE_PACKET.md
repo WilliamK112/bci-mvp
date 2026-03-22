@@ -1,0 +1,22 @@
+# Release Packet
+
+Generated: 2026-03-22 15:05 UTC
+
+## Share this packet
+- ✅ Executive summary: `docs/EXECUTIVE_SUMMARY.md`
+- ✅ Technical report: `docs/TECHNICAL_REPORT.md`
+- ✅ Final release candidate: `docs/FINAL_RELEASE_CANDIDATE.md`
+- ✅ Release readiness: `docs/RELEASE_READINESS.md`
+- ✅ HF Space readiness: `docs/HF_SPACE_READINESS.md`
+- ✅ Real-data gap report: `docs/REAL_DATA_GAP_REPORT.md`
+- ✅ Model card: `docs/MODEL_CARD.md`
+- ✅ Model leaderboard: `docs/MODEL_LEADERBOARD.md`
+- ✅ Figure gallery: `docs/FIGURE_GALLERY.md`
+- ✅ Release post (EN): `docs/release/release_en.md`
+- ✅ Release post (ZH): `docs/release/release_zh.md`
+
+## Quick Refresh
+```bash
+python src/final_release_candidate.py
+python src/release_packet.py
+```

@@ -135,3 +135,7 @@ Implemented `src/hf_publish_helper.py` to generate exact Space creation/push com
 ## 2026-03-22 15:03:58 UTC — Added real-data gap report for final credibility push
 
 Implemented `src/real_data_gap_report.py` to quantify missing real-run artifacts and output `docs/REAL_DATA_GAP_REPORT.md` with action plan.
+
+## 2026-03-22 15:05:50 UTC — Added release-packet generator for fast external sharing
+
+Implemented `src/release_packet.py` to generate `docs/RELEASE_PACKET.md` with a compact checklist of all high-value release artifacts.

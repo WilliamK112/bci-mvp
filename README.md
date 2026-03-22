@@ -130,7 +130,7 @@ Outputs:
 
 <!-- LATEST_PROGRESS_START -->
 ## Latest Progress
-- 2026-03-22 15:03:58 UTC — Added real-data gap report for final credibility push
+- 2026-03-22 15:05:50 UTC — Added release-packet generator for fast external sharing
 - Full log: `logs/progress.md`
 <!-- LATEST_PROGRESS_END -->
 
@@ -402,3 +402,12 @@ python src/real_data_gap_report.py
 ```
 Output:
 - `docs/REAL_DATA_GAP_REPORT.md`
+
+
+## Release Packet
+Generate a concise share-ready release packet index:
+```bash
+python src/release_packet.py
+```
+Output:
+- `docs/RELEASE_PACKET.md`
