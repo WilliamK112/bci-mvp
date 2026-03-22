@@ -13,6 +13,8 @@ DOCS = [
     ('docs/MATH_NOTATION.md', 'Mathematical model'),
     ('docs/METHODS.md', 'Methods (paper-style)'),
     ('docs/RESULTS.md', 'Results summary'),
+    ('docs/RESULTS_BRIEF_EN.md', 'Results brief (EN)'),
+    ('docs/RESULTS_BRIEF_ZH.md', 'Results brief (ZH)'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/CHANGELOG_AUTO.md', 'Auto changelog'),

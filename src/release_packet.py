@@ -17,6 +17,8 @@ ITEMS = [
     ('docs/METHODS.md', 'Methods (paper-style)'),
     ('docs/RESULTS.md', 'Results summary'),
     ('docs/MODEL_LEADERBOARD.md', 'Model leaderboard'),
+    ('docs/RESULTS_BRIEF_EN.md', 'Results brief (EN)'),
+    ('docs/RESULTS_BRIEF_ZH.md', 'Results brief (ZH)'),
     ('docs/FIGURE_GALLERY.md', 'Figure gallery'),
     ('docs/release/release_en.md', 'Release post (EN)'),
     ('docs/release/release_zh.md', 'Release post (ZH)'),

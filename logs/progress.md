@@ -311,3 +311,7 @@ Implemented `src/results_brief_zh.py` generating `docs/RESULTS_BRIEF_ZH.md`, lin
 ## 2026-03-22 16:44:15 UTC — Added English results brief and integrated into release automation
 
 Implemented `src/results_brief_en.py` generating `docs/RESULTS_BRIEF_EN.md`, linked from README, and integrated into full pipeline + RC coverage.
+
+## 2026-03-22 16:46:10 UTC — Promoted EN/ZH results briefs across core navigation surfaces
+
+Integrated `docs/RESULTS_BRIEF_EN.md` and `docs/RESULTS_BRIEF_ZH.md` into docs home, docs bundle index, and release packet; refreshed final RC outputs.
