@@ -271,3 +271,7 @@ Promoted `CITATION.cff` into docs bundle/release packet/final RC output inventor
 ## 2026-03-22 16:18:09 UTC — Integrated live Space status/smoke checks into RC/full pipeline
 
 Updated orchestrators to run `hf_space_status` and `space_smoke_test` every full/RC cycle; RC output inventory now tracks deployment live-health artifacts.
+
+## 2026-03-22 16:20:17 UTC — Added secrets hygiene check and integrated into quality pipeline
+
+Implemented `src/secrets_hygiene_check.py` to scan for token-like strings and generate `docs/SECRETS_HYGIENE.md`; integrated into full pipeline and RC coverage.

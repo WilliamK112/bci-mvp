@@ -1,6 +1,6 @@
 # Final Release Candidate
 
-Generated: 2026-03-22 16:18 UTC
+Generated: 2026-03-22 16:20 UTC
 
 ## Step Results
 - [OK] `python3 src/build_report.py`
@@ -31,6 +31,7 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [OK] `python3 src/readme_i18n_consistency.py`
 - [OK] `python3 src/docs_freshness_check.py`
 - [OK] `python3 src/navigation_health_check.py`
+- [OK] `python3 src/secrets_hygiene_check.py`
 
 ## Output Inventory
 - [x] `docs/TECHNICAL_REPORT.md`
@@ -57,11 +58,12 @@ ModuleNotFoundError: No module named 'huggingface_h`
 - [x] `docs/README_I18N_CONSISTENCY.md`
 - [x] `docs/DOCS_FRESHNESS.md`
 - [x] `docs/NAVIGATION_HEALTH.md`
+- [x] `docs/SECRETS_HYGIENE.md`
 - [x] `docs/release/release_en.md`
 - [x] `docs/release/release_zh.md`
 - [x] `docs/release/reddit_post.md`
 - [x] `docs/release/bilibili_post.md`
 - [x] `CITATION.cff`
 
-**Pipeline success:** 22/24
-**Output coverage:** 29/29
+**Pipeline success:** 23/25
+**Output coverage:** 30/30

@@ -31,6 +31,7 @@ STEPS = [
     ["python3", "src/readme_i18n_consistency.py"],
     ["python3", "src/docs_freshness_check.py"],
     ["python3", "src/navigation_health_check.py"],
+    ["python3", "src/secrets_hygiene_check.py"],
 ]
 
 OUTPUTS = [
@@ -58,6 +59,7 @@ OUTPUTS = [
     "docs/README_I18N_CONSISTENCY.md",
     "docs/DOCS_FRESHNESS.md",
     "docs/NAVIGATION_HEALTH.md",
+    "docs/SECRETS_HYGIENE.md",
     "docs/release/release_en.md",
     "docs/release/release_zh.md",
     "docs/release/reddit_post.md",
