@@ -30,6 +30,10 @@ A lightweight EEG brain-computer interface MVP focused on:
 - relaxed vs focused classification
 - real-time stable inference (EMA + hysteresis)
 - reproducible evaluation and release workflow
+- Unsupervised Domain Adaptation (CORAL)
+- Stacking Ensemble Classifiers (RF+SVM+MLP)
+- Advanced SHAP explainability
+- Real-time debounced streaming
 
 ## 🚀 Live Demo
 - Hugging Face Space: https://huggingface.co/spaces/williamKang112/bci-mvp-demo
@@ -40,11 +44,11 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-python src/check_data.py
-python src/train.py
+make check
+make train
 
 # API
-uvicorn api.main:app --reload --port 8000
+make api
 
 # Dashboard
 streamlit run app/dashboard.py
@@ -168,3 +172,13 @@ python src/repro_one_command.py
 
 ## 🧾 Real Data Evidence
 See: `docs/REAL_DATA_EVIDENCE.md`
+
+## 🔬 Advanced ML Benchmarks
+To reproduce the advanced experiments implemented in this MVP:
+```bash
+make benchmark   # Train RF and SVM baselines
+make ensemble    # Train StackingClassifier (RF + SVM + MLP)
+make coral       # Cross-Dataset Unsupervised Domain Adaptation (CORAL)
+make shap        # Feature Importance Analysis (SHAP Summary Plots)
+make test        # Run Unit Tests automatically (CI)
+```
