@@ -1,4 +1,4 @@
-.PHONY: setup check train api demo benchmark ensemble cross coral explain shap docker-build docker-run
+.PHONY: setup check train api demo benchmark ensemble cross coral explain shap tune docker-build docker-run
 
 setup:
 	python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
@@ -44,3 +44,6 @@ test:
 
 full:
 	python src/run_full_pipeline.py
+
+tune:
+	python src/hyperparameter_tuning.py
