@@ -25,6 +25,7 @@ TESTS = [
     'tests/test_cross_subject_seed_sensitivity_unittest.py',
     'tests/test_cross_subject_seed_sensitivity_visual_unittest.py',
     'tests/test_repro_run_proof_unittest.py',
+    'tests/test_v1_release_gate_unittest.py',
     'tests/test_release_decision_gate_visual_unittest.py',
     'tests/test_repro_run_proof_visual_unittest.py',
 ]

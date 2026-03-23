@@ -811,3 +811,7 @@ Created `tests/test_cross_subject_seed_sensitivity_visual_unittest.py` and integ
 ## 2026-03-23 00:12:17 UTC — Added final v1.0.0 release gate
 
 Implemented `src/v1_release_gate.py` to produce explicit GO/HOLD for v1.0.0 with actionable tag commands, and integrated outputs into pipeline/RC/report/docs indices.
+
+## 2026-03-23 00:13:58 UTC — Added v1-release-gate regression test and CI coverage
+
+Created `tests/test_v1_release_gate_unittest.py`, integrated it into CI and quick regression suite, and verified full critical regression pass.
