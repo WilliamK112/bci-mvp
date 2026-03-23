@@ -803,3 +803,7 @@ Created `tests/test_cross_subject_seed_sensitivity_unittest.py`, integrated it i
 ## 2026-03-23 00:04:22 UTC — Added cross-subject seed-sensitivity visualization
 
 Implemented `src/plot_cross_subject_seed_sensitivity.py` to visualize seed-variance trajectories for RF/MLP and integrated visual docs into pipeline/RC/report/docs indexes.
+
+## 2026-03-23 00:07:56 UTC — Added seed-sensitivity visual regression test and CI coverage
+
+Created `tests/test_cross_subject_seed_sensitivity_visual_unittest.py` and integrated it into CI + quick regression suite to protect seed-sensitivity visual/doc linkage.
