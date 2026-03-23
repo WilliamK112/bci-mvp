@@ -807,3 +807,7 @@ Implemented `src/plot_cross_subject_seed_sensitivity.py` to visualize seed-varia
 ## 2026-03-23 00:07:56 UTC — Added seed-sensitivity visual regression test and CI coverage
 
 Created `tests/test_cross_subject_seed_sensitivity_visual_unittest.py` and integrated it into CI + quick regression suite to protect seed-sensitivity visual/doc linkage.
+
+## 2026-03-23 00:12:17 UTC — Added final v1.0.0 release gate
+
+Implemented `src/v1_release_gate.py` to produce explicit GO/HOLD for v1.0.0 with actionable tag commands, and integrated outputs into pipeline/RC/report/docs indices.

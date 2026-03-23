@@ -1,0 +1,13 @@
+{
+  "release": "v1.0.0",
+  "go": true,
+  "checks": {
+    "decision_go": true,
+    "suggested_tag_v1": true,
+    "matrix_all_pass": true,
+    "matrix_all_present": true,
+    "master_overall_pass": true,
+    "master_score_ge_0_95": true
+  },
+  "next_action": "Create v1.0.0 tag/release"
+}
