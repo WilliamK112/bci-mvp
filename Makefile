@@ -47,3 +47,6 @@ full:
 
 tune:
 	python src/hyperparameter_tuning.py
+
+stream-viz:
+	python src/plot_streaming_timeline.py

@@ -180,6 +180,7 @@ make benchmark   # Train RF and SVM baselines
 make ensemble    # Train StackingClassifier (RF + SVM + MLP)
 make coral       # Cross-Dataset Unsupervised Domain Adaptation (CORAL)
 make shap        # Feature Importance Analysis (SHAP Summary Plots)
+make stream-viz  # Real-time Streaming Timeline Simulation
 make test        # Run Unit Tests automatically (CI)
 make tune        # Automated Hyperparameter Tuning (RandomizedSearchCV)
 ```
