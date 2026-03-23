@@ -799,3 +799,7 @@ Implemented `src/cross_subject_seed_sensitivity.py` to quantify LOSO variance ac
 ## 2026-03-22 23:59:57 UTC — Added seed-sensitivity regression test and CI coverage
 
 Created `tests/test_cross_subject_seed_sensitivity_unittest.py`, integrated it into CI and quick regression suite, and verified full critical regression pass.
+
+## 2026-03-23 00:04:22 UTC — Added cross-subject seed-sensitivity visualization
+
+Implemented `src/plot_cross_subject_seed_sensitivity.py` to visualize seed-variance trajectories for RF/MLP and integrated visual docs into pipeline/RC/report/docs indexes.
