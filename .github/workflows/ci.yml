@@ -2,6 +2,7 @@ name: ci
 
 on:
   push:
+    branches: [main]
   pull_request:
 
 jobs:
@@ -9,23 +10,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install deps
+          cache: 'pip' # Enable caching for pip
+          
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
       - name: Syntax check
         run: |
           python -m py_compile src/*.py api/*.py app/*.py
+          
       - name: Smoke import
         run: |
           python - <<'PY'
           import src.preprocess
           import src.infer
-          print('imports ok')
+          print('Imports successful!')
           PY
-      - name: Unit tests
+          
+      - name: Run test suite
         run: |
-          python -m unittest -q tests/test_streaming_unittest.py tests/test_infer_fallback_unittest.py tests/test_api_contract_unittest.py
+          python -m unittest discover -s tests -p "*_unittest.py"
