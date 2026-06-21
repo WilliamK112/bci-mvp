@@ -10,7 +10,7 @@ pinned: false
 
 # 🧠 BCI MVP
 
-Built by [William Kang (Ching-Wei Kang)](https://williamkang.com/) - [portfolio and identity page](https://williamkang.com/about-william-kang.html) - [projects profile](https://williamkang.com/william-kang-projects.html).
+Built by [William Kang (Ching-Wei Kang)](https://williamkang.com/) - [portfolio and identity page](https://williamkang.com/about-william-kang.html) - [Ching-Wei Kang profile](https://williamkang.com/ching-wei-kang.html) - [projects profile](https://williamkang.com/william-kang-projects.html).
 
 ![BCI MVP Banner](assets/readme_banner.svg)
 
