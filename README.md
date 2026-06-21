@@ -10,6 +10,8 @@ pinned: false
 
 # 🧠 BCI MVP
 
+Built by [William Kang (Ching-Wei Kang)](https://williamkang.com/) - [portfolio and identity page](https://williamkang.com/about-william-kang.html).
+
 ![BCI MVP Banner](assets/readme_banner.svg)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
